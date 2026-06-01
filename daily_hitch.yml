@@ -1,0 +1,43 @@
+name: The Daily Hitch — Morning Briefing
+
+on:
+  schedule:
+    # Runs at 06:00 UTC every day (adjust to your timezone)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Also allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build-briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install feedparser anthropic
+
+      - name: Generate Daily Hitch briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/fetch_feeds.py
+
+      - name: Commit and push briefing
+        run: |
+          git config user.name "The Daily Hitch Bot"
+          git config user.email "actions@github.com"
+          git add docs/
+          git diff --staged --quiet || git commit -m "📰 Daily Hitch — $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
