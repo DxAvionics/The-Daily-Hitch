@@ -1,0 +1,551 @@
+{
+  "version": "The Daily Hitch 1.0",
+  "generated": "Monday, June 01, 2026",
+  "hitchens_question": "When did we decide that the difference between \"precision warfare\" and \"war crimes\" was simply a matter of which satellites are doing the watching, and why do we pretend that our moral calculus changes based on whether the rubble in Rakhine, Lebanon, or Ukraine appears in our feeds with a time stamp that makes us feel appropriately concerned? The same technology that promises to liberate our wounded soldiers from their biological limitations is simultaneously perfecting the art of killing at distances that spare us any troubling intimacy with the consequences—so tell me, exactly when did we become a civilization that innovates most rapidly in the service of avoiding uncomfortable truths?",
+  "categories": {
+    "WIRE": [],
+    "WAR & GEOPOLITICS": [
+      {
+        "source": "Bellingcat",
+        "title": "The ‘Lost’ Villages of Myanmar’s Rakhine",
+        "link": "https://www.bellingcat.com/news/2026/05/27/the-lost-villages-of-myanmars-rakhine/",
+        "summary": "A “river of blood” was how one survivor described the scene in western Myanmar. “I saw shooting. I saw mass killing.” Another told the UN High Commissioner for Human Rights (UNHRC) how 20 relatives, including three children, had been killed in the 2024 attack on Htan Shauk Khan v…",
+        "bias": "osint"
+      },
+      {
+        "source": "Bellingcat",
+        "title": "Banned Russian Submunitions Found After Mali’s Military Announces Airstrikes",
+        "link": "https://www.bellingcat.com/news/africa/2026/05/26/banned-russian-submunitions-found-after-malis-military-announces-airstrikes/",
+        "summary": "This investigation is a collaboration between Bellingcat and Jeune Afrique. You can read Jeune Afrique’s article in French here. Unexploded Russian-made cluster munition bomblets, as well as damage consistent with bomblet impacts, have been found in a village in northern Mali – d…",
+        "bias": "osint"
+      },
+      {
+        "source": "Bellingcat",
+        "title": "Satellite Imagery Shows Ongoing Demolitions Across Southern Lebanon",
+        "link": "https://www.bellingcat.com/news/2026/05/14/satellite-imagery-shows-ongoing-demolitions-across-southern-lebanon/",
+        "summary": "The fragile ceasefire agreed between Israel and Hezbollah last month is holding.  But satellite imagery shows that at least 46 of 54 towns and villages within the Israel Defense Forces (IDF) “Yellow Line” in southern Lebanon have been heavily damaged or, in some cases, entirely f…",
+        "bias": "osint"
+      },
+      {
+        "source": "C4ISRNET",
+        "title": "How Russia is turning Ukraine’s drones against NATO",
+        "link": "https://www.c4isrnet.com/global/europe/2026/05/29/how-russia-is-turning-ukraines-drones-against-nato/",
+        "summary": "A Russian drone wounded two civilians in Romania on Friday, days after Lithuania detailed how Moscow is also steering Ukraine's drones onto allied soil.",
+        "bias": "defense"
+      },
+      {
+        "source": "C4ISRNET",
+        "title": "Army develops exoskeleton for lower-limb injuries on the battlefield",
+        "link": "https://www.c4isrnet.com/news/your-army/2026/05/29/army-develops-exoskeleton-for-lower-limb-injuries-on-the-battlefield/",
+        "summary": "The Army is developing a new exoskeleton that allows injured troops to stand, walk and shoot when evacuation is impossible or delayed.",
+        "bias": "defense"
+      },
+      {
+        "source": "C4ISRNET",
+        "title": "Romania says Russian drone hit apartment block, NATO vows to defend alliance territory",
+        "link": "https://www.c4isrnet.com/global/europe/2026/05/29/romania-says-russian-drone-hit-apartment-block-nato-vows-to-defend-alliance-territory/",
+        "summary": "“I affirmed that NATO stands ready to defend every inch of Allied territory,” NATO Secretary General Mark Rutte said on X.",
+        "bias": "defense"
+      },
+      {
+        "source": "Defense One",
+        "title": "Q&A with SOUTHCOM commander Gen. Frank Donovan",
+        "link": "https://www.defenseone.com/technology/2026/05/q-gen-frank-donovan/413870/",
+        "summary": "\"I don't really care about platforms. I care about autonomous warfare,\" says the former leader of the Defense Autonomous Warfare Group.",
+        "bias": "defense"
+      },
+      {
+        "source": "Defense One",
+        "title": "Cyber Force? Senator pushes to create service branch under the Army",
+        "link": "https://www.defenseone.com/policy/2026/05/cyber-force-service-branch-proposal/413863/",
+        "summary": "Ideas for a cyber service have been floated before. Some experts argue now is the right time.",
+        "bias": "defense"
+      },
+      {
+        "source": "Defense One",
+        "title": "Software patches from Army hackathon going straight to troops in CENTCOM",
+        "link": "https://www.defenseone.com/defense-systems/2026/05/army-hackathon-software-patches/413857/",
+        "summary": "Project Jailbreak is helping to get contractors open up their systems to each other.",
+        "bias": "defense"
+      },
+      {
+        "source": "War on the Rocks",
+        "title": "How America Lost Its Most Important Defense Tech Habit",
+        "link": "https://warontherocks.com/cogs-of-war/how-america-lost-its-most-important-defense-tech-habit/",
+        "summary": "On April 15, technology podcaster Dwarkesh Patel published a two-hour interview with Nvidia CEO Jensen Huang. For roughly forty minutes, Patel asked one question six different ways. The question was this: If American-made compute trains AI models with the serious cyber-offensive …",
+        "bias": "analytical"
+      }
+    ],
+    "AEROSPACE & DEFENSE TECH": [
+      {
+        "source": "Aviation Week",
+        "title": "BCA Special Edition Newsletter",
+        "link": "https://aviationweek.com/node/4740936",
+        "summary": "<span>BCA Special Edition Newsletter</span>\n<span><span lang=\"\" about=\"/users/kylee-adams\" typeof=\"schema:Person\" property=\"schema:name\" datatype=\"\" content=\"kylee.adams\">kylee.adams@in…</span></span>\n<span><time datetime=\"2025-03-07T23:30:14+00:00\" title=\"Friday, March 7, 2025 -…",
+        "bias": "industry"
+      },
+      {
+        "source": "Aviation Week",
+        "title": "Selected U.S. Military Contracts for the Week of March 6 - March 10, 2017",
+        "link": "https://aviationweek.com/selected-us-military-contracts-week-march-6-march-10-2017",
+        "summary": "<span>Selected U.S. Military Contracts for the Week of March 6 - March 10, 2017</span>\n<span><span lang=\"\" about=\"/user/1\" typeof=\"schema:Person\" property=\"schema:name\" datatype=\"\" content=\"email_registration_qPH4cFMVam\">user+1@localho…</span></span>\n<span><time datetime=\"2017-03…",
+        "bias": "industry"
+      },
+      {
+        "source": "Aviation Week",
+        "title": "Product Realization Pop Quiz",
+        "link": "https://aviationweek.com/aerospace/product-realization-pop-quiz-0",
+        "summary": "<span class=\"basic-page--title\">Product Realization Pop Quiz</span>\n<span><span lang=\"\" about=\"/user/3620551\" typeof=\"schema:Person\" property=\"schema:name\" datatype=\"\" content=\"Will.Herth\">will.herth@pen…</span></span>\n<span><time datetime=\"2016-04-18T17:42:07+00:00\" title=\"Monda…",
+        "bias": "industry"
+      },
+      {
+        "source": "The War Zone",
+        "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+        "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-193",
+        "summary": "That was our last can of Pringles...\nThe post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on The War Zone.",
+        "bias": "defense"
+      },
+      {
+        "source": "The War Zone",
+        "title": "Trump Declares He Is Lifting The Naval Blockade On Iran (Updated)",
+        "link": "https://www.twz.com/news-features/trump-declares-he-is-lifting-the-naval-blockade-on-iran",
+        "summary": "Why the blockade would be lifted without a deal being signed isn't clear and Iranian media is pushing back against his claims. \nThe post Trump Declares He Is Lifting The Naval Blockade On Iran (Updated) appeared first on The War Zone.",
+        "bias": "defense"
+      },
+      {
+        "source": "The War Zone",
+        "title": "Pentagon’s Plans To Track Aircraft From Orbit Accelerated With New $4B SpaceX Deal",
+        "link": "https://www.twz.com/space/pentagons-plans-to-track-aircraft-from-orbit-accelerated-with-new-4b-spacex-deal",
+        "summary": "A satellite network to track aircraft could offer unprecedented ability to surveil the skies globally and make AEW&C aircraft redundant.\nThe post Pentagon’s Plans To Track Aircraft From Orbit Accelerated With New $4B SpaceX Deal appeared first on The War Zone.",
+        "bias": "defense"
+      },
+      {
+        "source": "SpaceNews",
+        "title": "FAA documents outline SpaceX plans for Starfall reentry vehicles",
+        "link": "https://spacenews.com/faa-documents-outline-spacex-plans-for-starfall-reentry-vehicles/",
+        "summary": "Federal Aviation Administration documents have provided new details about a SpaceX project to develop and test reentry vehicles that could be used to support in-space manufacturing projects.\nThe post FAA documents outline SpaceX plans for Starfall reentry vehicles appeared first …",
+        "bias": "industry"
+      },
+      {
+        "source": "SpaceNews",
+        "title": "Blue Origin gets national security launch task order hours before New Glenn explosion",
+        "link": "https://spacenews.com/blue-origin-gets-national-security-launch-task-order-hours-before-new-glenn-explosion/",
+        "summary": "U.S. Space Force, National Reconnaissance Office ‘remain committed partners with Blue Origin’\nThe post Blue Origin gets national security launch task order hours before New Glenn explosion appeared first on SpaceNews.",
+        "bias": "industry"
+      },
+      {
+        "source": "SpaceNews",
+        "title": "Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking",
+        "link": "https://spacenews.com/space-force-awards-spacex-4-16-billion-to-build-satellite-network-for-airborne-target-tracking/",
+        "summary": "The low-orbit satellite constellation is intended to track aircraft, cruise missiles and other airborne threats\nThe post Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking appeared first on SpaceNews.",
+        "bias": "industry"
+      }
+    ],
+    "UNDERGROUND & INVESTIGATIVE": [
+      {
+        "source": "ProPublica",
+        "title": "More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds",
+        "link": "https://www.propublica.org/article/vascular-procedures-medicare-inspector-general-report",
+        "summary": "The post More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds appeared first on ProPublica.",
+        "bias": "investigative"
+      },
+      {
+        "source": "ProPublica",
+        "title": "Alaska’s Deteriorating Schools Could Receive More Than $148 Million for Repairs. It’s a Fraction of What They Need.",
+        "link": "https://www.propublica.org/article/alaska-public-schools-repairs-funding-bill",
+        "summary": "The post Alaska’s Deteriorating Schools Could Receive More Than $148 Million for Repairs. It’s a Fraction of What They Need. appeared first on ProPublica.",
+        "bias": "investigative"
+      },
+      {
+        "source": "ProPublica",
+        "title": "The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr.",
+        "link": "https://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house",
+        "summary": "The post The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr. appeared first on ProPublica.",
+        "bias": "investigative"
+      },
+      {
+        "source": "The Intercept",
+        "title": "A Gay Palestinian Fled to Israel’s “Safe Haven.” Israel Tried to Exploit Him for Intelligence.",
+        "link": "https://theintercept.com/2026/05/31/lgbtq-palestine-israel-asylum-gay-rights/",
+        "summary": "Israel bills itself as a haven for LGBTQ+ rights. Its bureaucratic system can further endanger queer Palestinian asylum-seekers.\nThe post A Gay Palestinian Fled to Israel’s “Safe Haven.” Israel Tried to Exploit Him for Intelligence. appeared first on The Intercept.",
+        "bias": "investigative-left"
+      },
+      {
+        "source": "The Intercept",
+        "title": "Richard Glossip on Life After Decades on Death Row",
+        "link": "https://theintercept.com/2026/05/30/richard-glossip-release-bond-death-row/",
+        "summary": "In an exclusive interview at home in Oklahoma City, Glossip describes his first days of freedom in a world he hasn’t experienced for nearly 30 years.\nThe post Richard Glossip on Life After Decades on Death Row appeared first on The Intercept.",
+        "bias": "investigative-left"
+      },
+      {
+        "source": "The Intercept",
+        "title": "The Los Angeles Left Is at War With Itself Over the Mayor’s Race",
+        "link": "https://theintercept.com/2026/05/29/la-mayor-rae-huang-nithya-raman-spencer-pratt/",
+        "summary": "Rae Huang supporters say Nithya Raman is compromised. Raman’s base calls Huang a spoiler. Looming over it all: reality TV star Spencer Pratt.\nThe post The Los Angeles Left Is at War With Itself Over the Mayor’s Race appeared first on The Intercept.",
+        "bias": "investigative-left"
+      },
+      {
+        "source": "ICIJ",
+        "title": "Patents, prices and court files: How ICIJ used data to investigate an industry that thrives on secrecy",
+        "link": "https://www.icij.org/investigations/cancer-calculus/patents-prices-and-court-files-how-icij-used-data-to-investigate-an-industry-that-thrives-on-secrecy/",
+        "summary": "For the Cancer Calculus, ICIJ’s data team created datasets using records from patent offices and courts, and analyzed the opaque pricing of a lifesaving drug with a sky-high price tag.",
+        "bias": "investigative"
+      },
+      {
+        "source": "ICIJ",
+        "title": "Amid a scam crackdown, crypto giants keep fueling bitcoin ATMs",
+        "link": "https://www.icij.org/investigations/coin-laundry/amid-a-scam-crackdown-crypto-giants-keep-fueling-bitcoin-atms/",
+        "summary": "As governments seek to ban the machines, bitcoin ATMs remain entwined with cryptocurrency industry's most mainstream players.",
+        "bias": "investigative"
+      },
+      {
+        "source": "ICIJ",
+        "title": "WATCH: Inside the Cancer Calculus investigation — a live Q&A",
+        "link": "https://www.icij.org/investigations/cancer-calculus/watch-inside-the-cancer-calculus-investigation-a-live-qa/",
+        "summary": "Go behind the scenes of the Cancer Calculus investigation, and hear insights about Merck's cancer drug Keytruda from ICIJ's chief reporter and a health economist.",
+        "bias": "investigative"
+      }
+    ],
+    "INDEPENDENTS & SUBSTACK": [
+      {
+        "source": "Matt Taibbi — Racket News",
+        "title": "Listen to This Article: Humanity Needs to Get Offline",
+        "link": "https://www.racket.news/p/listen-to-this-article-humanity-needs",
+        "summary": "Narrated Version | Log on for some things. Stay off for most things",
+        "bias": "independent"
+      },
+      {
+        "source": "Matt Taibbi — Racket News",
+        "title": "New Show: \"Get Lit With Matt and Brad,\" Monday, June 1, 4:30 ET",
+        "link": "https://www.racket.news/p/new-show-get-lit-with-matt-and-brad",
+        "summary": "A show re-introducing the stories we've buried, as the clickhole era mercifully crawls to an end",
+        "bias": "independent"
+      },
+      {
+        "source": "Matt Taibbi — Racket News",
+        "title": "Today at 3 PM ET: Appearing on Szeps Live in New York",
+        "link": "https://www.racket.news/p/today-at-3-pm-et-appearing-on-szeps",
+        "summary": "Headed to the city today for an interview with Josh Szeps, which you can find in multiple places.",
+        "bias": "independent"
+      },
+      {
+        "source": "Bari Weiss — The Free Press",
+        "title": "How Do I Know Graham Platner Is Lying About the Iraq War? I Was There.",
+        "link": "https://www.thefp.com/p/how-do-i-know-graham-platner-is-lying",
+        "summary": "The Democratic candidate for Senate in Maine claims that Chris Kyle, author of ‘American Sniper,’ indiscriminately killed civilians in Iraq 20 years ago. It’s a lie, writes Leif Babin.",
+        "bias": "independent"
+      },
+      {
+        "source": "Bari Weiss — The Free Press",
+        "title": "‘Spencer, Saca La Bassura’: Will LA’s Latinos Back Pratt?",
+        "link": "https://www.thefp.com/p/spencer-saca-la-bassura-will-las",
+        "summary": "In 2020, Adrian Alvarez was so panicked Trump would win he wound up in hospital. Now he leads Latinos por Pratt and makes AI videos for the outsider candidate for mayor, reports Peter Savodnik.",
+        "bias": "independent"
+      },
+      {
+        "source": "Bari Weiss — The Free Press",
+        "title": "Why the Attacks on Graham Platner Don’t Work",
+        "link": "https://www.thefp.com/p/why-the-attacks-on-graham-platner",
+        "summary": "The evidence of past affairs is the latest of many scandals. Yet none have stuck because his troubles strike many as relatable, writes River Page.",
+        "bias": "independent"
+      }
+    ],
+    "LEFT": [
+      {
+        "source": "Jacobin",
+        "title": "The Trumpian \"War on Fraud\" Is a Trojan Horse for Austerity",
+        "link": "https://jacobin.com/2026/05/state-financial-officers-fraud-austerity",
+        "summary": "The State Financial Officers Foundation claims to be a nonpartisan, neutral body representing the guardians of state finances. In truth, the corporate donor–dependent nonprofit pushes a right-wing austerity agenda under the guise of fighting fraud.",
+        "bias": "hard-left"
+      },
+      {
+        "source": "Jacobin",
+        "title": "A New Single-Payer Effort Is Underway in Georgia",
+        "link": "https://jacobin.com/2026/05/georgia-health-care-single-payer-legislation",
+        "summary": "With Bernie Sanders no longer leading the charge, Medicare for All has slipped from the spotlight. But a new state-level single-payer bill in Georgia — where Republicans refused to expand Medicaid and 1.2 million people are uninsured — shows signs of life.",
+        "bias": "hard-left"
+      },
+      {
+        "source": "Jacobin",
+        "title": "Russia’s War Machine Is Creaking",
+        "link": "https://jacobin.com/2026/05/russia-ukraine-war-economy-dissent",
+        "summary": "Russia’s war economy has this year suffered some of its worst setbacks since the invasion of Ukraine. An under-strain Russian society isn’t revolting yet. But Russians’ doubts about the war are growing.",
+        "bias": "hard-left"
+      },
+      {
+        "source": "Democracy Now!",
+        "title": "\"It's About People Feeding Their Families\": Indigenous-Led Anti-Austerity Protests Rock Bolivia",
+        "link": "http://www.democracynow.org/2026/5/29/kathryn_ledebur_bolivia_andean_information_network",
+        "summary": "Protests in Bolivia are demanding the resignation of Rodrigo Paz, the country’s first right-wing president in decades. Since Paz took office in November 2025, the country has been placed under austerity measures that have led to a surge in poverty rates for much of Bolivia’s rura…",
+        "bias": "progressive"
+      },
+      {
+        "source": "Democracy Now!",
+        "title": "Meet Nadia Milleron: Jury Awards Family $50M for Daughter's Death in Boeing Crash",
+        "link": "http://www.democracynow.org/2026/5/29/nadia_milleron_boeing_737_max_aviation",
+        "summary": "A jury in Chicago has ordered Boeing to pay nearly $50 million to the family of Samya Stumo, a 24-year-old who was one of a total of 346 people killed in a pair of Boeing 737 MAX jet crashes less than a decade ago. Stumo died aboard Ethiopian Airlines Flight 302 in March 2019, ju…",
+        "bias": "progressive"
+      },
+      {
+        "source": "Democracy Now!",
+        "title": "\"Subversion of Law and Order\": ICE Violence Escalates at Newark's GEO-Run Jail, Delaney Hall",
+        "link": "http://www.democracynow.org/2026/5/29/li_adorno_movimiento_cosecha_delaney_hall",
+        "summary": "We get an update on protests at Newark, New Jersey’s Delaney Hall, an ICE facility owned and operated by the private prison company GEO Group, where hundreds of immigrant detainees have been on a hunger and labor strike for the past week demanding their immediate release. New Jer…",
+        "bias": "progressive"
+      },
+      {
+        "source": "Truthout",
+        "title": "US Boat Bombing Campaign Surpasses 200 Deaths After Latest Strike",
+        "link": "https://truthout.org/articles/us-boat-bombing-campaign-surpasses-200-deaths-after-latest-strike/",
+        "summary": "Human rights advocates say US strikes on suspected drug boats are unlawful killings.",
+        "bias": "progressive"
+      },
+      {
+        "source": "Truthout",
+        "title": "Colombia’s Presidential Election Could Reshape Relations With Trump Administration",
+        "link": "https://truthout.org/articles/colombias-presidential-election-could-reshape-relations-with-trump-administration/",
+        "summary": "Conservative candidates champion a Trump-aligned “Plan Colombia 2.0” despite deadly US boat strikes.",
+        "bias": "progressive"
+      },
+      {
+        "source": "Truthout",
+        "title": "As Federal Government Abandons Wetlands Protection, Localities Become Frontlines",
+        "link": "https://truthout.org/articles/as-federal-government-abandons-wetlands-protection-localities-become-frontlines/",
+        "summary": "Wetlands are some of the US's most valuable and endangered environments. It's now up to local action to preserve them.",
+        "bias": "progressive"
+      },
+      {
+        "source": "Mintpress News",
+        "title": "Revealed: USAID, NED & Open Society Quietly Bankroll Cuba’s “Independent” Media In Push for Regime Change",
+        "link": "https://www.mintpressnews.com/revealed-usaid-ned-open-society-quietly-bankroll-cubas-independent-media-in-push-for-regime-change/290942/",
+        "summary": "From CubaNet to ADN Cuba, some of the most widely cited “independent” Cuban media outlets in Western Corporate media are quietly funded by USAID, the National Endowment for Democracy (NED) and Open Society Foundation as part of a decades-long campaign to destabilize Cuba’s societ…",
+        "bias": "anti-imperialist"
+      }
+    ],
+    "RIGHT": [
+      {
+        "source": "Breitbart",
+        "title": "Exclusive: Steve Hilton Says Xavier Becerra Pushed Migrant Children into 'Arms of Child Sex Traffickers'",
+        "link": "https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-says-xavier-becerra-pushed-migrant-children-into-arms-of-child-sex-traffickers/",
+        "summary": "Saturday on \"The Alex Marlow Show,\" former Fox News commentator and California Republican gubernatorial hopeful Steve Hilton said former Biden Cabinet Secretary Xavier Becerra, one of his opponents, pushed migrant kids \"into the arms of child sex traffickers.\"\nThe post Exclusive:…",
+        "bias": "nationalist-right"
+      },
+      {
+        "source": "Breitbart",
+        "title": "Exclusive: Steve Hilton Warns of 'Disaster' if He Doesn't Make Top Two in California Primary",
+        "link": "https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-warns-of-disaster-if-he-doesnt-make-top-two-in-california-primary/",
+        "summary": "Saturday on \"The Alex Marlow Show,\" former Fox News commentator and California gubernatorial candidate Steve Hilton (R) said it would be a \"disaster\" if he doesn't make the top two in the California jungle primary.\nThe post Exclusive: Steve Hilton Warns of ‘Disaster’ if He Doesn’…",
+        "bias": "nationalist-right"
+      },
+      {
+        "source": "Breitbart",
+        "title": "Exclusive: Steve Hilton Announces Massive Tax Cut Plan for California, Details Deregulation Agenda",
+        "link": "https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-announces-massive-tax-cut-plan-for-california-details-deregulation-agenda/",
+        "summary": "Saturday on \"The Alex Marlow Show,\" former Fox News commentator and California Republican gubernatorial candidate Steve Hilton discussed his tax-cutting and deregulation agendas.\nThe post Exclusive: Steve Hilton Announces Massive Tax Cut Plan for California, Details Deregulation …",
+        "bias": "nationalist-right"
+      },
+      {
+        "source": "Zero Hedge",
+        "title": "Shutting Down Federal Bee Labs Threatens The US Food System",
+        "link": "https://www.zerohedge.com/political/shutting-down-federal-bee-labs-threatens-us-food-system",
+        "summary": "Shutting Down Federal Bee Labs Threatens The US Food System\n\n            Authored by Jennie Durant via TheConversation.com,\n\nAmerica’s bees and beekeepers are losing a valuable ally just when they need its help most.\n\nThe U.S. Department of Agriculture plans to soon close the Bel…",
+        "bias": "fin-dark"
+      },
+      {
+        "source": "Zero Hedge",
+        "title": "US Officials Suspect Iran Used Chinese Missile To Bring Down F-15E Warplane: Report",
+        "link": "https://www.zerohedge.com/geopolitical/us-officials-suspect-iran-used-chinese-missile-bring-down-f-15e-warplane-report",
+        "summary": "US Officials Suspect Iran Used Chinese Missile To Bring Down F-15E Warplane: Report\n\n            Via The Cradle\n\nUS officials believe that a Chinese-made shoulder-fired missile was likely used by Iranian forces to shoot down a US F-15E Strike Eagle over southwestern Iran last mon…",
+        "bias": "fin-dark"
+      },
+      {
+        "source": "Zero Hedge",
+        "title": "The Democrat Establishment Is Starting To Worry About Spencer Pratt",
+        "link": "https://www.zerohedge.com/political/democrat-establishment-starting-worry-about-spencer-pratt",
+        "summary": "The Democrat Establishment Is Starting To Worry About Spencer Pratt\n\n            The last person California Democrats expected to keep them up at night is Spencer Pratt. Yet here we are.\n\n\n\nThe former reality television personality-turned-independent mayoral candidate has spent t…",
+        "bias": "fin-dark"
+      },
+      {
+        "source": "The Daily Wire",
+        "title": "Target Is Betting Big On One Old-School Idea",
+        "link": "https://www.dailywire.com/news/target-is-betting-big-on-one-old-school-idea",
+        "summary": "The next time a Target employee enthusiastically asks whether you need help finding something, don’t be flattered. It might be homework. The retail giant is testing a new employee grading system that could evaluate workers on everything from reliability and teamwork to something …",
+        "bias": "conservative"
+      },
+      {
+        "source": "The Daily Wire",
+        "title": "The Book Every American Family Should Own",
+        "link": "https://www.dailywire.com/news/the-book-every-american-family-should-own",
+        "summary": "This article is part of Upstream, The Daily Wire’s new home for culture and lifestyle. Real human insight and human stories — from our featured writers to you. *** “The American Book of Fables” is unlike anything else in print — or at least, that has been published in the last 20…",
+        "bias": "conservative"
+      },
+      {
+        "source": "The Daily Wire",
+        "title": "I Lost Everything. Then One Unexpected Pregnancy Changed My Future.",
+        "link": "https://www.dailywire.com/news/i-lost-everything-then-one-unexpected-pregnancy-changed-my-future",
+        "summary": "This article is part of Upstream, The Daily Wire’s new home for culture and lifestyle. Real human insight and human stories — from our featured writers to you. *** I grew up a “child on the margins,” a child of addicts and therefore a child of chaos. I had what I considered to be…",
+        "bias": "conservative"
+      }
+    ],
+    "THINK TANKS": [
+      {
+        "source": "CSIS",
+        "title": "The Bio-Pharma Industry and Society",
+        "link": "https://www.csis.org/events/bio-pharma-industry-and-society",
+        "summary": "The Bio-Pharma Industry and Society\n\n  \n    Listing Summary\n              Please join the CSIS Global Health Policy Center on March 17, from 10:00am – 11:30am, for an exploration of how private bio-pharmaceutical firms can better support the critically important societal goals of…",
+        "bias": "defense-security"
+      },
+      {
+        "source": "CSIS",
+        "title": "The FY2017 Defense Budget and Strategic Outlook",
+        "link": "https://www.csis.org/events/fy2017-defense-budget-and-strategic-outlook",
+        "summary": "The FY2017 Defense Budget and Strategic Outlook\n\n  \n    Listing Summary\n              Please join the CSIS International Security Program for a half-day Defense360 conference on the recently released FY2017 defense budget request and strategic priorities.\n\n          \nDrupal Admin…",
+        "bias": "defense-security"
+      },
+      {
+        "source": "CSIS",
+        "title": "2016 U.S.-Japan Security Seminar",
+        "link": "https://www.csis.org/events/2016-us-japan-security-seminar",
+        "summary": "2016 U.S.-Japan Security Seminar\n\n  \n    Listing Summary\n              Michael J. Green interviews JIIA President Yoshiji Nogami\n\n          \nDrupal Admin\nFri, 02/26/2016 - 12:54\n\n\n  \n    Featured Image\n              \n  \n  \n        \n  \n    Image\n                \n\n\n\n          \n\n\n  …",
+        "bias": "defense-security"
+      },
+      {
+        "source": "Foreign Policy",
+        "title": "Clinton’s Lincoln Bedroom Scandal Looks Quaint Now",
+        "link": "https://foreignpolicy.com/2026/06/01/clinton-lincoln-bedroom-political-scandal/",
+        "summary": "What a very 1990s scandal says about corruption during the second Trump administration.",
+        "bias": "analytical"
+      },
+      {
+        "source": "Foreign Policy",
+        "title": "U.N. Blacklists Israel, Russia for Sexual Violence in Conflict",
+        "link": "https://foreignpolicy.com/2026/05/29/israel-russia-sexual-violence-un-report-guterres/",
+        "summary": "Both countries have refuted the allegations and accused the agency of bias.",
+        "bias": "analytical"
+      },
+      {
+        "source": "Foreign Policy",
+        "title": "What Iran Stands to Gain From a Truce Deal With the United States",
+        "link": "https://foreignpolicy.com/2026/05/29/iran-economy-war-oil-assets-trump-united-states-israel/",
+        "summary": "U.S. concessions could include the unfreezing of assets and unsanctioning of oil.",
+        "bias": "analytical"
+      }
+    ],
+    "AI & TECH": [
+      {
+        "source": "MIT Technology Review",
+        "title": "The Download: unlocking lithium and controlling Ebola",
+        "link": "https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/",
+        "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How a new extraction process could unlock the world’s lithium A new method for extracting lithium could cut costs and emissions from one of th…",
+        "bias": "tech-analytical"
+      },
+      {
+        "source": "MIT Technology Review",
+        "title": "The deadly Ebola outbreak is proving difficult to control",
+        "link": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/",
+        "summary": "The alert was raised on May 5. Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days. Rapid response teams were sent to investigate, and tests at a research center in Kinshasa revealed the culprit:…",
+        "bias": "tech-analytical"
+      },
+      {
+        "source": "MIT Technology Review",
+        "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+        "link": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+        "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and s…",
+        "bias": "tech-analytical"
+      },
+      {
+        "source": "Wired",
+        "title": "Everyone Has Their Targets Set on the MacBook Neo",
+        "link": "https://www.wired.com/story/everyone-has-their-targets-set-on-the-macbook-neo/",
+        "summary": "Dell, Microsoft, and others are unveiling new laptops to compete directly with the Neo, but not all are learning the right lessons from Apple.",
+        "bias": "tech-left"
+      },
+      {
+        "source": "Wired",
+        "title": "M-Audio M Track Duo HD Producer Pack Review: Hot Takes, Cold Opens",
+        "link": "https://www.wired.com/review/m-audio-m-track-duo-hd-audio-interface-bundle/",
+        "summary": "The M-Track Duo HD Producer Pack removes the last remaining excuse for terrible audio and potentially terrible opinions.",
+        "bias": "tech-left"
+      },
+      {
+        "source": "Wired",
+        "title": "Wi-Fi Router vs. Mesh System: Which Is Best for You?",
+        "link": "https://www.wired.com/story/mesh-system-vs-wi-fi-router/",
+        "summary": "Find out whether a single Wi-Fi router or a mesh system makes the most sense for your home network.",
+        "bias": "tech-left"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "On its 40th anniversary, we reassess 1986's SpaceCamp",
+        "link": "https://arstechnica.com/culture/2026/05/on-its-40th-anniversary-we-reassess-1986s-spacecamp/",
+        "summary": "Is it a hidden gem, a cult classic, or hopelessly dumb? We vote \"all of the above.\"",
+        "bias": "tech"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "They call it stupid hot for a reason: Heat muddles animal brains",
+        "link": "https://arstechnica.com/science/2026/05/they-call-it-stupid-hot-for-a-reason-heat-muddles-animal-brains/",
+        "summary": "As temperatures rise, some creatures pick fights while others struggle to learn.",
+        "bias": "tech"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "Grifters, cynics, and true believers: The family tree of vaccine opponents",
+        "link": "https://arstechnica.com/science/2026/05/grifters-cynics-and-true-believers-the-family-tree-of-vaccine-opponents/",
+        "summary": "A new book looks into the long history of people who have opposed vaccines.",
+        "bias": "tech"
+      },
+      {
+        "source": "404 Media",
+        "title": "‘Highly Plausible’ Aliens on Europa Are Earthlings’ Descendants, Study Says",
+        "link": "https://www.404media.co/highly-plausible-aliens-on-europa-are-earthlings-descendants-study-says/",
+        "summary": "A new study suggests that bacteria dispersed through space on dust grains could potentially arrive intact and alive on Jupiter’s moon Europa.",
+        "bias": "investigative-tech"
+      }
+    ],
+    "SCIENCE": [
+      {
+        "source": "New Scientist",
+        "title": "How a radical new view of life could reveal its origin – and aliens",
+        "link": "https://www.newscientist.com/article/2526959-how-a-radical-new-view-of-life-could-reveal-its-origin-and-aliens/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "We've been looking at nature the wrong way, argues Rowan Hooper. If we stop focusing on the individual, we get a whole new picture of how life on Earth – and elsewhere – may have begun",
+        "bias": "science"
+      },
+      {
+        "source": "New Scientist",
+        "title": "Embryos made without sperm or eggs reveal why many pregnancies fail",
+        "link": "https://www.newscientist.com/article/2527224-embryos-made-without-sperm-or-eggs-reveal-why-many-pregnancies-fail/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "Embryo organoids made from stem cells are enabling scientists to recreate early pregnancy in the lab, unlocking treatments for infertility, miscarriage and pre-eclampsia",
+        "bias": "science"
+      },
+      {
+        "source": "New Scientist",
+        "title": "The best new science-fiction books of June 2026",
+        "link": "https://www.newscientist.com/article/2528164-the-best-new-science-fiction-books-of-june-2026/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "There is plenty of intriguing sci-fi on offer this month, whether it’s solar-powered cities from Adrian Tchaikovsky or a strange future from M. John Harrison",
+        "bias": "science"
+      },
+      {
+        "source": "Science Magazine",
+        "title": "‘That could be a game changer’: an antiviral pill gets first test for Ebola prevention",
+        "link": "https://www.science.org/content/article/could-be-game-changer-antiviral-pill-gets-first-test-ebola-prevention",
+        "summary": "Researchers are preparing to launch an unprecedented trial to protect people exposed to Ebola in the DRC and Uganda",
+        "bias": "peer-reviewed"
+      },
+      {
+        "source": "Science Magazine",
+        "title": "White House seeks to tighten political oversight of grantmaking",
+        "link": "https://www.science.org/content/article/white-house-seeks-tighten-political-oversight-grantmaking",
+        "summary": "Sweeping proposed rule, now open for comments, would also restrict foreign collaborations and remove federal funding for open-access fees",
+        "bias": "peer-reviewed"
+      },
+      {
+        "source": "Science Magazine",
+        "title": "Brazil’s ‘rolling stone reefs’ teem with hidden diversity, DNA reveals",
+        "link": "https://www.science.org/content/article/brazil-s-rolling-stone-reefs-teem-hidden-diversity-dna-reveals",
+        "summary": "Vast offshore habitats face threats including mining, trawling, and drilling for oil",
+        "bias": "peer-reviewed"
+      }
+    ]
+  }
+}

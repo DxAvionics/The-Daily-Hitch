@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>THE DAILY HITCH — Monday, June 01, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:        #0a0a0a;
+      --bg2:       #0f0f0f;
+      --bg3:       #141414;
+      --panel:     #111111;
+      --border:    #1e2a1e;
+      --green:     #00ff41;
+      --green2:    #00cc33;
+      --green3:    #007a1e;
+      --green-dim: #00ff4120;
+      --amber:     #ffb000;
+      --red:       #ff3333;
+      --text:      #c8d8c8;
+      --text-dim:  #5a7a5a;
+      --text-muted:#3a4a3a;
+      --mono:      'IBM Plex Mono', monospace;
+      --display:   'Bebas Neue', sans-serif;
+      --terminal:  'Share Tech Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--mono);
+      font-size: 13px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* Scanline overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,255,65,0.015) 2px,
+        rgba(0,255,65,0.015) 4px
+      );
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* ── HEADER ── */
+    .masthead {
+      border-bottom: 1px solid var(--green3);
+      padding: 2rem 2rem 1.5rem;
+      background: var(--bg);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .masthead::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--green), transparent);
+    }
+
+    .dateline {
+      font-family: var(--terminal);
+      font-size: 10px;
+      color: var(--green2);
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(3rem, 10vw, 7rem);
+      color: var(--green);
+      letter-spacing: 0.05em;
+      line-height: 0.9;
+      text-shadow: 0 0 40px rgba(0,255,65,0.3);
+    }
+
+    .masthead-sub {
+      font-family: var(--terminal);
+      font-size: 10px;
+      color: var(--text-dim);
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      margin-top: 0.75rem;
+    }
+
+    .masthead-quote {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 0.85rem;
+      color: var(--amber);
+      margin-top: 1rem;
+      max-width: 600px;
+      border-left: 2px solid var(--amber);
+      padding-left: 1rem;
+      opacity: 0.8;
+    }
+
+    /* ── NAV ── */
+    .nav-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg2);
+      padding: 0 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-link {
+      font-family: var(--terminal);
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      color: var(--text-dim);
+      text-decoration: none;
+      padding: 0.6rem 0.75rem;
+      border-right: 1px solid var(--border);
+      text-transform: uppercase;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    .nav-link:hover {
+      color: var(--green);
+      background: var(--green-dim);
+    }
+
+    /* ── MAIN LAYOUT ── */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    /* ── CATEGORY BLOCK ── */
+    .category-block {
+      margin-bottom: 3rem;
+      border: 1px solid var(--border);
+      background: var(--panel);
+    }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg3);
+    }
+
+    .category-icon {
+      font-size: 1rem;
+      color: var(--green);
+    }
+
+    .category-title {
+      font-family: var(--terminal);
+      font-size: 11px;
+      letter-spacing: 0.35em;
+      color: var(--green2);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .category-line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--green3), transparent);
+    }
+
+    .items-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 0;
+    }
+
+    /* ── FEED ITEM ── */
+    .feed-item {
+      padding: 1.25rem;
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+      position: relative;
+    }
+
+    .feed-item:hover {
+      background: var(--green-dim);
+    }
+
+    .feed-item::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 2px;
+      background: transparent;
+      transition: background 0.15s;
+    }
+
+    .feed-item:hover::before {
+      background: var(--green);
+    }
+
+    .item-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .source-name {
+      font-family: var(--terminal);
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      color: var(--green2);
+      text-transform: uppercase;
+    }
+
+    .bias-badge {
+      font-family: var(--terminal);
+      font-size: 8px;
+      letter-spacing: 0.1em;
+      padding: 1px 6px;
+      border-radius: 0;
+      text-transform: uppercase;
+    }
+
+    .item-title {
+      display: block;
+      font-family: var(--mono);
+      font-weight: 600;
+      font-size: 13px;
+      color: var(--text);
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+      transition: color 0.15s;
+    }
+
+    .item-title:hover {
+      color: var(--green);
+    }
+
+    .item-summary {
+      font-size: 11px;
+      color: var(--text-dim);
+      line-height: 1.6;
+      font-family: var(--mono);
+      font-weight: 300;
+    }
+
+    /* ── FIVE PERSPECTIVES BAR ── */
+    .perspectives {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-top: 2px solid var(--green3);
+      margin: 3rem 0;
+    }
+
+    .perspectives-header {
+      font-family: var(--terminal);
+      font-size: 9px;
+      letter-spacing: 0.5em;
+      color: var(--green);
+      text-transform: uppercase;
+      padding: 0.75rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .perspectives-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0;
+    }
+
+    @media (max-width: 900px) {
+      .perspectives-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .perspectives-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .perspective-col {
+      padding: 1rem 1.25rem;
+      border-right: 1px solid var(--border);
+    }
+
+    .perspective-col:last-child {
+      border-right: none;
+    }
+
+    .perspective-label {
+      font-family: var(--terminal);
+      font-size: 8px;
+      letter-spacing: 0.3em;
+      color: var(--green2);
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .perspective-col ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .perspective-col ul li {
+      margin-bottom: 0.6rem;
+      padding-left: 0.75rem;
+      position: relative;
+    }
+
+    .perspective-col ul li::before {
+      content: '▸';
+      position: absolute;
+      left: 0;
+      color: var(--green3);
+      font-size: 10px;
+    }
+
+    .perspective-col ul li a {
+      color: var(--text-dim);
+      text-decoration: none;
+      font-size: 11px;
+      line-height: 1.4;
+      transition: color 0.15s;
+    }
+
+    .perspective-col ul li a:hover {
+      color: var(--green);
+    }
+
+    /* ── HITCHENS QUESTION ── */
+    .hitchens-block {
+      background: var(--bg3);
+      border: 1px solid var(--green3);
+      border-left: 3px solid var(--green);
+      padding: 2rem 2.5rem;
+      margin: 3rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hitchens-block::before {
+      content: '"';
+      position: absolute;
+      top: -1rem;
+      left: 1rem;
+      font-size: 8rem;
+      color: var(--green-dim);
+      font-family: 'Playfair Display', serif;
+      line-height: 1;
+    }
+
+    .hitchens-label {
+      font-family: var(--terminal);
+      font-size: 9px;
+      letter-spacing: 0.5em;
+      color: var(--green2);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .hitchens-text {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: clamp(1rem, 2.5vw, 1.35rem);
+      color: var(--amber);
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      font-family: var(--terminal);
+      font-size: 9px;
+      color: var(--text-muted);
+      letter-spacing: 0.2em;
+      text-align: center;
+    }
+
+    .footer a {
+      color: var(--green3);
+      text-decoration: none;
+    }
+
+    /* ── BLINK CURSOR ── */
+    .cursor {
+      display: inline-block;
+      width: 8px;
+      height: 14px;
+      background: var(--green);
+      animation: blink 1s step-end infinite;
+      vertical-align: middle;
+      margin-left: 4px;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--green3); }
+  </style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="dateline">CLASSIFIED // EYES ONLY // Monday, June 01, 2026 // BRIEFING CYCLE 0600</div>
+  <div class="masthead-title">THE DAILY HITCH<span class="cursor"></span></div>
+  <div class="masthead-sub">Underground Intelligence Digest — All Perspectives — No Filters — No Masters</div>
+  <div class="masthead-quote">
+    "The essence of the independent mind lies not in what it thinks, but in how it thinks."
+  </div>
+</header>
+
+<nav class="nav-bar">
+  <a href="#wire" class="nav-link">WIRE</a><a href="#war-and-geopolitics" class="nav-link">WAR & GEOPOLITICS</a><a href="#aerospace-and-defense-tech" class="nav-link">AEROSPACE & DEFENSE TECH</a><a href="#underground-and-investigative" class="nav-link">UNDERGROUND & INVESTIGATIVE</a><a href="#independents-and-substack" class="nav-link">INDEPENDENTS & SUBSTACK</a><a href="#left" class="nav-link">LEFT</a><a href="#right" class="nav-link">RIGHT</a><a href="#think-tanks" class="nav-link">THINK TANKS</a><a href="#ai-and-tech" class="nav-link">AI & TECH</a><a href="#science" class="nav-link">SCIENCE</a>
+</nav>
+
+<main class="container">
+
+  <!-- HITCHENS QUESTION OF THE DAY -->
+  <div class="hitchens-block">
+    <div class="hitchens-label">◈ HITCHENS QUESTION OF THE DAY</div>
+    <div class="hitchens-text">When did we decide that the difference between &quot;precision warfare&quot; and &quot;war crimes&quot; was simply a matter of which satellites are doing the watching, and why do we pretend that our moral calculus changes based on whether the rubble in Rakhine, Lebanon, or Ukraine appears in our feeds with a time stamp that makes us feel appropriately concerned? The same technology that promises to liberate our wounded soldiers from their biological limitations is simultaneously perfecting the art of killing at distances that spare us any troubling intimacy with the consequences—so tell me, exactly when did we become a civilization that innovates most rapidly in the service of avoiding uncomfortable truths?</div>
+  </div>
+
+  <!-- FIVE PERSPECTIVES -->
+  <div class="perspectives">
+    <div class="perspectives-header">◈ THE FIVE PERSPECTIVES</div>
+    <div class="perspectives-grid">
+      <div class="perspective-col">
+        <div class="perspective-label">WHAT THE WIRE SAYS</div>
+        <ul></ul>
+      </div>
+      <div class="perspective-col">
+        <div class="perspective-label">WHAT THE LEFT SAYS</div>
+        <ul><li><a href="https://jacobin.com/2026/05/state-financial-officers-fraud-austerity" target="_blank" rel="noopener noreferrer">The Trumpian &quot;War on Fraud&quot; Is a Trojan Horse for Austerity</a></li><li><a href="https://jacobin.com/2026/05/georgia-health-care-single-payer-legislation" target="_blank" rel="noopener noreferrer">A New Single-Payer Effort Is Underway in Georgia</a></li><li><a href="https://jacobin.com/2026/05/russia-ukraine-war-economy-dissent" target="_blank" rel="noopener noreferrer">Russia’s War Machine Is Creaking</a></li><li><a href="http://www.democracynow.org/2026/5/29/kathryn_ledebur_bolivia_andean_information_network" target="_blank" rel="noopener noreferrer">&quot;It&#x27;s About People Feeding Their Families&quot;: Indigenous-Led Anti-Austerity Protes…</a></li></ul>
+      </div>
+      <div class="perspective-col">
+        <div class="perspective-label">WHAT THE RIGHT SAYS</div>
+        <ul><li><a href="https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-says-xavier-becerra-pushed-migrant-children-into-arms-of-child-sex-traffickers/" target="_blank" rel="noopener noreferrer">Exclusive: Steve Hilton Says Xavier Becerra Pushed Migrant Children into &#x27;Arms o…</a></li><li><a href="https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-warns-of-disaster-if-he-doesnt-make-top-two-in-california-primary/" target="_blank" rel="noopener noreferrer">Exclusive: Steve Hilton Warns of &#x27;Disaster&#x27; if He Doesn&#x27;t Make Top Two in Califo…</a></li><li><a href="https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-announces-massive-tax-cut-plan-for-california-details-deregulation-agenda/" target="_blank" rel="noopener noreferrer">Exclusive: Steve Hilton Announces Massive Tax Cut Plan for California, Details D…</a></li><li><a href="https://www.zerohedge.com/political/shutting-down-federal-bee-labs-threatens-us-food-system" target="_blank" rel="noopener noreferrer">Shutting Down Federal Bee Labs Threatens The US Food System</a></li></ul>
+      </div>
+      <div class="perspective-col">
+        <div class="perspective-label">WHAT THE UNDERGROUND SAYS</div>
+        <ul><li><a href="https://www.propublica.org/article/vascular-procedures-medicare-inspector-general-report" target="_blank" rel="noopener noreferrer">More Than $100 Million Was Billed for Medically Questionable Vascular Procedures…</a></li><li><a href="https://www.propublica.org/article/alaska-public-schools-repairs-funding-bill" target="_blank" rel="noopener noreferrer">Alaska’s Deteriorating Schools Could Receive More Than $148 Million for Repairs.…</a></li><li><a href="https://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house" target="_blank" rel="noopener noreferrer">The White House Intervened to Get a $620 Million Deal for a Company Tied to Dona…</a></li><li><a href="https://theintercept.com/2026/05/31/lgbtq-palestine-israel-asylum-gay-rights/" target="_blank" rel="noopener noreferrer">A Gay Palestinian Fled to Israel’s “Safe Haven.” Israel Tried to Exploit Him for…</a></li></ul>
+      </div>
+      <div class="perspective-col">
+        <div class="perspective-label">WHAT THE INDEPENDENTS SAY</div>
+        <ul><li><a href="https://www.racket.news/p/listen-to-this-article-humanity-needs" target="_blank" rel="noopener noreferrer">Listen to This Article: Humanity Needs to Get Offline</a></li><li><a href="https://www.racket.news/p/new-show-get-lit-with-matt-and-brad" target="_blank" rel="noopener noreferrer">New Show: &quot;Get Lit With Matt and Brad,&quot; Monday, June 1, 4:30 ET</a></li><li><a href="https://www.racket.news/p/today-at-3-pm-et-appearing-on-szeps" target="_blank" rel="noopener noreferrer">Today at 3 PM ET: Appearing on Szeps Live in New York</a></li><li><a href="https://www.thefp.com/p/how-do-i-know-graham-platner-is-lying" target="_blank" rel="noopener noreferrer">How Do I Know Graham Platner Is Lying About the Iraq War? I Was There.</a></li></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ALL CATEGORY SECTIONS -->
+  
+    <section class="category-block" id="war-and-geopolitics">
+      <div class="category-header">
+        <span class="category-icon">⚔</span>
+        <h2 class="category-title">WAR & GEOPOLITICS</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Bellingcat</span>
+            <span class="bias-badge" style="background:#1abc9c22;color:#1abc9c;border:1px solid #1abc9c44">osint</span>
+          </div>
+          <a href="https://www.bellingcat.com/news/2026/05/27/the-lost-villages-of-myanmars-rakhine/" target="_blank" rel="noopener noreferrer" class="item-title">
+            The ‘Lost’ Villages of Myanmar’s Rakhine
+          </a>
+          <p class="item-summary">A “river of blood” was how one survivor described the scene in western Myanmar. “I saw shooting. I saw mass killing.” Another told the UN High Commissioner for Human Rights (UNHRC) how 20 relatives, including three children, had been killed in the 2024 attack on Htan Shauk Khan v…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Bellingcat</span>
+            <span class="bias-badge" style="background:#1abc9c22;color:#1abc9c;border:1px solid #1abc9c44">osint</span>
+          </div>
+          <a href="https://www.bellingcat.com/news/africa/2026/05/26/banned-russian-submunitions-found-after-malis-military-announces-airstrikes/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Banned Russian Submunitions Found After Mali’s Military Announces Airstrikes
+          </a>
+          <p class="item-summary">This investigation is a collaboration between Bellingcat and Jeune Afrique. You can read Jeune Afrique’s article in French here. Unexploded Russian-made cluster munition bomblets, as well as damage consistent with bomblet impacts, have been found in a village in northern Mali – d…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Bellingcat</span>
+            <span class="bias-badge" style="background:#1abc9c22;color:#1abc9c;border:1px solid #1abc9c44">osint</span>
+          </div>
+          <a href="https://www.bellingcat.com/news/2026/05/14/satellite-imagery-shows-ongoing-demolitions-across-southern-lebanon/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Satellite Imagery Shows Ongoing Demolitions Across Southern Lebanon
+          </a>
+          <p class="item-summary">The fragile ceasefire agreed between Israel and Hezbollah last month is holding.  But satellite imagery shows that at least 46 of 54 towns and villages within the Israel Defense Forces (IDF) “Yellow Line” in southern Lebanon have been heavily damaged or, in some cases, entirely f…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">C4ISRNET</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.c4isrnet.com/global/europe/2026/05/29/how-russia-is-turning-ukraines-drones-against-nato/" target="_blank" rel="noopener noreferrer" class="item-title">
+            How Russia is turning Ukraine’s drones against NATO
+          </a>
+          <p class="item-summary">A Russian drone wounded two civilians in Romania on Friday, days after Lithuania detailed how Moscow is also steering Ukraine&#x27;s drones onto allied soil.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">C4ISRNET</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.c4isrnet.com/news/your-army/2026/05/29/army-develops-exoskeleton-for-lower-limb-injuries-on-the-battlefield/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Army develops exoskeleton for lower-limb injuries on the battlefield
+          </a>
+          <p class="item-summary">The Army is developing a new exoskeleton that allows injured troops to stand, walk and shoot when evacuation is impossible or delayed.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">C4ISRNET</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.c4isrnet.com/global/europe/2026/05/29/romania-says-russian-drone-hit-apartment-block-nato-vows-to-defend-alliance-territory/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Romania says Russian drone hit apartment block, NATO vows to defend alliance territory
+          </a>
+          <p class="item-summary">“I affirmed that NATO stands ready to defend every inch of Allied territory,” NATO Secretary General Mark Rutte said on X.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Defense One</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.defenseone.com/technology/2026/05/q-gen-frank-donovan/413870/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Q&amp;A with SOUTHCOM commander Gen. Frank Donovan
+          </a>
+          <p class="item-summary">&quot;I don&#x27;t really care about platforms. I care about autonomous warfare,&quot; says the former leader of the Defense Autonomous Warfare Group.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Defense One</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.defenseone.com/policy/2026/05/cyber-force-service-branch-proposal/413863/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Cyber Force? Senator pushes to create service branch under the Army
+          </a>
+          <p class="item-summary">Ideas for a cyber service have been floated before. Some experts argue now is the right time.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Defense One</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.defenseone.com/defense-systems/2026/05/army-hackathon-software-patches/413857/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Software patches from Army hackathon going straight to troops in CENTCOM
+          </a>
+          <p class="item-summary">Project Jailbreak is helping to get contractors open up their systems to each other.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">War on the Rocks</span>
+            <span class="bias-badge" style="background:#7f8c8d22;color:#7f8c8d;border:1px solid #7f8c8d44">analytical</span>
+          </div>
+          <a href="https://warontherocks.com/cogs-of-war/how-america-lost-its-most-important-defense-tech-habit/" target="_blank" rel="noopener noreferrer" class="item-title">
+            How America Lost Its Most Important Defense Tech Habit
+          </a>
+          <p class="item-summary">On April 15, technology podcaster Dwarkesh Patel published a two-hour interview with Nvidia CEO Jensen Huang. For roughly forty minutes, Patel asked one question six different ways. The question was this: If American-made compute trains AI models with the serious cyber-offensive …</p>
+        </article>
+      </div>
+    </section>
+    <section class="category-block" id="aerospace-and-defense-tech">
+      <div class="category-header">
+        <span class="category-icon">✈</span>
+        <h2 class="category-title">AEROSPACE & DEFENSE TECH</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Aviation Week</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">industry</span>
+          </div>
+          <a href="https://aviationweek.com/node/4740936" target="_blank" rel="noopener noreferrer" class="item-title">
+            BCA Special Edition Newsletter
+          </a>
+          <p class="item-summary">&lt;span&gt;BCA Special Edition Newsletter&lt;/span&gt;
+&lt;span&gt;&lt;span lang=&quot;&quot; about=&quot;/users/kylee-adams&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot; content=&quot;kylee.adams&quot;&gt;kylee.adams@in…&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;time datetime=&quot;2025-03-07T23:30:14+00:00&quot; title=&quot;Friday, March 7, 2025 -…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Aviation Week</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">industry</span>
+          </div>
+          <a href="https://aviationweek.com/selected-us-military-contracts-week-march-6-march-10-2017" target="_blank" rel="noopener noreferrer" class="item-title">
+            Selected U.S. Military Contracts for the Week of March 6 - March 10, 2017
+          </a>
+          <p class="item-summary">&lt;span&gt;Selected U.S. Military Contracts for the Week of March 6 - March 10, 2017&lt;/span&gt;
+&lt;span&gt;&lt;span lang=&quot;&quot; about=&quot;/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot; content=&quot;email_registration_qPH4cFMVam&quot;&gt;user+1@localho…&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;time datetime=&quot;2017-03…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Aviation Week</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">industry</span>
+          </div>
+          <a href="https://aviationweek.com/aerospace/product-realization-pop-quiz-0" target="_blank" rel="noopener noreferrer" class="item-title">
+            Product Realization Pop Quiz
+          </a>
+          <p class="item-summary">&lt;span class=&quot;basic-page--title&quot;&gt;Product Realization Pop Quiz&lt;/span&gt;
+&lt;span&gt;&lt;span lang=&quot;&quot; about=&quot;/user/3620551&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot; content=&quot;Will.Herth&quot;&gt;will.herth@pen…&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;time datetime=&quot;2016-04-18T17:42:07+00:00&quot; title=&quot;Monda…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The War Zone</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-193" target="_blank" rel="noopener noreferrer" class="item-title">
+            Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week
+          </a>
+          <p class="item-summary">That was our last can of Pringles...
+The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on The War Zone.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The War Zone</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.twz.com/news-features/trump-declares-he-is-lifting-the-naval-blockade-on-iran" target="_blank" rel="noopener noreferrer" class="item-title">
+            Trump Declares He Is Lifting The Naval Blockade On Iran (Updated)
+          </a>
+          <p class="item-summary">Why the blockade would be lifted without a deal being signed isn&#x27;t clear and Iranian media is pushing back against his claims. 
+The post Trump Declares He Is Lifting The Naval Blockade On Iran (Updated) appeared first on The War Zone.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The War Zone</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense</span>
+          </div>
+          <a href="https://www.twz.com/space/pentagons-plans-to-track-aircraft-from-orbit-accelerated-with-new-4b-spacex-deal" target="_blank" rel="noopener noreferrer" class="item-title">
+            Pentagon’s Plans To Track Aircraft From Orbit Accelerated With New $4B SpaceX Deal
+          </a>
+          <p class="item-summary">A satellite network to track aircraft could offer unprecedented ability to surveil the skies globally and make AEW&amp;C aircraft redundant.
+The post Pentagon’s Plans To Track Aircraft From Orbit Accelerated With New $4B SpaceX Deal appeared first on The War Zone.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">SpaceNews</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">industry</span>
+          </div>
+          <a href="https://spacenews.com/faa-documents-outline-spacex-plans-for-starfall-reentry-vehicles/" target="_blank" rel="noopener noreferrer" class="item-title">
+            FAA documents outline SpaceX plans for Starfall reentry vehicles
+          </a>
+          <p class="item-summary">Federal Aviation Administration documents have provided new details about a SpaceX project to develop and test reentry vehicles that could be used to support in-space manufacturing projects.
+The post FAA documents outline SpaceX plans for Starfall reentry vehicles appeared first …</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">SpaceNews</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">industry</span>
+          </div>
+          <a href="https://spacenews.com/blue-origin-gets-national-security-launch-task-order-hours-before-new-glenn-explosion/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Blue Origin gets national security launch task order hours before New Glenn explosion
+          </a>
+          <p class="item-summary">U.S. Space Force, National Reconnaissance Office ‘remain committed partners with Blue Origin’
+The post Blue Origin gets national security launch task order hours before New Glenn explosion appeared first on SpaceNews.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">SpaceNews</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">industry</span>
+          </div>
+          <a href="https://spacenews.com/space-force-awards-spacex-4-16-billion-to-build-satellite-network-for-airborne-target-tracking/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking
+          </a>
+          <p class="item-summary">The low-orbit satellite constellation is intended to track aircraft, cruise missiles and other airborne threats
+The post Space Force awards SpaceX $4.16 billion to build satellite network for airborne target tracking appeared first on SpaceNews.</p>
+        </article>
+      </div>
+    </section>
+    <section class="category-block" id="underground-and-investigative">
+      <div class="category-header">
+        <span class="category-icon">☠</span>
+        <h2 class="category-title">UNDERGROUND & INVESTIGATIVE</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">ProPublica</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative</span>
+          </div>
+          <a href="https://www.propublica.org/article/vascular-procedures-medicare-inspector-general-report" target="_blank" rel="noopener noreferrer" class="item-title">
+            More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds
+          </a>
+          <p class="item-summary">The post More Than $100 Million Was Billed for Medically Questionable Vascular Procedures, Government Watchdog Finds appeared first on ProPublica.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">ProPublica</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative</span>
+          </div>
+          <a href="https://www.propublica.org/article/alaska-public-schools-repairs-funding-bill" target="_blank" rel="noopener noreferrer" class="item-title">
+            Alaska’s Deteriorating Schools Could Receive More Than $148 Million for Repairs. It’s a Fraction of What They Need.
+          </a>
+          <p class="item-summary">The post Alaska’s Deteriorating Schools Could Receive More Than $148 Million for Repairs. It’s a Fraction of What They Need. appeared first on ProPublica.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">ProPublica</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative</span>
+          </div>
+          <a href="https://www.propublica.org/article/donald-trump-jr-vulcan-deal-white-house" target="_blank" rel="noopener noreferrer" class="item-title">
+            The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr.
+          </a>
+          <p class="item-summary">The post The White House Intervened to Get a $620 Million Deal for a Company Tied to Donald Trump Jr. appeared first on ProPublica.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The Intercept</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative-left</span>
+          </div>
+          <a href="https://theintercept.com/2026/05/31/lgbtq-palestine-israel-asylum-gay-rights/" target="_blank" rel="noopener noreferrer" class="item-title">
+            A Gay Palestinian Fled to Israel’s “Safe Haven.” Israel Tried to Exploit Him for Intelligence.
+          </a>
+          <p class="item-summary">Israel bills itself as a haven for LGBTQ+ rights. Its bureaucratic system can further endanger queer Palestinian asylum-seekers.
+The post A Gay Palestinian Fled to Israel’s “Safe Haven.” Israel Tried to Exploit Him for Intelligence. appeared first on The Intercept.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The Intercept</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative-left</span>
+          </div>
+          <a href="https://theintercept.com/2026/05/30/richard-glossip-release-bond-death-row/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Richard Glossip on Life After Decades on Death Row
+          </a>
+          <p class="item-summary">In an exclusive interview at home in Oklahoma City, Glossip describes his first days of freedom in a world he hasn’t experienced for nearly 30 years.
+The post Richard Glossip on Life After Decades on Death Row appeared first on The Intercept.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The Intercept</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative-left</span>
+          </div>
+          <a href="https://theintercept.com/2026/05/29/la-mayor-rae-huang-nithya-raman-spencer-pratt/" target="_blank" rel="noopener noreferrer" class="item-title">
+            The Los Angeles Left Is at War With Itself Over the Mayor’s Race
+          </a>
+          <p class="item-summary">Rae Huang supporters say Nithya Raman is compromised. Raman’s base calls Huang a spoiler. Looming over it all: reality TV star Spencer Pratt.
+The post The Los Angeles Left Is at War With Itself Over the Mayor’s Race appeared first on The Intercept.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">ICIJ</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative</span>
+          </div>
+          <a href="https://www.icij.org/investigations/cancer-calculus/patents-prices-and-court-files-how-icij-used-data-to-investigate-an-industry-that-thrives-on-secrecy/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Patents, prices and court files: How ICIJ used data to investigate an industry that thrives on secrecy
+          </a>
+          <p class="item-summary">For the Cancer Calculus, ICIJ’s data team created datasets using records from patent offices and courts, and analyzed the opaque pricing of a lifesaving drug with a sky-high price tag.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">ICIJ</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative</span>
+          </div>
+          <a href="https://www.icij.org/investigations/coin-laundry/amid-a-scam-crackdown-crypto-giants-keep-fueling-bitcoin-atms/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Amid a scam crackdown, crypto giants keep fueling bitcoin ATMs
+          </a>
+          <p class="item-summary">As governments seek to ban the machines, bitcoin ATMs remain entwined with cryptocurrency industry&#x27;s most mainstream players.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">ICIJ</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative</span>
+          </div>
+          <a href="https://www.icij.org/investigations/cancer-calculus/watch-inside-the-cancer-calculus-investigation-a-live-qa/" target="_blank" rel="noopener noreferrer" class="item-title">
+            WATCH: Inside the Cancer Calculus investigation — a live Q&amp;A
+          </a>
+          <p class="item-summary">Go behind the scenes of the Cancer Calculus investigation, and hear insights about Merck&#x27;s cancer drug Keytruda from ICIJ&#x27;s chief reporter and a health economist.</p>
+        </article>
+      </div>
+    </section>
+    <section class="category-block" id="independents-and-substack">
+      <div class="category-header">
+        <span class="category-icon">⬡</span>
+        <h2 class="category-title">INDEPENDENTS & SUBSTACK</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Matt Taibbi — Racket News</span>
+            <span class="bias-badge" style="background:#16a08522;color:#16a085;border:1px solid #16a08544">independent</span>
+          </div>
+          <a href="https://www.racket.news/p/listen-to-this-article-humanity-needs" target="_blank" rel="noopener noreferrer" class="item-title">
+            Listen to This Article: Humanity Needs to Get Offline
+          </a>
+          <p class="item-summary">Narrated Version | Log on for some things. Stay off for most things</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Matt Taibbi — Racket News</span>
+            <span class="bias-badge" style="background:#16a08522;color:#16a085;border:1px solid #16a08544">independent</span>
+          </div>
+          <a href="https://www.racket.news/p/new-show-get-lit-with-matt-and-brad" target="_blank" rel="noopener noreferrer" class="item-title">
+            New Show: &quot;Get Lit With Matt and Brad,&quot; Monday, June 1, 4:30 ET
+          </a>
+          <p class="item-summary">A show re-introducing the stories we&#x27;ve buried, as the clickhole era mercifully crawls to an end</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Matt Taibbi — Racket News</span>
+            <span class="bias-badge" style="background:#16a08522;color:#16a085;border:1px solid #16a08544">independent</span>
+          </div>
+          <a href="https://www.racket.news/p/today-at-3-pm-et-appearing-on-szeps" target="_blank" rel="noopener noreferrer" class="item-title">
+            Today at 3 PM ET: Appearing on Szeps Live in New York
+          </a>
+          <p class="item-summary">Headed to the city today for an interview with Josh Szeps, which you can find in multiple places.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Bari Weiss — The Free Press</span>
+            <span class="bias-badge" style="background:#16a08522;color:#16a085;border:1px solid #16a08544">independent</span>
+          </div>
+          <a href="https://www.thefp.com/p/how-do-i-know-graham-platner-is-lying" target="_blank" rel="noopener noreferrer" class="item-title">
+            How Do I Know Graham Platner Is Lying About the Iraq War? I Was There.
+          </a>
+          <p class="item-summary">The Democratic candidate for Senate in Maine claims that Chris Kyle, author of ‘American Sniper,’ indiscriminately killed civilians in Iraq 20 years ago. It’s a lie, writes Leif Babin.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Bari Weiss — The Free Press</span>
+            <span class="bias-badge" style="background:#16a08522;color:#16a085;border:1px solid #16a08544">independent</span>
+          </div>
+          <a href="https://www.thefp.com/p/spencer-saca-la-bassura-will-las" target="_blank" rel="noopener noreferrer" class="item-title">
+            ‘Spencer, Saca La Bassura’: Will LA’s Latinos Back Pratt?
+          </a>
+          <p class="item-summary">In 2020, Adrian Alvarez was so panicked Trump would win he wound up in hospital. Now he leads Latinos por Pratt and makes AI videos for the outsider candidate for mayor, reports Peter Savodnik.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Bari Weiss — The Free Press</span>
+            <span class="bias-badge" style="background:#16a08522;color:#16a085;border:1px solid #16a08544">independent</span>
+          </div>
+          <a href="https://www.thefp.com/p/why-the-attacks-on-graham-platner" target="_blank" rel="noopener noreferrer" class="item-title">
+            Why the Attacks on Graham Platner Don’t Work
+          </a>
+          <p class="item-summary">The evidence of past affairs is the latest of many scandals. Yet none have stuck because his troubles strike many as relatable, writes River Page.</p>
+        </article>
+      </div>
+    </section>
+    <section class="category-block" id="left">
+      <div class="category-header">
+        <span class="category-icon">◀</span>
+        <h2 class="category-title">LEFT</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Jacobin</span>
+            <span class="bias-badge" style="background:#c0392b22;color:#c0392b;border:1px solid #c0392b44">hard-left</span>
+          </div>
+          <a href="https://jacobin.com/2026/05/state-financial-officers-fraud-austerity" target="_blank" rel="noopener noreferrer" class="item-title">
+            The Trumpian &quot;War on Fraud&quot; Is a Trojan Horse for Austerity
+          </a>
+          <p class="item-summary">The State Financial Officers Foundation claims to be a nonpartisan, neutral body representing the guardians of state finances. In truth, the corporate donor–dependent nonprofit pushes a right-wing austerity agenda under the guise of fighting fraud.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Jacobin</span>
+            <span class="bias-badge" style="background:#c0392b22;color:#c0392b;border:1px solid #c0392b44">hard-left</span>
+          </div>
+          <a href="https://jacobin.com/2026/05/georgia-health-care-single-payer-legislation" target="_blank" rel="noopener noreferrer" class="item-title">
+            A New Single-Payer Effort Is Underway in Georgia
+          </a>
+          <p class="item-summary">With Bernie Sanders no longer leading the charge, Medicare for All has slipped from the spotlight. But a new state-level single-payer bill in Georgia — where Republicans refused to expand Medicaid and 1.2 million people are uninsured — shows signs of life.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Jacobin</span>
+            <span class="bias-badge" style="background:#c0392b22;color:#c0392b;border:1px solid #c0392b44">hard-left</span>
+          </div>
+          <a href="https://jacobin.com/2026/05/russia-ukraine-war-economy-dissent" target="_blank" rel="noopener noreferrer" class="item-title">
+            Russia’s War Machine Is Creaking
+          </a>
+          <p class="item-summary">Russia’s war economy has this year suffered some of its worst setbacks since the invasion of Ukraine. An under-strain Russian society isn’t revolting yet. But Russians’ doubts about the war are growing.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Democracy Now!</span>
+            <span class="bias-badge" style="background:#e74c3c22;color:#e74c3c;border:1px solid #e74c3c44">progressive</span>
+          </div>
+          <a href="http://www.democracynow.org/2026/5/29/kathryn_ledebur_bolivia_andean_information_network" target="_blank" rel="noopener noreferrer" class="item-title">
+            &quot;It&#x27;s About People Feeding Their Families&quot;: Indigenous-Led Anti-Austerity Protests Rock Bolivia
+          </a>
+          <p class="item-summary">Protests in Bolivia are demanding the resignation of Rodrigo Paz, the country’s first right-wing president in decades. Since Paz took office in November 2025, the country has been placed under austerity measures that have led to a surge in poverty rates for much of Bolivia’s rura…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Democracy Now!</span>
+            <span class="bias-badge" style="background:#e74c3c22;color:#e74c3c;border:1px solid #e74c3c44">progressive</span>
+          </div>
+          <a href="http://www.democracynow.org/2026/5/29/nadia_milleron_boeing_737_max_aviation" target="_blank" rel="noopener noreferrer" class="item-title">
+            Meet Nadia Milleron: Jury Awards Family $50M for Daughter&#x27;s Death in Boeing Crash
+          </a>
+          <p class="item-summary">A jury in Chicago has ordered Boeing to pay nearly $50 million to the family of Samya Stumo, a 24-year-old who was one of a total of 346 people killed in a pair of Boeing 737 MAX jet crashes less than a decade ago. Stumo died aboard Ethiopian Airlines Flight 302 in March 2019, ju…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Democracy Now!</span>
+            <span class="bias-badge" style="background:#e74c3c22;color:#e74c3c;border:1px solid #e74c3c44">progressive</span>
+          </div>
+          <a href="http://www.democracynow.org/2026/5/29/li_adorno_movimiento_cosecha_delaney_hall" target="_blank" rel="noopener noreferrer" class="item-title">
+            &quot;Subversion of Law and Order&quot;: ICE Violence Escalates at Newark&#x27;s GEO-Run Jail, Delaney Hall
+          </a>
+          <p class="item-summary">We get an update on protests at Newark, New Jersey’s Delaney Hall, an ICE facility owned and operated by the private prison company GEO Group, where hundreds of immigrant detainees have been on a hunger and labor strike for the past week demanding their immediate release. New Jer…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Truthout</span>
+            <span class="bias-badge" style="background:#e74c3c22;color:#e74c3c;border:1px solid #e74c3c44">progressive</span>
+          </div>
+          <a href="https://truthout.org/articles/us-boat-bombing-campaign-surpasses-200-deaths-after-latest-strike/" target="_blank" rel="noopener noreferrer" class="item-title">
+            US Boat Bombing Campaign Surpasses 200 Deaths After Latest Strike
+          </a>
+          <p class="item-summary">Human rights advocates say US strikes on suspected drug boats are unlawful killings.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Truthout</span>
+            <span class="bias-badge" style="background:#e74c3c22;color:#e74c3c;border:1px solid #e74c3c44">progressive</span>
+          </div>
+          <a href="https://truthout.org/articles/colombias-presidential-election-could-reshape-relations-with-trump-administration/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Colombia’s Presidential Election Could Reshape Relations With Trump Administration
+          </a>
+          <p class="item-summary">Conservative candidates champion a Trump-aligned “Plan Colombia 2.0” despite deadly US boat strikes.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Truthout</span>
+            <span class="bias-badge" style="background:#e74c3c22;color:#e74c3c;border:1px solid #e74c3c44">progressive</span>
+          </div>
+          <a href="https://truthout.org/articles/as-federal-government-abandons-wetlands-protection-localities-become-frontlines/" target="_blank" rel="noopener noreferrer" class="item-title">
+            As Federal Government Abandons Wetlands Protection, Localities Become Frontlines
+          </a>
+          <p class="item-summary">Wetlands are some of the US&#x27;s most valuable and endangered environments. It&#x27;s now up to local action to preserve them.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Mintpress News</span>
+            <span class="bias-badge" style="background:#c0392b22;color:#c0392b;border:1px solid #c0392b44">anti-imperialist</span>
+          </div>
+          <a href="https://www.mintpressnews.com/revealed-usaid-ned-open-society-quietly-bankroll-cubas-independent-media-in-push-for-regime-change/290942/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Revealed: USAID, NED &amp; Open Society Quietly Bankroll Cuba’s “Independent” Media In Push for Regime Change
+          </a>
+          <p class="item-summary">From CubaNet to ADN Cuba, some of the most widely cited “independent” Cuban media outlets in Western Corporate media are quietly funded by USAID, the National Endowment for Democracy (NED) and Open Society Foundation as part of a decades-long campaign to destabilize Cuba’s societ…</p>
+        </article>
+      </div>
+    </section>
+    <section class="category-block" id="right">
+      <div class="category-header">
+        <span class="category-icon">▶</span>
+        <h2 class="category-title">RIGHT</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Breitbart</span>
+            <span class="bias-badge" style="background:#1a527622;color:#1a5276;border:1px solid #1a527644">nationalist-right</span>
+          </div>
+          <a href="https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-says-xavier-becerra-pushed-migrant-children-into-arms-of-child-sex-traffickers/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Exclusive: Steve Hilton Says Xavier Becerra Pushed Migrant Children into &#x27;Arms of Child Sex Traffickers&#x27;
+          </a>
+          <p class="item-summary">Saturday on &quot;The Alex Marlow Show,&quot; former Fox News commentator and California Republican gubernatorial hopeful Steve Hilton said former Biden Cabinet Secretary Xavier Becerra, one of his opponents, pushed migrant kids &quot;into the arms of child sex traffickers.&quot;
+The post Exclusive:…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Breitbart</span>
+            <span class="bias-badge" style="background:#1a527622;color:#1a5276;border:1px solid #1a527644">nationalist-right</span>
+          </div>
+          <a href="https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-warns-of-disaster-if-he-doesnt-make-top-two-in-california-primary/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Exclusive: Steve Hilton Warns of &#x27;Disaster&#x27; if He Doesn&#x27;t Make Top Two in California Primary
+          </a>
+          <p class="item-summary">Saturday on &quot;The Alex Marlow Show,&quot; former Fox News commentator and California gubernatorial candidate Steve Hilton (R) said it would be a &quot;disaster&quot; if he doesn&#x27;t make the top two in the California jungle primary.
+The post Exclusive: Steve Hilton Warns of ‘Disaster’ if He Doesn’…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Breitbart</span>
+            <span class="bias-badge" style="background:#1a527622;color:#1a5276;border:1px solid #1a527644">nationalist-right</span>
+          </div>
+          <a href="https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-announces-massive-tax-cut-plan-for-california-details-deregulation-agenda/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Exclusive: Steve Hilton Announces Massive Tax Cut Plan for California, Details Deregulation Agenda
+          </a>
+          <p class="item-summary">Saturday on &quot;The Alex Marlow Show,&quot; former Fox News commentator and California Republican gubernatorial candidate Steve Hilton discussed his tax-cutting and deregulation agendas.
+The post Exclusive: Steve Hilton Announces Massive Tax Cut Plan for California, Details Deregulation …</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Zero Hedge</span>
+            <span class="bias-badge" style="background:#6c348322;color:#6c3483;border:1px solid #6c348344">fin-dark</span>
+          </div>
+          <a href="https://www.zerohedge.com/political/shutting-down-federal-bee-labs-threatens-us-food-system" target="_blank" rel="noopener noreferrer" class="item-title">
+            Shutting Down Federal Bee Labs Threatens The US Food System
+          </a>
+          <p class="item-summary">Shutting Down Federal Bee Labs Threatens The US Food System
+
+            Authored by Jennie Durant via TheConversation.com,
+
+America’s bees and beekeepers are losing a valuable ally just when they need its help most.
+
+The U.S. Department of Agriculture plans to soon close the Bel…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Zero Hedge</span>
+            <span class="bias-badge" style="background:#6c348322;color:#6c3483;border:1px solid #6c348344">fin-dark</span>
+          </div>
+          <a href="https://www.zerohedge.com/geopolitical/us-officials-suspect-iran-used-chinese-missile-bring-down-f-15e-warplane-report" target="_blank" rel="noopener noreferrer" class="item-title">
+            US Officials Suspect Iran Used Chinese Missile To Bring Down F-15E Warplane: Report
+          </a>
+          <p class="item-summary">US Officials Suspect Iran Used Chinese Missile To Bring Down F-15E Warplane: Report
+
+            Via The Cradle
+
+US officials believe that a Chinese-made shoulder-fired missile was likely used by Iranian forces to shoot down a US F-15E Strike Eagle over southwestern Iran last mon…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Zero Hedge</span>
+            <span class="bias-badge" style="background:#6c348322;color:#6c3483;border:1px solid #6c348344">fin-dark</span>
+          </div>
+          <a href="https://www.zerohedge.com/political/democrat-establishment-starting-worry-about-spencer-pratt" target="_blank" rel="noopener noreferrer" class="item-title">
+            The Democrat Establishment Is Starting To Worry About Spencer Pratt
+          </a>
+          <p class="item-summary">The Democrat Establishment Is Starting To Worry About Spencer Pratt
+
+            The last person California Democrats expected to keep them up at night is Spencer Pratt. Yet here we are.
+
+
+
+The former reality television personality-turned-independent mayoral candidate has spent t…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The Daily Wire</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">conservative</span>
+          </div>
+          <a href="https://www.dailywire.com/news/target-is-betting-big-on-one-old-school-idea" target="_blank" rel="noopener noreferrer" class="item-title">
+            Target Is Betting Big On One Old-School Idea
+          </a>
+          <p class="item-summary">The next time a Target employee enthusiastically asks whether you need help finding something, don’t be flattered. It might be homework. The retail giant is testing a new employee grading system that could evaluate workers on everything from reliability and teamwork to something …</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The Daily Wire</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">conservative</span>
+          </div>
+          <a href="https://www.dailywire.com/news/the-book-every-american-family-should-own" target="_blank" rel="noopener noreferrer" class="item-title">
+            The Book Every American Family Should Own
+          </a>
+          <p class="item-summary">This article is part of Upstream, The Daily Wire’s new home for culture and lifestyle. Real human insight and human stories — from our featured writers to you. *** “The American Book of Fables” is unlike anything else in print — or at least, that has been published in the last 20…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">The Daily Wire</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">conservative</span>
+          </div>
+          <a href="https://www.dailywire.com/news/i-lost-everything-then-one-unexpected-pregnancy-changed-my-future" target="_blank" rel="noopener noreferrer" class="item-title">
+            I Lost Everything. Then One Unexpected Pregnancy Changed My Future.
+          </a>
+          <p class="item-summary">This article is part of Upstream, The Daily Wire’s new home for culture and lifestyle. Real human insight and human stories — from our featured writers to you. *** I grew up a “child on the margins,” a child of addicts and therefore a child of chaos. I had what I considered to be…</p>
+        </article>
+      </div>
+    </section>
+    <section class="category-block" id="think-tanks">
+      <div class="category-header">
+        <span class="category-icon">⬛</span>
+        <h2 class="category-title">THINK TANKS</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">CSIS</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense-security</span>
+          </div>
+          <a href="https://www.csis.org/events/bio-pharma-industry-and-society" target="_blank" rel="noopener noreferrer" class="item-title">
+            The Bio-Pharma Industry and Society
+          </a>
+          <p class="item-summary">The Bio-Pharma Industry and Society
+
+  
+    Listing Summary
+              Please join the CSIS Global Health Policy Center on March 17, from 10:00am – 11:30am, for an exploration of how private bio-pharmaceutical firms can better support the critically important societal goals of…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">CSIS</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense-security</span>
+          </div>
+          <a href="https://www.csis.org/events/fy2017-defense-budget-and-strategic-outlook" target="_blank" rel="noopener noreferrer" class="item-title">
+            The FY2017 Defense Budget and Strategic Outlook
+          </a>
+          <p class="item-summary">The FY2017 Defense Budget and Strategic Outlook
+
+  
+    Listing Summary
+              Please join the CSIS International Security Program for a half-day Defense360 conference on the recently released FY2017 defense budget request and strategic priorities.
+
+          
+Drupal Admin…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">CSIS</span>
+            <span class="bias-badge" style="background:#2c3e5022;color:#2c3e50;border:1px solid #2c3e5044">defense-security</span>
+          </div>
+          <a href="https://www.csis.org/events/2016-us-japan-security-seminar" target="_blank" rel="noopener noreferrer" class="item-title">
+            2016 U.S.-Japan Security Seminar
+          </a>
+          <p class="item-summary">2016 U.S.-Japan Security Seminar
+
+  
+    Listing Summary
+              Michael J. Green interviews JIIA President Yoshiji Nogami
+
+          
+Drupal Admin
+Fri, 02/26/2016 - 12:54
+
+
+  
+    Featured Image
+              
+  
+  
+        
+  
+    Image
+                
+
+
+
+          
+
+
+  …</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Foreign Policy</span>
+            <span class="bias-badge" style="background:#7f8c8d22;color:#7f8c8d;border:1px solid #7f8c8d44">analytical</span>
+          </div>
+          <a href="https://foreignpolicy.com/2026/06/01/clinton-lincoln-bedroom-political-scandal/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Clinton’s Lincoln Bedroom Scandal Looks Quaint Now
+          </a>
+          <p class="item-summary">What a very 1990s scandal says about corruption during the second Trump administration.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Foreign Policy</span>
+            <span class="bias-badge" style="background:#7f8c8d22;color:#7f8c8d;border:1px solid #7f8c8d44">analytical</span>
+          </div>
+          <a href="https://foreignpolicy.com/2026/05/29/israel-russia-sexual-violence-un-report-guterres/" target="_blank" rel="noopener noreferrer" class="item-title">
+            U.N. Blacklists Israel, Russia for Sexual Violence in Conflict
+          </a>
+          <p class="item-summary">Both countries have refuted the allegations and accused the agency of bias.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Foreign Policy</span>
+            <span class="bias-badge" style="background:#7f8c8d22;color:#7f8c8d;border:1px solid #7f8c8d44">analytical</span>
+          </div>
+          <a href="https://foreignpolicy.com/2026/05/29/iran-economy-war-oil-assets-trump-united-states-israel/" target="_blank" rel="noopener noreferrer" class="item-title">
+            What Iran Stands to Gain From a Truce Deal With the United States
+          </a>
+          <p class="item-summary">U.S. concessions could include the unfreezing of assets and unsanctioning of oil.</p>
+        </article>
+      </div>
+    </section>
+    <section class="category-block" id="ai-and-tech">
+      <div class="category-header">
+        <span class="category-icon">◉</span>
+        <h2 class="category-title">AI & TECH</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">MIT Technology Review</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">tech-analytical</span>
+          </div>
+          <a href="https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/" target="_blank" rel="noopener noreferrer" class="item-title">
+            The Download: unlocking lithium and controlling Ebola
+          </a>
+          <p class="item-summary">This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How a new extraction process could unlock the world’s lithium A new method for extracting lithium could cut costs and emissions from one of th…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">MIT Technology Review</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">tech-analytical</span>
+          </div>
+          <a href="https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/" target="_blank" rel="noopener noreferrer" class="item-title">
+            The deadly Ebola outbreak is proving difficult to control
+          </a>
+          <p class="item-summary">The alert was raised on May 5. Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days. Rapid response teams were sent to investigate, and tests at a research center in Kinshasa revealed the culprit:…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">MIT Technology Review</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">tech-analytical</span>
+          </div>
+          <a href="https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/" target="_blank" rel="noopener noreferrer" class="item-title">
+            How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment
+          </a>
+          <p class="item-summary">Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and s…</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Wired</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">tech-left</span>
+          </div>
+          <a href="https://www.wired.com/story/everyone-has-their-targets-set-on-the-macbook-neo/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Everyone Has Their Targets Set on the MacBook Neo
+          </a>
+          <p class="item-summary">Dell, Microsoft, and others are unveiling new laptops to compete directly with the Neo, but not all are learning the right lessons from Apple.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Wired</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">tech-left</span>
+          </div>
+          <a href="https://www.wired.com/review/m-audio-m-track-duo-hd-audio-interface-bundle/" target="_blank" rel="noopener noreferrer" class="item-title">
+            M-Audio M Track Duo HD Producer Pack Review: Hot Takes, Cold Opens
+          </a>
+          <p class="item-summary">The M-Track Duo HD Producer Pack removes the last remaining excuse for terrible audio and potentially terrible opinions.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Wired</span>
+            <span class="bias-badge" style="background:#2980b922;color:#2980b9;border:1px solid #2980b944">tech-left</span>
+          </div>
+          <a href="https://www.wired.com/story/mesh-system-vs-wi-fi-router/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Wi-Fi Router vs. Mesh System: Which Is Best for You?
+          </a>
+          <p class="item-summary">Find out whether a single Wi-Fi router or a mesh system makes the most sense for your home network.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Ars Technica</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">tech</span>
+          </div>
+          <a href="https://arstechnica.com/culture/2026/05/on-its-40th-anniversary-we-reassess-1986s-spacecamp/" target="_blank" rel="noopener noreferrer" class="item-title">
+            On its 40th anniversary, we reassess 1986&#x27;s SpaceCamp
+          </a>
+          <p class="item-summary">Is it a hidden gem, a cult classic, or hopelessly dumb? We vote &quot;all of the above.&quot;</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Ars Technica</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">tech</span>
+          </div>
+          <a href="https://arstechnica.com/science/2026/05/they-call-it-stupid-hot-for-a-reason-heat-muddles-animal-brains/" target="_blank" rel="noopener noreferrer" class="item-title">
+            They call it stupid hot for a reason: Heat muddles animal brains
+          </a>
+          <p class="item-summary">As temperatures rise, some creatures pick fights while others struggle to learn.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Ars Technica</span>
+            <span class="bias-badge" style="background:#3498db22;color:#3498db;border:1px solid #3498db44">tech</span>
+          </div>
+          <a href="https://arstechnica.com/science/2026/05/grifters-cynics-and-true-believers-the-family-tree-of-vaccine-opponents/" target="_blank" rel="noopener noreferrer" class="item-title">
+            Grifters, cynics, and true believers: The family tree of vaccine opponents
+          </a>
+          <p class="item-summary">A new book looks into the long history of people who have opposed vaccines.</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">404 Media</span>
+            <span class="bias-badge" style="background:#e8a83822;color:#e8a838;border:1px solid #e8a83844">investigative-tech</span>
+          </div>
+          <a href="https://www.404media.co/highly-plausible-aliens-on-europa-are-earthlings-descendants-study-says/" target="_blank" rel="noopener noreferrer" class="item-title">
+            ‘Highly Plausible’ Aliens on Europa Are Earthlings’ Descendants, Study Says
+          </a>
+          <p class="item-summary">A new study suggests that bacteria dispersed through space on dust grains could potentially arrive intact and alive on Jupiter’s moon Europa.</p>
+        </article>
+      </div>
+    </section>
+    <section class="category-block" id="science">
+      <div class="category-header">
+        <span class="category-icon">⬟</span>
+        <h2 class="category-title">SCIENCE</h2>
+        <div class="category-line"></div>
+      </div>
+      <div class="items-grid">
+        
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">New Scientist</span>
+            <span class="bias-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044">science</span>
+          </div>
+          <a href="https://www.newscientist.com/article/2526959-how-a-radical-new-view-of-life-could-reveal-its-origin-and-aliens/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home" target="_blank" rel="noopener noreferrer" class="item-title">
+            How a radical new view of life could reveal its origin – and aliens
+          </a>
+          <p class="item-summary">We&#x27;ve been looking at nature the wrong way, argues Rowan Hooper. If we stop focusing on the individual, we get a whole new picture of how life on Earth – and elsewhere – may have begun</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">New Scientist</span>
+            <span class="bias-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044">science</span>
+          </div>
+          <a href="https://www.newscientist.com/article/2527224-embryos-made-without-sperm-or-eggs-reveal-why-many-pregnancies-fail/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home" target="_blank" rel="noopener noreferrer" class="item-title">
+            Embryos made without sperm or eggs reveal why many pregnancies fail
+          </a>
+          <p class="item-summary">Embryo organoids made from stem cells are enabling scientists to recreate early pregnancy in the lab, unlocking treatments for infertility, miscarriage and pre-eclampsia</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">New Scientist</span>
+            <span class="bias-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044">science</span>
+          </div>
+          <a href="https://www.newscientist.com/article/2528164-the-best-new-science-fiction-books-of-june-2026/?utm_campaign=RSS%7CNSNS&amp;utm_source=NSNS&amp;utm_medium=RSS&amp;utm_content=home" target="_blank" rel="noopener noreferrer" class="item-title">
+            The best new science-fiction books of June 2026
+          </a>
+          <p class="item-summary">There is plenty of intriguing sci-fi on offer this month, whether it’s solar-powered cities from Adrian Tchaikovsky or a strange future from M. John Harrison</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Science Magazine</span>
+            <span class="bias-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044">peer-reviewed</span>
+          </div>
+          <a href="https://www.science.org/content/article/could-be-game-changer-antiviral-pill-gets-first-test-ebola-prevention" target="_blank" rel="noopener noreferrer" class="item-title">
+            ‘That could be a game changer’: an antiviral pill gets first test for Ebola prevention
+          </a>
+          <p class="item-summary">Researchers are preparing to launch an unprecedented trial to protect people exposed to Ebola in the DRC and Uganda</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Science Magazine</span>
+            <span class="bias-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044">peer-reviewed</span>
+          </div>
+          <a href="https://www.science.org/content/article/white-house-seeks-tighten-political-oversight-grantmaking" target="_blank" rel="noopener noreferrer" class="item-title">
+            White House seeks to tighten political oversight of grantmaking
+          </a>
+          <p class="item-summary">Sweeping proposed rule, now open for comments, would also restrict foreign collaborations and remove federal funding for open-access fees</p>
+        </article>
+        <article class="feed-item">
+          <div class="item-meta">
+            <span class="source-name">Science Magazine</span>
+            <span class="bias-badge" style="background:#27ae6022;color:#27ae60;border:1px solid #27ae6044">peer-reviewed</span>
+          </div>
+          <a href="https://www.science.org/content/article/brazil-s-rolling-stone-reefs-teem-hidden-diversity-dna-reveals" target="_blank" rel="noopener noreferrer" class="item-title">
+            Brazil’s ‘rolling stone reefs’ teem with hidden diversity, DNA reveals
+          </a>
+          <p class="item-summary">Vast offshore habitats face threats including mining, trawling, and drilling for oil</p>
+        </article>
+      </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+  THE DAILY HITCH — Monday, June 01, 2026 — GENERATED 05:02 UTC —
+  <a href="feed.json">JSON FEED</a> —
+  NO TRACKING. NO ADS. NO MASTERS.
+</footer>
+
+</body>
+</html>
