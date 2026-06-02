@@ -1,7 +1,7 @@
 {
   "version": "The Daily Hitch 1.0",
-  "generated": "Monday, June 01, 2026",
-  "hitchens_question": "Why is it that the same Western governments who express such theatrical concern over Russian drone fragments hitting a Romanian apartment block maintain such studied silence about their own precision-guided munitions routinely demolishing entire neighborhoods in places like Southern Lebanon and Mali? Are we to believe that sovereignty and civilian lives matter more when they can be instrumentalized against Moscow than when they might inconvenience our own geopolitical projects? The moral arithmetic here is either grotesquely cynical or breathtakingly stupid—and I'm not sure which possibility is more damning.",
+  "generated": "Tuesday, June 02, 2026",
+  "hitchens_question": "When did we become so comfortable with the fact that the most significant technological advances in human civilization—artificial intelligence, robotics, satellite imagery, autonomous systems—are being perfected not in laboratories dedicated to curing disease or exploring space, but in the service of making it easier to kill people we've never met in countries we can't locate on a map? The same drones that we celebrate for \"turning the tide\" in Ukraine today will be sold to the highest bidder tomorrow, and yet we discuss this arms race with the breezy detachment of sports commentators, as if the proliferation of autonomous killing machines were merely another market opportunity rather than the wholesale privatization of death itself.",
   "categories": {
     "WIRE": [],
     "WAR & GEOPOLITICS": [
@@ -49,30 +49,30 @@
       },
       {
         "source": "Defense One",
-        "title": "Q&A with SOUTHCOM commander Gen. Frank Donovan",
-        "link": "https://www.defenseone.com/technology/2026/05/q-gen-frank-donovan/413870/",
-        "summary": "\"I don't really care about platforms. I care about autonomous warfare,\" says the former leader of the Defense Autonomous Warfare Group.",
+        "title": "Desert e-bike race ‘the perfect’ place to test military-vehicle AI",
+        "link": "https://www.defenseone.com/technology/2026/06/desert-e-bike-race-perfect-place-test-military-vehicle-ai/413903/",
+        "summary": "GDIT, AWS to outfit Baja 1000 race team with predictive-logistics gear.",
         "bias": "defense"
       },
       {
         "source": "Defense One",
-        "title": "Cyber Force? Senator pushes to create service branch under the Army",
-        "link": "https://www.defenseone.com/policy/2026/05/cyber-force-service-branch-proposal/413863/",
-        "summary": "Ideas for a cyber service have been floated before. Some experts argue now is the right time.",
+        "title": "Thanks largely to robots, Ukraine is now talking about winning, not just surviving",
+        "link": "https://www.defenseone.com/technology/2026/06/ukraine-robots-winning/413902/",
+        "summary": "Uncrewed and autonomous systems—and the willingness to adapt to them—have neutered Russian advantages.",
         "bias": "defense"
       },
       {
         "source": "Defense One",
-        "title": "Software patches from Army hackathon going straight to troops in CENTCOM",
-        "link": "https://www.defenseone.com/defense-systems/2026/05/army-hackathon-software-patches/413857/",
-        "summary": "Project Jailbreak is helping to get contractors open up their systems to each other.",
+        "title": "Ready, fire, aim: Pentagon cut workforce with little analysis before or since, GAO finds",
+        "link": "https://www.defenseone.com/policy/2026/06/ready-fire-aim-pentagon-cut-workforce-little-analysis-or-gao-finds/413892/",
+        "summary": "Defense officials concurred that lessons should be drawn—but gave no indication they will be.",
         "bias": "defense"
       },
       {
         "source": "War on the Rocks",
-        "title": "Fences Not F-35s: Drone Attacks and the Illogic of Gulf Procurement",
-        "link": "https://warontherocks.com/fences-not-f-35s-drone-attacks-and-the-illogic-of-gulf-procurement/",
-        "summary": "One of the most effective counter-drone systems in the largest drone war in history between Ukraine and Russia is a German anti-aircraft gun designed during the Cold War. The Gepard — a self-propelled 35 mm cannon that first entered service in 1976 — has earned recognition from U…",
+        "title": "Between Beijing and the Budget: The Domestic Realities of Taiwan’s Defense Spending Drama",
+        "link": "https://warontherocks.com/between-beijing-and-the-budget-the-domestic-realities-of-taiwans-defense-spending-drama/",
+        "summary": "On May 8, Taiwan’s Legislative Yuan broke a grueling six-month stalemate by passing a landmark $25 billion defense budget, catching many observers off guard. The vote brought sudden end to an agonizing legislative deadlock that had pushed U.S.-Taiwanese relations to the edge. For…",
         "bias": "analytical"
       }
     ],
@@ -100,48 +100,55 @@
       },
       {
         "source": "The War Zone",
-        "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-        "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-193",
-        "summary": "That was our last can of Pringles...\nThe post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on The War Zone.",
+        "title": "Russian Trucks Get ‘Dazzle’ Paint To Throw Off AI-Enabled Drones",
+        "link": "https://www.twz.com/news-features/russian-trucks-get-dazzle-paint-to-throw-off-ai-enabled-drones",
+        "summary": "The disruptive paint appears designed to confuse machine-vision targeting systems as autonomous drones become a growing threat.\nThe post Russian Trucks Get ‘Dazzle’ Paint To Throw Off AI-Enabled Drones appeared first on The War Zone.",
         "bias": "defense"
       },
       {
         "source": "The War Zone",
-        "title": "Trump Declares He Is Lifting The Naval Blockade On Iran (Updated)",
-        "link": "https://www.twz.com/news-features/trump-declares-he-is-lifting-the-naval-blockade-on-iran",
-        "summary": "Why the blockade would be lifted without a deal being signed isn't clear and Iranian media is pushing back against his claims. \nThe post Trump Declares He Is Lifting The Naval Blockade On Iran (Updated) appeared first on The War Zone.",
+        "title": "Is The U.S. Flying MQ-1 Predator Drones Again?",
+        "link": "https://www.twz.com/air/is-the-u-s-flying-mq-1-predator-drones-again",
+        "summary": "Questions surrounding the loss of an \"MQ-1\" to Iran highlight the possibilities and pitfalls of sending the Predator back into the fray.\nThe post Is The U.S. Flying MQ-1 Predator Drones Again? appeared first on The War Zone.",
         "bias": "defense"
       },
       {
         "source": "The War Zone",
-        "title": "Pentagon’s Plans To Track Aircraft From Orbit Accelerated With New $4B SpaceX Deal",
-        "link": "https://www.twz.com/space/pentagons-plans-to-track-aircraft-from-orbit-accelerated-with-new-4b-spacex-deal",
-        "summary": "A satellite network to track aircraft could offer unprecedented ability to surveil the skies globally and make AEW&C aircraft redundant.\nThe post Pentagon’s Plans To Track Aircraft From Orbit Accelerated With New $4B SpaceX Deal appeared first on The War Zone.",
+        "title": "U.S.-Iran Ceasefire On The Brink After Tit-For-Tat Attacks (Updated)",
+        "link": "https://www.twz.com/news-features/u-s-iran-ceasefire-on-the-brink-after-tit-for-tat-attacks",
+        "summary": "Adding to the pressure, Iran has renewed threats to also close the Bab Al-Mandeb Strait, now an absolutely critical conduit for oil exports.\nThe post U.S.-Iran Ceasefire On The Brink After Tit-For-Tat Attacks (Updated) appeared first on The War Zone.",
         "bias": "defense"
       },
       {
         "source": "SpaceNews",
-        "title": "China conducts surprise launch of Long March 12B, delivers Qianfan satellites on debut flight",
-        "link": "https://spacenews.com/china-conducts-surprise-launch-of-long-march-12b-delivers-qianfan-satellites-on-debut-flight/",
-        "summary": "China conducted the maiden launch of its reusable Long March 12B rocket Monday, providing no advance warning and delivering operational payloads to orbit.\nThe post China conducts surprise launch of Long March 12B, delivers Qianfan satellites on debut flight appeared first on Spac…",
+        "title": "NASA abandons ‘core module’ concept for commercial space station development",
+        "link": "https://spacenews.com/nasa-abandons-core-module-concept-for-commercial-space-station-development/",
+        "summary": "NASA is withdrawing a proposal to revamp its strategy for transitioning from the International Space Station to commercial stations, one that had been criticized by the companies developing such stations.\nThe post NASA abandons ‘core module’ concept for commercial space station d…",
         "bias": "industry"
       },
       {
         "source": "SpaceNews",
-        "title": "New Glenn failure worsens constrained launch market",
-        "link": "https://spacenews.com/new-glenn-failure-worsens-constrained-launch-market/",
-        "summary": "The explosion of a New Glenn rocket has generated reverberations across the space industry with the rocket out of service for potentially a year or more.\nThe post New Glenn failure worsens constrained launch market appeared first on SpaceNews.",
+        "title": "France to fly two astronauts on Vast missions",
+        "link": "https://spacenews.com/france-to-fly-two-astronauts-on-vast-missions/",
+        "summary": "Commercial space station developer Vast has reached an agreement with the French government to fly two French astronauts on its missions, including the first flight to its Haven-1 space station.\nThe post France to fly two astronauts on Vast missions appeared first on SpaceNews.",
         "bias": "industry"
       },
       {
         "source": "SpaceNews",
-        "title": "China launches test direct-to-device satellites for multiple projects",
-        "link": "https://spacenews.com/china-launches-test-direct-to-device-satellites-for-multiple-projects/",
-        "summary": "China capped a busy month of launches by sending four new satellite internet test satellites into orbit with a workhorse hypergolic rocket.\nThe post China launches test direct-to-device satellites for multiple projects appeared first on SpaceNews.",
+        "title": "Northrop Grumman partners with Apex on space-based interceptors for Golden Dome",
+        "link": "https://spacenews.com/northrop-grumman-partners-with-apex-on-space-based-interceptors-for-golden-dome/",
+        "summary": "The Los Angeles-based startup manufactures standardized satellite buses designed to be produced more quickly and at lower cost than traditional government spacecraft\nThe post Northrop Grumman partners with Apex on space-based interceptors for Golden Dome appeared first on SpaceNe…",
         "bias": "industry"
       }
     ],
     "UNDERGROUND & INVESTIGATIVE": [
+      {
+        "source": "ProPublica",
+        "title": "After the Trump DOJ Halted Police Reform, This City Stepped In. Then Officers Shot and Killed Katelyn Hall.",
+        "link": "https://www.propublica.org/article/louisville-trump-doj-police-reform-consent-decrees",
+        "summary": "The post After the Trump DOJ Halted Police Reform, This City Stepped In. Then Officers Shot and Killed Katelyn Hall. appeared first on ProPublica.",
+        "bias": "investigative"
+      },
       {
         "source": "ProPublica",
         "title": "“No One Is Watching”: How Trump Reversed Biden’s Crackdown on Gun Trafficking",
@@ -157,11 +164,18 @@
         "bias": "investigative"
       },
       {
-        "source": "ProPublica",
-        "title": "Alaska’s Deteriorating Schools Could Receive More Than $148 Million for Repairs. It’s a Fraction of What They Need.",
-        "link": "https://www.propublica.org/article/alaska-public-schools-repairs-funding-bill",
-        "summary": "The post Alaska’s Deteriorating Schools Could Receive More Than $148 Million for Repairs. It’s a Fraction of What They Need. appeared first on ProPublica.",
-        "bias": "investigative"
+        "source": "The Intercept",
+        "title": "Philly Cops Admit That They’re Tracking “First Amendment Activity” Critical of AI",
+        "link": "https://theintercept.com/2026/06/01/ai-data-center-protest-police-surveillance/",
+        "summary": "A law enforcement document obtained by The Intercept shows police scan social media looking for posts opposing AI data centers.\nThe post Philly Cops Admit That They’re Tracking “First Amendment Activity” Critical of AI appeared first on The Intercept.",
+        "bias": "investigative-left"
+      },
+      {
+        "source": "The Intercept",
+        "title": "New York Comptroller’s Trip to Israel Raised Ethical Concerns, State Commission Said",
+        "link": "https://theintercept.com/2026/06/01/dinapoli-new-york-comptroller-israel-trip-primary/",
+        "summary": "Tom DiNapoli’s visit was sponsored by a group with financial ties to Israel Bonds, an investment vehicle that has become an issue in his primary.\nThe post New York Comptroller’s Trip to Israel Raised Ethical Concerns, State Commission Said appeared first on The Intercept.",
+        "bias": "investigative-left"
       },
       {
         "source": "The Intercept",
@@ -171,18 +185,11 @@
         "bias": "investigative-left"
       },
       {
-        "source": "The Intercept",
-        "title": "Richard Glossip on Life After Decades on Death Row",
-        "link": "https://theintercept.com/2026/05/30/richard-glossip-release-bond-death-row/",
-        "summary": "In an exclusive interview at home in Oklahoma City, Glossip describes his first days of freedom in a world he hasn’t experienced for nearly 30 years.\nThe post Richard Glossip on Life After Decades on Death Row appeared first on The Intercept.",
-        "bias": "investigative-left"
-      },
-      {
-        "source": "The Intercept",
-        "title": "The Los Angeles Left Is at War With Itself Over the Mayor’s Race",
-        "link": "https://theintercept.com/2026/05/29/la-mayor-rae-huang-nithya-raman-spencer-pratt/",
-        "summary": "Rae Huang supporters say Nithya Raman is compromised. Raman’s base calls Huang a spoiler. Looming over it all: reality TV star Spencer Pratt.\nThe post The Los Angeles Left Is at War With Itself Over the Mayor’s Race appeared first on The Intercept.",
-        "bias": "investigative-left"
+        "source": "ICIJ",
+        "title": "Fidelity opened account for Epstein, even as outrage grew",
+        "link": "https://www.icij.org/news/2026/06/fidelity-opened-account-for-epstein-even-as-outrage-grew/",
+        "summary": "Asset manager Fidelity moved millions for company owned by disgraced financier Jeffrey Epstein just weeks before his 2019 arrest, documents reveal.",
+        "bias": "investigative"
       },
       {
         "source": "ICIJ",
@@ -197,16 +204,23 @@
         "link": "https://www.icij.org/investigations/coin-laundry/amid-a-scam-crackdown-crypto-giants-keep-fueling-bitcoin-atms/",
         "summary": "As governments seek to ban the machines, bitcoin ATMs remain entwined with cryptocurrency industry's most mainstream players.",
         "bias": "investigative"
-      },
-      {
-        "source": "ICIJ",
-        "title": "WATCH: Inside the Cancer Calculus investigation — a live Q&A",
-        "link": "https://www.icij.org/investigations/cancer-calculus/watch-inside-the-cancer-calculus-investigation-a-live-qa/",
-        "summary": "Go behind the scenes of the Cancer Calculus investigation, and hear insights about Merck's cancer drug Keytruda from ICIJ's chief reporter and a health economist.",
-        "bias": "investigative"
       }
     ],
     "INDEPENDENTS & SUBSTACK": [
+      {
+        "source": "Matt Taibbi — Racket News",
+        "title": "Live Now! Episode One of “Get Lit With Matt and Brad”",
+        "link": "https://www.racket.news/p/live-now-episode-one-of-get-lit-with",
+        "summary": "A new all-books, all-the-time show premieres",
+        "bias": "independent"
+      },
+      {
+        "source": "Matt Taibbi — Racket News",
+        "title": "Livestream at 4:30 ET Today: Episode One of \"Get Lit With Matt and Brad.\"",
+        "link": "https://www.racket.news/p/livestream-at-430-et-today-episode",
+        "summary": "A new all-books, all-the-time show premieres today.",
+        "bias": "independent"
+      },
       {
         "source": "Matt Taibbi — Racket News",
         "title": "Listen to This Article: Humanity Needs to Get Offline",
@@ -215,103 +229,89 @@
         "bias": "independent"
       },
       {
-        "source": "Matt Taibbi — Racket News",
-        "title": "New Show: \"Get Lit With Matt and Brad,\" Monday, June 1, 4:30 ET",
-        "link": "https://www.racket.news/p/new-show-get-lit-with-matt-and-brad",
-        "summary": "A show re-introducing the stories we've buried, as the clickhole era mercifully crawls to an end",
-        "bias": "independent"
-      },
-      {
-        "source": "Matt Taibbi — Racket News",
-        "title": "Today at 3 PM ET: Appearing on Szeps Live in New York",
-        "link": "https://www.racket.news/p/today-at-3-pm-et-appearing-on-szeps",
-        "summary": "Headed to the city today for an interview with Josh Szeps, which you can find in multiple places.",
+        "source": "Bari Weiss — The Free Press",
+        "title": "A Jewish History Heist at the British Museum. Plus. . .",
+        "link": "https://www.thefp.com/p/a-jewish-history-heist-british-musuem",
+        "summary": "Don’t ban Hasan Piker. Joseph Epstein on Sandy Koufax. ‘Low T’ Talarico and the nasty Texas Senate race. The $640,000 car no one wants. And much more.",
         "bias": "independent"
       },
       {
         "source": "Bari Weiss — The Free Press",
-        "title": "‘Graham Platner Is Lying About My Friend.’ Plus. . .",
-        "link": "https://www.thefp.com/p/graham-platner-is-lying-about-my",
-        "summary": "Graham Platner's scandals. Lessons in excellence at the Scripps National Spelling Bee. Latinos por Pratt. And more in today's Front Page.",
+        "title": "The Iran War and a New World Order in Asia, with Rep. Michael Baumgartner",
+        "link": "https://www.thefp.com/p/the-iran-war-and-a-new-world-order",
+        "summary": "The Strait of Hormuz, China’s rise, and how Asian nations are navigating war across the globe.",
         "bias": "independent"
       },
       {
         "source": "Bari Weiss — The Free Press",
-        "title": "Why You Shouldn’t Be Scared of AI",
-        "link": "https://www.thefp.com/p/why-you-shouldnt-be-scared-of-ai",
-        "summary": "Investor and author Aman Verjee joins Coleman Hughes to explain what 500 years of financial history can tell us about the AI moment we’re actually in.",
-        "bias": "independent"
-      },
-      {
-        "source": "Bari Weiss — The Free Press",
-        "title": "How Do I Know Graham Platner Is Lying About the Iraq War? I Was There.",
-        "link": "https://www.thefp.com/p/how-do-i-know-graham-platner-is-lying",
-        "summary": "The Democratic candidate for Senate in Maine claims that Chris Kyle, author of ‘American Sniper,’ indiscriminately killed civilians in Iraq 20 years ago. It’s a lie, writes Leif Babin.",
+        "title": "Britain, Don’t Ban Hasan Piker and Cenk Uygur",
+        "link": "https://www.thefp.com/p/britain-hasan-piker-cenk-uygur-free-speech",
+        "summary": "The Hamas apologists blamed Israel for the UK’s decision to deny them entry. It’s an absurd complaint—but Britain is making a mistake.",
         "bias": "independent"
       }
     ],
     "LEFT": [
       {
         "source": "Jacobin",
-        "title": "The Trumpian \"War on Fraud\" Is a Trojan Horse for Austerity",
-        "link": "https://jacobin.com/2026/05/state-financial-officers-fraud-austerity",
-        "summary": "The State Financial Officers Foundation claims to be a nonpartisan, neutral body representing the guardians of state finances. In truth, the corporate donor–dependent nonprofit pushes a right-wing austerity agenda under the guise of fighting fraud.",
+        "title": "NYC Socialists Are Trying to Expand Their Electoral Wins",
+        "link": "https://jacobin.com/2026/06/nyc-dsa-candidate-slate",
+        "summary": "Months after electing Zohran Mamdani as mayor, New York democratic socialists have an ambitious slate of candidates for this month’s Democratic primaries: one for the state legislature in Buffalo, seven in the city, and two for Congress.",
         "bias": "hard-left"
       },
       {
         "source": "Jacobin",
-        "title": "A New Single-Payer Effort Is Underway in Georgia",
-        "link": "https://jacobin.com/2026/05/georgia-health-care-single-payer-legislation",
-        "summary": "With Bernie Sanders no longer leading the charge, Medicare for All has slipped from the spotlight. But a new state-level single-payer bill in Georgia — where Republicans refused to expand Medicaid and 1.2 million people are uninsured — shows signs of life.",
+        "title": "In Turkey, Criticizing a Corporation Can Land You in Jail",
+        "link": "https://jacobin.com/2026/06/turkey-workers-unions-speech-censorship",
+        "summary": "Turkish labor leader Mehmet Türkmen was jailed for spreading “disinformation” after he criticized a business where a worker lost both arms in an accident. It’s part of a wider crackdown designed to suppress trade unions that speak up for workers.",
         "bias": "hard-left"
       },
       {
         "source": "Jacobin",
-        "title": "Russia’s War Machine Is Creaking",
-        "link": "https://jacobin.com/2026/05/russia-ukraine-war-economy-dissent",
-        "summary": "Russia’s war economy has this year suffered some of its worst setbacks since the invasion of Ukraine. An under-strain Russian society isn’t revolting yet. But Russians’ doubts about the war are growing.",
+        "title": "American Communists Did a Lot Right and a Lot Wrong",
+        "link": "https://jacobin.com/2026/06/communist-party-usa-democracy-lessons",
+        "summary": "Members of the Communist Party USA in its heyday were much more complicated than the stereotypes of them, shaped so strongly by rabid anti-communism, in our country’s imagination. Today’s socialists should closely examine their track record.",
         "bias": "hard-left"
       },
       {
         "source": "Democracy Now!",
-        "title": "\"It's About People Feeding Their Families\": Indigenous-Led Anti-Austerity Protests Rock Bolivia",
-        "link": "http://www.democracynow.org/2026/5/29/kathryn_ledebur_bolivia_andean_information_network",
-        "summary": "Protests in Bolivia are demanding the resignation of Rodrigo Paz, the country’s first right-wing president in decades. Since Paz took office in November 2025, the country has been placed under austerity measures that have led to a surge in poverty rates for much of Bolivia’s rura…",
+        "title": "Meet Bajun Mavalwalla, Veteran Convicted for ICE Protest in Unprecedented Use of Conspiracy Charges",
+        "link": "http://www.democracynow.org/2026/6/1/spokane_three",
+        "summary": "A federal jury last week convicted three people on felony conspiracy charges over their involvement in an anti-ICE protest in Spokane, Washington, last June. The “Spokane Three” are awaiting sentencing and face up to six years in prison for conspiracy to impede or injure ICE offi…",
         "bias": "progressive"
       },
       {
         "source": "Democracy Now!",
-        "title": "Meet Nadia Milleron: Jury Awards Family $50M for Daughter's Death in Boeing Crash",
-        "link": "http://www.democracynow.org/2026/5/29/nadia_milleron_boeing_737_max_aviation",
-        "summary": "A jury in Chicago has ordered Boeing to pay nearly $50 million to the family of Samya Stumo, a 24-year-old who was one of a total of 346 people killed in a pair of Boeing 737 MAX jet crashes less than a decade ago. Stumo died aboard Ethiopian Airlines Flight 302 in March 2019, ju…",
+        "title": "\"Revolving Door\": Former GEO Group VP David Venturella Is New Interim ICE Chief",
+        "link": "http://www.democracynow.org/2026/6/1/todd_lyons_resigns",
+        "summary": "President Donald Trump has tapped David Venturella, a former ICE official and executive at the private prison company GEO Group, to replace Todd Lyons as head of Immigration and Customs Enforcement. GEO Group saw its profits jump from $32 million in 2024 to more than $254 million…",
         "bias": "progressive"
       },
       {
         "source": "Democracy Now!",
-        "title": "\"Subversion of Law and Order\": ICE Violence Escalates at Newark's GEO-Run Jail, Delaney Hall",
-        "link": "http://www.democracynow.org/2026/5/29/li_adorno_movimiento_cosecha_delaney_hall",
-        "summary": "We get an update on protests at Newark, New Jersey’s Delaney Hall, an ICE facility owned and operated by the private prison company GEO Group, where hundreds of immigrant detainees have been on a hunger and labor strike for the past week demanding their immediate release. New Jer…",
+        "title": "\"We Closed Our Account\": Advocates Call for Boycott of Citizens Bank for Financing ICE Jails",
+        "link": "http://www.democracynow.org/2026/6/1/citizens_bank_ice",
+        "summary": "We look at a growing boycott against Citizens Bank amid a campaign to pressure the corporation to divest from financing CoreCivic and GEO Group, two of the nation’s largest private operators of ICE jails. An interfaith coalition of dozens of religious groups in Boston said Citize…",
         "bias": "progressive"
       },
       {
         "source": "Truthout",
-        "title": "US Boat Bombing Campaign Surpasses 200 Deaths After Latest Strike",
-        "link": "https://truthout.org/articles/us-boat-bombing-campaign-surpasses-200-deaths-after-latest-strike/",
-        "summary": "Human rights advocates say US strikes on suspected drug boats are unlawful killings.",
+        "title": "New Jersey Governor Acquiesces to DHS, Deploys Police Outside Delaney Hall",
+        "link": "https://truthout.org/articles/new-jersey-governor-acquiesces-to-dhs-deploys-police-outside-delaney-hall/",
+        "summary": "“There has been collaboration in the tactics [ICE and the police] used to attack the protesters,” said an activist.",
         "bias": "progressive"
       },
       {
         "source": "Truthout",
-        "title": "Colombia’s Presidential Election Could Reshape Relations With Trump Administration",
-        "link": "https://truthout.org/articles/colombias-presidential-election-could-reshape-relations-with-trump-administration/",
-        "summary": "Conservative candidates champion a Trump-aligned “Plan Colombia 2.0” despite deadly US boat strikes.",
+        "title": "Utah Senate President Calls for Major Reduction in Scale of Planned Data Center",
+        "link": "https://truthout.org/articles/utah-senate-president-calls-for-major-reduction-in-scale-of-planned-data-center/",
+        "summary": "The project, backed by celebrity investor Kevin O'Leary, has spurred major controversy amid Utah's water challenges.",
         "bias": "progressive"
       },
       {
         "source": "Truthout",
-        "title": "As Federal Government Abandons Wetlands Protection, Localities Become Frontlines",
-        "link": "https://truthout.org/articles/as-federal-government-abandons-wetlands-protection-localities-become-frontlines/",
-        "summary": "Wetlands are some of the US's most valuable and endangered environments. It's now up to local action to preserve them.",
+        "title": "Iranian Media Says Iran Is Suspending Talks With US Over Ceasefire Violations",
+        "link": "https://truthout.org/articles/iranian-media-says-iran-is-suspending-talks-with-us-over-ceasefire-violations/",
+        "summary": "“We now live in a world where ceasefire means that Israel can continue bombing,” said a Lebanese professor.",
         "bias": "progressive"
       },
       {
@@ -325,65 +325,65 @@
     "RIGHT": [
       {
         "source": "Breitbart",
-        "title": "Exclusive: Steve Hilton Says Xavier Becerra Pushed Migrant Children into 'Arms of Child Sex Traffickers'",
-        "link": "https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-says-xavier-becerra-pushed-migrant-children-into-arms-of-child-sex-traffickers/",
-        "summary": "Saturday on \"The Alex Marlow Show,\" former Fox News commentator and California Republican gubernatorial hopeful Steve Hilton said former Biden Cabinet Secretary Xavier Becerra, one of his opponents, pushed migrant kids \"into the arms of child sex traffickers.\"\nThe post Exclusive:…",
+        "title": "Farage: 'White Lives Matter Too': Outrage Builds as Police Dump Henry Nowak Handcuff Footage in Middle of Night",
+        "link": "https://www.breitbart.com/europe/2026/06/01/white-lives-matter-too-outrage-builds-as-police-dump-henry-nowak-handcuff-footage-in-middle-of-night/",
+        "summary": "British Police have now published a fragment of body camera footage showing the final moments of Henry Nowak's life as he was handcuffed by an officer after being stabbed.\nThe post Farage: ‘White Lives Matter Too’: Outrage Builds as Police Dump Henry Nowak Handcuff Footage in Mid…",
         "bias": "nationalist-right"
       },
       {
         "source": "Breitbart",
-        "title": "Exclusive: Steve Hilton Warns of 'Disaster' if He Doesn't Make Top Two in California Primary",
-        "link": "https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-warns-of-disaster-if-he-doesnt-make-top-two-in-california-primary/",
-        "summary": "Saturday on \"The Alex Marlow Show,\" former Fox News commentator and California gubernatorial candidate Steve Hilton (R) said it would be a \"disaster\" if he doesn't make the top two in the California jungle primary.\nThe post Exclusive: Steve Hilton Warns of ‘Disaster’ if He Doesn’…",
+        "title": "Trump Administration Blocked from Removing over 20 Transgender Troops",
+        "link": "https://www.breitbart.com/politics/2026/06/01/trump-admin-blocked-removing-28-transgender-troops/",
+        "summary": "The Trump administration was blocked by a federal appeals court from banning almost 30 transgender-identifying individuals from being able to serve in the United States military.\nThe post Trump Administration Blocked from Removing over 20 Transgender Troops appeared first on Brei…",
         "bias": "nationalist-right"
       },
       {
         "source": "Breitbart",
-        "title": "Exclusive: Steve Hilton Announces Massive Tax Cut Plan for California, Details Deregulation Agenda",
-        "link": "https://www.breitbart.com/clips/2026/05/31/exclusive-steve-hilton-announces-massive-tax-cut-plan-for-california-details-deregulation-agenda/",
-        "summary": "Saturday on \"The Alex Marlow Show,\" former Fox News commentator and California Republican gubernatorial candidate Steve Hilton discussed his tax-cutting and deregulation agendas.\nThe post Exclusive: Steve Hilton Announces Massive Tax Cut Plan for California, Details Deregulation …",
+        "title": "Trump Says Iran Deal Could Be Reached ‘over Next Week’ After Fixing Israel-Hezbollah ‘Glitch’",
+        "link": "https://www.breitbart.com/politics/2026/06/01/trump-iran-deal-reached-next-week-fixing-israel-hezbollah-glitch/",
+        "summary": "President Donald Trump said Monday he believes the United States could reach an agreement with Iran “over the next week” after personally intervening to halt a rapidly escalating confrontation between Israel and the Iranian-backed Hezbollah terror group in Lebanon that Tehran war…",
         "bias": "nationalist-right"
       },
       {
         "source": "Zero Hedge",
-        "title": "German School Forces Teens To Design 'Inclusive Brothel'",
-        "link": "https://www.zerohedge.com/political/german-school-forces-teens-design-inclusive-brothel",
-        "summary": "German School Forces Teens To Design 'Inclusive Brothel'\n\n            Authored by Steve Watson via Modernity.news,\n\nParents across Germany are in uproar after a Catholic high school handed 13- to 15-year-olds the grotesque task of modernizing a brothel to make it “sexually inclus…",
+        "title": "Tesla Posts Strong Registration Growth Across Europe In May",
+        "link": "https://www.zerohedge.com/markets/tesla-posts-strong-registration-growth-across-europe-may",
+        "summary": "Tesla Posts Strong Registration Growth Across Europe In May\n\n            Tesla showed signs of regaining momentum in Europe during May, posting strong registration growth across several major markets, according to Reuters. New registrations climbed to 1,750 vehicles in Denmark (+…",
         "bias": "fin-dark"
       },
       {
         "source": "Zero Hedge",
-        "title": "How The FIFA World Cup Affects Short-Term Rental Markets",
-        "link": "https://www.zerohedge.com/personal-finance/how-fifa-world-cup-affects-short-term-rental-markets",
-        "summary": "How The FIFA World Cup Affects Short-Term Rental Markets\n\n            For international football fans traveling to North America to attend the FIFA World Cup this summer, the costs of doing so quickly add up.\n\nAs Statista's Felix Richter details below, between flights, accommodat…",
+        "title": "Britain's White 'George Floyd' Moment?",
+        "link": "https://www.zerohedge.com/political/britains-white-george-floyd-moment",
+        "summary": "Britain's White 'George Floyd' Moment?\n\n            Update: Vickrum Singh Digwa, 23, received a life sentence with a 21-year minimum on Monday for the murder of 18-year-old Henry Nowak.\n\nJudge William Mousley describes Nowak as a “much-loved, kind, hard-working and ambitious youn…",
         "bias": "fin-dark"
       },
       {
         "source": "Zero Hedge",
-        "title": "65,000 Small German Retail Stores Have Disappeared As Economic Downturn Hits Europe's 'Powerhouse'",
-        "link": "https://www.zerohedge.com/political/65000-small-german-retail-stores-have-disappeared-economic-downturn-hits-europes",
-        "summary": "65,000 Small German Retail Stores Have Disappeared As Economic Downturn Hits Europe's 'Powerhouse'\n\n            Via Remix News,\n\nThe number of small retail stores in Germany has declined drastically since 2010. According to a recent analysis by the credit agency Creditreform and …",
+        "title": "The Cost Of The Grain That Feeds Half The World Just Posted Biggest Monthly Surge Since 2008",
+        "link": "https://www.zerohedge.com/commodities/grain-feeds-half-world-just-posted-biggest-monthly-surge-2008",
+        "summary": "The Cost Of The Grain That Feeds Half The World Just Posted Biggest Monthly Surge Since 2008 \n\n            Asian rice prices logged their biggest monthly gain in nearly two decades in May, as a Gulf energy shock collides with an expected El Niño event later this year. The spike a…",
         "bias": "fin-dark"
       },
       {
         "source": "The Daily Wire",
-        "title": "James Talarico’s Church Funds Abortions, Trans Summer Camps",
-        "link": "https://www.dailywire.com/news/james-talaricos-church-funds-abortions-trans-summer-camps",
-        "summary": "For many self-described religious Democrats, squaring their support for abortion and radical gender ideology with their faith is a challenge. But at Texas Democrat James Talarico’s church, supporting abortions is part of the congregation’s “goals for the world.” At the Texas chur…",
+        "title": "What Michael Jackson’s Revival Says About America",
+        "link": "https://www.dailywire.com/news/what-michael-jacksons-revival-says-about-america",
+        "summary": "This article is part of Upstream, The Daily Wire’s new home for culture and lifestyle. Real human insight and human stories — from our featured writers to you. *** The early-years Michael Jackson biopic “Michael” continues to fill seats in month two of its theatrical run, and it …",
         "bias": "conservative"
       },
       {
         "source": "The Daily Wire",
-        "title": "Iran Made A New Risky Bet. The U.S. Answered Back.",
-        "link": "https://www.dailywire.com/news/live-updates-iranian-protests-intensify-as-citizens-demand-end-to-ayatollah-rule",
-        "summary": "﻿",
+        "title": "Refugees From Bhutan Billed Medicaid Millions. Now They Drink Champagne In Private Jets.",
+        "link": "https://www.dailywire.com/news/refugees-from-bhutan-billed-medicaid-millions-now-they-drink-champagne-in-private-jets",
+        "summary": "In Ohio alone, people with the last name Adhikari, a Bhutanese name, have been paid more than $350 million by the government for operating home health and adult daycare businesses, amounting to 10% of the GDP of the south Asian nation.",
         "bias": "conservative"
       },
       {
         "source": "The Daily Wire",
-        "title": "These 11 MAHA-Approved Products Are Winning The War On Toxic Ingredients",
-        "link": "https://www.dailywire.com/news/these-11-maha-approved-products-are-winning-the-war-on-toxic-ingredients",
-        "summary": "This article is part of Upstream, The Daily Wire’s new home for culture and lifestyle. Real human insight and human stories — from our featured writers to you. *** The MAHA wave has swept the nation — and our wallets.  In the grocery store and beyond, we’re all ponying up the ext…",
+        "title": "FBI Makes Largest Crypto Seizure Ever In Global ‘Scam Compound’ Crackdown",
+        "link": "https://www.dailywire.com/news/fbi-makes-largest-crypto-seizure-ever-in-global-scam-compound-crackdown",
+        "summary": "The FBI recently took out a massive internet scam network, arresting over 300 people, freeing over 2,000 people from human trafficking, and seizing over $8 billion in cryptocurrency.  The FBI said last week that it primarily focused on taking down what it calls “scam compounds” i…",
         "bias": "conservative"
       }
     ],
@@ -411,160 +411,160 @@
       },
       {
         "source": "Foreign Policy",
-        "title": "The Energy Crisis Will Long Outlast the Iran War",
-        "link": "https://foreignpolicy.com/2026/06/01/iran-war-hormuz-energy-crisis-how-long-last/",
-        "summary": "The baked-in damage to oil and gas production will take months to undo.",
+        "title": "There Are Only Four Great Powers",
+        "link": "https://foreignpolicy.com/2026/06/02/great-powers-four-united-states-china-russia-great-britain-france-germany/",
+        "summary": "An era of great-power competition has started—but not all would-be competitors qualify.",
         "bias": "analytical"
       },
       {
         "source": "Foreign Policy",
-        "title": "Germany Is Scrambling to Speed Up Its Rearmament",
-        "link": "https://foreignpolicy.com/2026/06/01/germany-merz-military-trump-rearm-bundeswehr-nato-europe/",
-        "summary": "Berlin has already made a huge commitment to its military—but is facing new obstacles at home and abroad.",
+        "title": "Trump Says Israel, Hezbollah to Halt Attacks as Iran Talks Continue",
+        "link": "https://foreignpolicy.com/2026/06/01/israel-attacks-lebanon-hezbollah-trump-iran-talks-netanyahu/",
+        "summary": "Tehran had said it would suspend negotiations over Israeli strikes in Lebanon.",
         "bias": "analytical"
       },
       {
         "source": "Foreign Policy",
-        "title": "Clinton’s Lincoln Bedroom Scandal Looks Quaint Now",
-        "link": "https://foreignpolicy.com/2026/06/01/clinton-lincoln-bedroom-political-scandal/",
-        "summary": "What a very 1990s scandal says about corruption during the second Trump administration.",
+        "title": "A Trump Deal With Iran Could Spell Trouble for Netanyahu",
+        "link": "https://foreignpolicy.com/2026/06/01/trump-israel-iran-war-deal-election-netanyahu/",
+        "summary": "The Israeli leader needs a win ahead of a key election.",
         "bias": "analytical"
       }
     ],
     "AI & TECH": [
       {
         "source": "MIT Technology Review",
-        "title": "The Download: unlocking lithium and controlling Ebola",
-        "link": "https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/",
-        "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How a new extraction process could unlock the world’s lithium A new method for extracting lithium could cut costs and emissions from one of th…",
+        "title": "How small businesses can leverage AI",
+        "link": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
+        "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skill…",
         "bias": "tech-analytical"
       },
       {
         "source": "MIT Technology Review",
-        "title": "The deadly Ebola outbreak is proving difficult to control",
-        "link": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/",
-        "summary": "The alert was raised on May 5. Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days. Rapid response teams were sent to investigate, and tests at a research center in Kinshasa revealed the culprit:…",
+        "title": "The Download: China’s brain implant ambitions",
+        "link": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
+        "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. China has approved the world’s first invasive brain-computer chip—here’s what’s next Sitting in the courtyard of his house in China’s Henan pr…",
         "bias": "tech-analytical"
       },
       {
         "source": "MIT Technology Review",
-        "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
-        "link": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
-        "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and s…",
+        "title": "China has approved the world’s first invasive brain-computer chip—here’s what’s next",
+        "link": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
+        "summary": "One day last October, sitting in the courtyard of his house in China’s Henan province, Dong Hui decided to see if he could hold a pen to write.  Dong, 39, had sustained spinal cord injuries in a car accident six years earlier that left him paralyzed from the neck down. Slowly but…",
         "bias": "tech-analytical"
       },
       {
         "source": "Wired",
-        "title": "Universal Audio Volt 876 USB Audio Interface Review: Pro-Level Polish",
-        "link": "https://www.wired.com/review/universal-audio-volt-876-usb-audio-interface/",
-        "summary": "With true plug-and-play support, versatile connectivity, and excellent sound, Universal Audio’s Volt 876 makes recording simple.",
+        "title": "How to Avoid Scams and Bad Gadgets on Amazon (2026)",
+        "link": "https://www.wired.com/story/how-shop-safe-amazon/",
+        "summary": "Amazon is a murky mess of ads, unknown sellers, misleading sales, and specious information. Stay safe while shopping on Prime Day and beyond with these tips and tricks.",
         "bias": "tech-left"
       },
       {
         "source": "Wired",
-        "title": "Norse Atlantic Airways Offers Dirt-Cheap Tickets. There’s a Catch",
-        "link": "https://www.wired.com/story/norse-airlines-ftc-complaints-ai-scams/",
-        "summary": "Dozens of people have complained to the Federal Trade Commission about Norse Atlantic Airways’ tech-first customer service operation. Some said they lost thousands of dollars.",
+        "title": "The Manhattan Institute Helped Kill DEI. Now It’s Coming for Protests",
+        "link": "https://www.wired.com/story/the-manhattan-institute-helped-kill-dei-now-its-coming-for-protests/",
+        "summary": "The right-wing think tank is actively pushing “civil terrorism”—increasing penalties for minor crimes committed while people engage in constitutionally protected free speech.",
         "bias": "tech-left"
       },
       {
         "source": "Wired",
-        "title": "‘Sexual Chocolate’ Faces Recalls After FDA Tests Reveal Undisclosed Viagra",
-        "link": "https://www.wired.com/story/sexual-chocolate-recalls-fda-undisclosed-viagra/",
-        "summary": "Sellers of products with names like Boner Bears and DTF have voluntarily recalled their products after testing positive for the active ingredients in Viagra and Cialis.",
+        "title": "The Trump Administration Is at War With Itself Over AI Regulation",
+        "link": "https://www.wired.com/story/the-white-house-is-at-war-with-itself-over-ai-regulation/",
+        "summary": "Donald Trump killed an executive order to regulate AI. Now, administration officials and AI executives are trying to figure out if there’s anything left to piece back together.",
         "bias": "tech-left"
       },
       {
         "source": "Ars Technica",
-        "title": "On its 40th anniversary, we reassess 1986's SpaceCamp",
-        "link": "https://arstechnica.com/culture/2026/05/on-its-40th-anniversary-we-reassess-1986s-spacecamp/",
-        "summary": "Is it a hidden gem, a cult classic, or hopelessly dumb? We vote \"all of the above.\"",
+        "title": "AI costs how much? GitHub Copilot users react to new usage-based pricing system.",
+        "link": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
+        "summary": "Some report burning through their whole monthly \"AI credit\" allotment in a single day.",
         "bias": "tech"
       },
       {
         "source": "Ars Technica",
-        "title": "They call it stupid hot for a reason: Heat muddles animal brains",
-        "link": "https://arstechnica.com/science/2026/05/they-call-it-stupid-hot-for-a-reason-heat-muddles-animal-brains/",
-        "summary": "As temperatures rise, some creatures pick fights while others struggle to learn.",
+        "title": "Why cats prefer silver vine to catnip and other May highlights",
+        "link": "https://arstechnica.com/science/2026/06/research-roundup-7-cool-science-stories-we-almost-missed-4/",
+        "summary": "Prehistoric mining in the Pyrenees, a new species of tiny blue octopus, slapstick acoustics, and more.",
         "bias": "tech"
       },
       {
         "source": "Ars Technica",
-        "title": "Grifters, cynics, and true believers: The family tree of vaccine opponents",
-        "link": "https://arstechnica.com/science/2026/05/grifters-cynics-and-true-believers-the-family-tree-of-vaccine-opponents/",
-        "summary": "A new book looks into the long history of people who have opposed vaccines.",
+        "title": "Moderna gets $50 million to develop mRNA Ebola vaccine against Bundibugyo",
+        "link": "https://arstechnica.com/health/2026/06/moderna-gets-50-million-to-develop-mrna-ebola-vaccine-against-bundibugyo/",
+        "summary": "Amid a raging Ebola outbreak, officials \"urgently accelerate development\" of vaccines.",
         "bias": "tech"
       },
       {
         "source": "404 Media",
-        "title": "‘Highly Plausible’ Aliens on Europa Are Earthlings’ Descendants, Study Says",
-        "link": "https://www.404media.co/highly-plausible-aliens-on-europa-are-earthlings-descendants-study-says/",
-        "summary": "A new study suggests that bacteria dispersed through space on dust grains could potentially arrive intact and alive on Jupiter’s moon Europa.",
+        "title": "Amazon Shuts Down Internal AI Leaderboard After Employees Cheated",
+        "link": "https://www.404media.co/amazon-shuts-down-internal-ai-leaderboard-after-employees-cheated/",
+        "summary": "Employees admitted to 404 Media they had cheated to climb the leaderboard's ranks.",
         "bias": "investigative-tech"
       }
     ],
     "SCIENCE": [
       {
         "source": "Nature News",
-        "title": "How long can humans live? We simply don’t know",
-        "link": "https://www.nature.com/articles/d41586-026-01728-w",
-        "summary": "Nature, Published online: 01 June 2026; doi:10.1038/d41586-026-01728-wClaims about the upper limits to human lifespan are characterized by hype, deficient data and shoddy science, says longevity researcher Saul Newman.",
+        "title": "Global plastics treaty must be built on a foundation of monitoring",
+        "link": "https://www.nature.com/articles/d41586-026-01775-3",
+        "summary": "Nature, Published online: 02 June 2026; doi:10.1038/d41586-026-01775-3Global plastics treaty must be built on a foundation of monitoring",
         "bias": "peer-reviewed"
       },
       {
         "source": "Nature News",
-        "title": "Obesity doesn’t equate to ill health: why the ‘disease’ label doesn’t always fit",
-        "link": "https://www.nature.com/articles/d41586-026-01729-9",
-        "summary": "Nature, Published online: 01 June 2026; doi:10.1038/d41586-026-01729-9Excess body weight affects individuals’ health differently. Taking this variation into account is crucial for effective health care, policy and research.",
+        "title": "Natural capital accounting needs a way to assess uncertainty",
+        "link": "https://www.nature.com/articles/d41586-026-01778-0",
+        "summary": "Nature, Published online: 02 June 2026; doi:10.1038/d41586-026-01778-0Natural capital accounting needs a way to assess uncertainty",
         "bias": "peer-reviewed"
       },
       {
         "source": "Nature News",
-        "title": "Author Correction: Hidden states and dynamics of fractional fillings in twisted MoTe2 bilayers",
-        "link": "https://www.nature.com/articles/s41586-026-10717-y",
-        "summary": "Nature, Published online: 29 May 2026; doi:10.1038/s41586-026-10717-yAuthor Correction: Hidden states and dynamics of fractional fillings in twisted MoTe2 bilayers",
+        "title": "Power imbalances in adviser–student relationships need safeguarding",
+        "link": "https://www.nature.com/articles/d41586-026-01776-2",
+        "summary": "Nature, Published online: 02 June 2026; doi:10.1038/d41586-026-01776-2Power imbalances in adviser–student relationships need safeguarding",
         "bias": "peer-reviewed"
       },
       {
         "source": "New Scientist",
-        "title": "Capitalism has warped our understanding of ecology and life’s origins",
-        "link": "https://www.newscientist.com/article/mg27035972-000-capitalism-has-warped-our-understanding-of-ecology-and-lifes-origins/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-        "summary": "The ideas of survival of the fittest and winning at all costs are closely entwinned with Darwinism, but they shouldn’t be. A rethink from a more communal perspective is in order",
+        "title": "A golden age of maths is dawning and mathematicians are freaking out",
+        "link": "https://www.newscientist.com/article/2526650-a-golden-age-of-maths-is-dawning-and-mathematicians-are-freaking-out/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "Mathematicians are stunned at the progress AI is making in solving advanced problems, leaving some questioning whether there will still be room for humans",
         "bias": "science"
       },
       {
         "source": "New Scientist",
-        "title": "Geoengineering can thicken Arctic sea ice, but for how long?",
-        "link": "https://www.newscientist.com/article/2528409-geoengineering-can-thicken-arctic-sea-ice-but-for-how-long/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-        "summary": "Two companies are aiming to preserve Arctic ice by pumping water onto the sheet and letting it freeze, but only one of the trials found that this delayed melting in the summer",
+        "title": "'Transformative' pancreatic cancer drug doubles survival time",
+        "link": "https://www.newscientist.com/article/2528738-transformative-pancreatic-cancer-drug-doubles-survival-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "People with advanced pancreatic cancer taking an experimental daily pill lived nearly twice as long as those receiving chemotherapy infusions",
         "bias": "science"
       },
       {
         "source": "New Scientist",
-        "title": "How a radical new view of life could reveal its origin – and aliens",
-        "link": "https://www.newscientist.com/article/2526959-how-a-radical-new-view-of-life-could-reveal-its-origin-and-aliens/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-        "summary": "We've been looking at nature the wrong way, argues Rowan Hooper. If we stop focusing on the individual, we get a whole new picture of how life on Earth – and elsewhere – may have begun",
+        "title": "How human error became a weapon against large language models",
+        "link": "https://www.newscientist.com/article/2528529-how-human-error-became-a-weapon-against-large-language-models/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "Alan Turing proposed a test for machine intelligence: could a computer convince a human it was human? We have begun conducting the same test on ourselves, writes Max Moser",
         "bias": "science"
       },
       {
         "source": "Science Magazine",
-        "title": "‘That could be a game changer’: an antiviral pill gets first test for Ebola prevention",
-        "link": "https://www.science.org/content/article/could-be-game-changer-antiviral-pill-gets-first-test-ebola-prevention",
-        "summary": "Researchers are preparing to launch an unprecedented trial to protect people exposed to Ebola in the DRC and Uganda",
+        "title": "Brain mapping effort searches for roots of Parkinson’s and other diseases",
+        "link": "https://www.science.org/content/article/brain-mapping-effort-searches-roots-parkinson-s-and-other-diseases",
+        "summary": "Allen Institute initiative aims to capture earliest cellular changes and identify new drug targets",
         "bias": "peer-reviewed"
       },
       {
         "source": "Science Magazine",
-        "title": "White House seeks to tighten political oversight of grantmaking",
-        "link": "https://www.science.org/content/article/white-house-seeks-tighten-political-oversight-grantmaking",
-        "summary": "Sweeping proposed rule, now open for comments, would also restrict foreign collaborations and remove federal funding for open-access fees",
+        "title": "Desperate to fight Ebola outbreak, Congo weighs using longshot vaccine options",
+        "link": "https://www.science.org/content/article/desperate-fight-ebola-outbreak-congo-weighs-using-longshot-vaccine-options",
+        "summary": "Existing vaccines may offer some protection against the rare strain now circulating—but the evidence is scant",
         "bias": "peer-reviewed"
       },
       {
         "source": "Science Magazine",
-        "title": "Brazil’s ‘rolling stone reefs’ teem with hidden diversity, DNA reveals",
-        "link": "https://www.science.org/content/article/brazil-s-rolling-stone-reefs-teem-hidden-diversity-dna-reveals",
-        "summary": "Vast offshore habitats face threats including mining, trawling, and drilling for oil",
+        "title": "Court blocks NSF’s transfer of climate lab’s supercomputing facility",
+        "link": "https://www.science.org/content/article/court-blocks-nsf-s-transfer-climate-lab-s-supercomputing-facility",
+        "summary": "Proposed switch in management caused irreparable harm to NCAR, judge finds",
         "bias": "peer-reviewed"
       }
     ]
