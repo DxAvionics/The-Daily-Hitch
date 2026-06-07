@@ -1,7 +1,7 @@
 {
   "version": "The Daily Hitch 1.0",
-  "generated": "Saturday, June 06, 2026",
-  "hitchens_question": "When the Pentagon warns of AI exploitation while simultaneously funding robotic killing machines for Ukrainian battlefields, and Congress debates the proper civilian role of military lawyers while drone swarms buzz through Middle Eastern shipping lanes, one might reasonably ask: exactly which century's moral framework are we pretending still governs the machinery of state violence? The same defense establishment that worries about \"safeguarding models\" seems remarkably cavalier about safeguarding the principle that humans, not algorithms, should retain the final decision over who lives and dies. Or have we already conceded that particular point while arguing over the paperwork?",
+  "generated": "Sunday, June 07, 2026",
+  "hitchens_question": "When the Pentagon's chief technology officer solemnly intones about AI companies' \"responsibility\" to prevent exploitation of their models while simultaneously funding Dutch factories to mass-produce combat robots for Ukraine, are we witnessing genuine ethical concern or the exquisite hypocrisy of an empire that wants its cake both eaten and remaining? The same military establishment that shoots down Iranian drones over international waters while wringing its hands about the \"fragility\" of its own rocket programs now lectures Silicon Valley on moral guardrails—as if the moral problem with artificial intelligence were not its subordination to the ancient human appetite for dominion, but rather insufficient supervision by the very institution whose business model depends on the efficient application of violence. Tell me: which is more corrupting to the human spirit—the honest brutality of a submunition, or the sanctimonious efficiency of an algorithm that kills with a clear conscience?",
   "categories": {
     "WIRE": [],
     "WAR & GEOPOLITICS": [
@@ -121,23 +121,23 @@
       },
       {
         "source": "SpaceNews",
+        "title": "NASA interested in Hubble reboost if costs can be reduced",
+        "link": "https://spacenews.com/nasa-interested-in-hubble-reboost-if-costs-can-be-reduced/",
+        "summary": "As NASA prepares an attempt to reboost an astronomy spacecraft in a decaying orbit, it is open to doing something similar for Hubble, if its operating costs can be reduced.\nThe post NASA interested in Hubble reboost if costs can be reduced appeared first on SpaceNews.",
+        "bias": "industry"
+      },
+      {
+        "source": "SpaceNews",
+        "title": "NASA concerns about Russian repairs prompted ISS safe haven decision",
+        "link": "https://spacenews.com/nasa-concerns-about-russian-repairs-prompted-iss-safe-haven-decision/",
+        "summary": "NASA directed astronauts on the ISS to shelter in a Crew Dragon spacecraft after Russian cosmonauts planned to perform repairs the agency thought created “elevated risk” to the station.\nThe post NASA concerns about Russian repairs prompted ISS safe haven decision appeared first o…",
+        "bias": "industry"
+      },
+      {
+        "source": "SpaceNews",
         "title": "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service",
         "link": "https://spacenews.com/leaf-space-partners-with-d-orbit-and-endurosat-to-test-connectivity-service/",
         "summary": "MILAN – Italian ground segment operator Leaf Space unveiled a new space connectivity service May 27. The technology, named TreeNet, aims to make space communications more seamless by treating individual […]\nThe post Leaf Space partners with D-Orbit and EnduroSat to test connectiv…",
-        "bias": "industry"
-      },
-      {
-        "source": "SpaceNews",
-        "title": "Astronauts briefly shelter in Dragon during ISS leak repair",
-        "link": "https://spacenews.com/astronauts-briefly-shelter-in-dragon-during-iss-leak-repair/",
-        "summary": "NASA instructed astronauts on the International Space Station to briefly shelter in a Dragon spacecraft June 5 as cosmonauts attempted to repair an air leak in a Russian module.\nThe post Astronauts briefly shelter in Dragon during ISS leak repair appeared first on SpaceNews.",
-        "bias": "industry"
-      },
-      {
-        "source": "SpaceNews",
-        "title": "Next Ariane 6 launch to carry 36 Amazon Leo satellites using upgraded boosters",
-        "link": "https://spacenews.com/next-ariane-6-launch-to-carry-36-amazon-leo-satellites-using-upgraded-boosters/",
-        "summary": "Amazon will fly its largest number of broadband satellites to date later this month on the first Ariane 6 launch to use upgraded boosters.\nThe post Next Ariane 6 launch to carry 36 Amazon Leo satellites using upgraded boosters appeared first on SpaceNews.",
         "bias": "industry"
       }
     ],
@@ -165,6 +165,13 @@
       },
       {
         "source": "The Intercept",
+        "title": "Anthropic Says We Must Stop Authoritarian AI. But What About Its Authoritarian Investors?",
+        "link": "https://theintercept.com/2026/06/06/anthropic-ai-investor-abu-dhabi-china/",
+        "summary": "Anthropic wants to keep AI away from repressive regimes. But what about its part-owner, the repressive dictatorship of Abu Dhabi?\nThe post Anthropic Says We Must Stop Authoritarian AI. But What About Its Authoritarian Investors? appeared first on The Intercept.",
+        "bias": "investigative-left"
+      },
+      {
+        "source": "The Intercept",
         "title": "“Warehousing Human Beings”",
         "link": "https://theintercept.com/2026/06/05/new-jersey-ice-delaney-hall-protests/",
         "summary": "Former immigration judge Andrea Sáenz and American Immigration Council’s Aaron Reichlin-Melnick on the conditions at Delaney Hall and other ICE detention centers across the U.S.\nThe post “Warehousing Human Beings” appeared first on The Intercept.",
@@ -175,13 +182,6 @@
         "title": "Trump Administration Tries to Shift Blame for Ebola Response",
         "link": "https://theintercept.com/2026/06/04/trump-ebola-outbreak-congo/",
         "summary": "After cutting its support for frontline healthcare workers in Central Africa, the Trump administration is pointing fingers.\nThe post Trump Administration Tries to Shift Blame for Ebola Response appeared first on The Intercept.",
-        "bias": "investigative-left"
-      },
-      {
-        "source": "The Intercept",
-        "title": "House Dems Coming Around on Iran War — But Won’t Vote to Stop Israel’s Destruction of Lebanon",
-        "link": "https://theintercept.com/2026/06/04/lebanon-israel-war-powers-resolution-iran/",
-        "summary": "Though its backers remain optimistic, a bill blocking U.S. support for Israel’s war in Lebanon exposed rifts among Democrats.\nThe post House Dems Coming Around on Iran War — But Won’t Vote to Stop Israel’s Destruction of Lebanon appeared first on The Intercept.",
         "bias": "investigative-left"
       },
       {
@@ -209,6 +209,13 @@
     "INDEPENDENTS & SUBSTACK": [
       {
         "source": "Matt Taibbi — Racket News",
+        "title": "Listen to This Article: America Needs a Boring and Sane Party",
+        "link": "https://www.racket.news/p/listen-to-this-article-america-needs-6b4",
+        "summary": "Narrated Version | It’s not the fault of voters that they’re surrounded by crazy",
+        "bias": "independent"
+      },
+      {
+        "source": "Matt Taibbi — Racket News",
         "title": "Activism, Uncensored: Delaney Hall",
         "link": "https://www.racket.news/p/activism-uncensored-delaney-hall",
         "summary": "Protesters Face Off with ICE, New Jersey State Police at Private Detention Facility in Newark",
@@ -222,10 +229,10 @@
         "bias": "independent"
       },
       {
-        "source": "Matt Taibbi — Racket News",
-        "title": "America Needs a Boring and Sane Party",
-        "link": "https://www.racket.news/p/america-needs-a-boring-and-sane-party",
-        "summary": "It's not the fault of voters that they're surrounded by crazy",
+        "source": "Bari Weiss — The Free Press",
+        "title": "The Machine Making People Human Again. Plus. . .",
+        "link": "https://www.thefp.com/p/the-machine-making-people-human-again",
+        "summary": "In today's Weekend Press: The machine making people human again. Mike Pence remembers what conservatism used to be. Joe Nocera on the suffering of Rafael Nadal. Two Drinks with the mom who asked Trump to pay for childcare. And more!",
         "bias": "independent"
       },
       {
@@ -241,35 +248,28 @@
         "link": "https://www.thefp.com/p/the-machines-making-people-human",
         "summary": "ALS patients slowly lose their voices. Neuralink, a medical start-up owned by Elon Musk, can restore them, reports Maya Sulkin.",
         "bias": "independent"
-      },
-      {
-        "source": "Bari Weiss — The Free Press",
-        "title": "Neighbors",
-        "link": "https://www.thefp.com/p/neighbors",
-        "summary": "Looking for other Free Pressers near you? Start here to find neighbors, organize local meetups, and connect with readers in your corner of the world.",
-        "bias": "independent"
       }
     ],
     "LEFT": [
       {
         "source": "Jacobin",
-        "title": "Giving Rights to Robots Is a Bad Idea",
-        "link": "https://jacobin.com/2026/06/rights-corporate-personhood-ai-environment",
-        "summary": "The rich have long used the fiction of “corporate personhood” to amass privileges while protecting themselves from accountability for their misdeeds. Now tech bros and venture capitalists want to further distort the concept of a person to include robots.",
+        "title": "The Empire Still Wants to Destroy the Cuban Revolution",
+        "link": "https://jacobin.com/2026/06/cuba-trump-rubio-lawfare-imperialism",
+        "summary": "Trump’s latest moves against Cuba show that Washington has never accepted the island’s defiance of US power. Now is the time for solidarity with the Cuban people.",
         "bias": "hard-left"
       },
       {
         "source": "Jacobin",
-        "title": "Rodrigo Duterte’s Trial Is a Blow Against Impunity",
-        "link": "https://jacobin.com/2026/06/duterte-philippines-icc-trial-killings",
-        "summary": "The International Criminal Court has scheduled the trial of former Philippines president Rodrigo Duterte for November this year. It’s an overdue reckoning for the mass killings under his rule that should worry other leaders guilty of major atrocities.",
+        "title": "A Remarkably Short History of Canada’s Petrostate",
+        "link": "https://jacobin.com/2026/06/canada-fossil-fuels-public-subsidies",
+        "summary": "Former roughneck turned journalist Don Gillmor chronicles how a resource boom became a governing ideology and how Canada became a global greenhouse pariah.",
         "bias": "hard-left"
       },
       {
         "source": "Jacobin",
-        "title": "Canada Needs to Rebuild Public Telecoms",
-        "link": "https://jacobin.com/2026/06/canada-telecoms-infrastructure-public-ownership",
-        "summary": "A century ago, farmers in the Prairie Provinces fought to treat communications infrastructure as a public necessity instead of a private luxury. A new analysis of the historical data proves they were right to do so: public telecoms build better networks.",
+        "title": "The CIA Is up to No Good in Mexico",
+        "link": "https://jacobin.com/2026/06/mexico-sheinbaum-trump-cartels-imperialism",
+        "summary": "The mysterious deaths of two CIA agents in Mexico has raised questions about the Trump White House’s increasingly belligerent actions against the Latin American left.",
         "bias": "hard-left"
       },
       {
@@ -295,95 +295,95 @@
       },
       {
         "source": "Truthout",
-        "title": "Outrage Mounts at Assaults of Journalists and Hunger Strikers at Delaney Hall",
-        "link": "https://truthout.org/articles/outrage-mounts-at-assaults-of-journalists-and-hunger-strikers-at-delaney-hall/",
-        "summary": "Press freedom groups and hunger strikers detail abuses and retaliation by ICE agents, police, and GEO Group staff.",
+        "title": "As Anti-LGBTQ Censorship Expands, These Cities Have Cancelled Pride This Year",
+        "link": "https://truthout.org/articles/as-anti-lgbtq-censorship-expands-these-cities-have-cancelled-pride-this-year/",
+        "summary": "With red states cracking down on LGBTQ+  events, groups in several cities say organizing Pride is dangerous.",
         "bias": "progressive"
       },
       {
         "source": "Truthout",
-        "title": "Senate Bill to Fund ICE and CBP Contains Zero Reforms to ICE",
-        "link": "https://truthout.org/articles/senate-bill-to-fund-ice-and-cbp-contains-zero-reforms-to-ice/",
-        "summary": "This rewards agencies “that have terrorized communities across the country,” said Amnesty International.",
+        "title": "Judge Blocks Trump From Holding Food Aid Hostage to Force His Agenda on States",
+        "link": "https://truthout.org/articles/judge-blocks-trump-from-holding-food-aid-hostage-to-force-his-agenda-on-states/",
+        "summary": "Hundreds of thousands have already lost federal food assistance since the passage of Trump's One Big Beautiful Bill Act.",
         "bias": "progressive"
       },
       {
         "source": "Truthout",
-        "title": "Trump’s Cabinet Praises Him Once Every 6 Sentences, Analysis Finds",
-        "link": "https://truthout.org/articles/trumps-cabinet-praises-him-once-every-6-sentences-analysis-finds/",
-        "summary": "Historians have ranked Trump's cabinet as one of the worst in U.S. history.",
+        "title": "Israeli Military Kills 7-Month-Old Palestinian Baby in West Bank",
+        "link": "https://truthout.org/articles/israeli-military-kills-7-month-old-palestinian-baby-in-west-bank/",
+        "summary": "Israel has killed at least 240 Palestinian children in the West Bank since October 2023.",
         "bias": "progressive"
       },
       {
         "source": "Mintpress News",
         "title": "Iran Inflicts U.S. Casualties, Halts Talks and Challenges Trump’s Authority in the Gulf",
-        "link": "https://www.mintpressnews.com/iran-inflicts-u-s-casualties-halts-talks-and-challenges-trumps-authority-in-the-gulf/290968/",
-        "summary": "Following retaliatory strikes on U.S. bases in Kuwait and Bahrain, Iran has frozen contacts with American negotiators and expanded threats against both Washington and Tel Aviv. The developments raise fresh doubts about the future of a fragile ceasefire already strained by repeate…",
+        "link": "https://www.mintpressnews.com/iran-inflicts-u-s-casualties-halts-talks-and-challenges-trumps-authority-in-the-gulf-2/290974/",
+        "summary": "Iranian authorities claim to have dismantled multiple spy and militant cells tied to foreign intelligence agencies, arresting more than 6,500 people since the war began. The announcement follows reports describing Mossad's largest-ever operation inside Iran and growing scrutiny o…",
         "bias": "anti-imperialist"
       }
     ],
     "RIGHT": [
       {
         "source": "Breitbart",
-        "title": "Susan Collins Responds to Graham Platner Ex's Describing 'Unsettling' Behavior: Allegations Are 'Troubling'",
-        "link": "https://www.breitbart.com/politics/2026/06/05/susan-collins-responds-graham-platner-exs-describing-unsettling-behavior/",
-        "summary": "Sen. Susan Collins (R-ME) responded to a recent report in the New York Times, in which several ex-girlfriends of Democrat U.S. Senate candidate Graham Platner (D-ME) described his \"unsettling\" behavior. Collins called the allegations against Platner \"troubling.\"\nThe post Susan Co…",
+        "title": "Fetterman Challenges Platner to Prove He Didn't Send 'Dick Pics' to Minors: I Will 'Wear a Suit Every Day'",
+        "link": "https://www.breitbart.com/politics/2026/06/06/fetterman-challenges-platner-to-prove-he-didnt-send-dick-pics-to-minors-i-will-wear-a-suit-every-day/",
+        "summary": "Sen. John Fetterman (D-PA) challenged Maine Democrat U.S. Senate candidate Graham Platner to prove that he didn't send \"dick pics\" to minors, stating that he would \"wear a suit every day in the Senate\" if Platner did so.\nThe post Fetterman Challenges Platner to Prove He Didn’t Se…",
         "bias": "nationalist-right"
       },
       {
         "source": "Breitbart",
-        "title": "Maine Socialist Graham Platner Propped Up by Radical Couple Behind Other Far-Left Politicians",
-        "link": "https://www.breitbart.com/politics/2026/06/05/maine-socialist-graham-platner-propped-up-by-radical-couple-behind-other-far-left-politicians/",
-        "summary": "Graham Platner, Maine's likely Democrat nominee for U.S. Senate, was hand-plucked by a pair of socialist political operatives who sought him out after catching wind of him through the Democratic Socialists of America (DSA) network.\nThe post Maine Socialist Graham Platner Propped …",
+        "title": "Pence: Anyone Who Assaulted Police, Vandalized Government 'Should Never Get a Dime'",
+        "link": "https://www.breitbart.com/clips/2026/06/06/pence-anyone-who-assaulted-police-vandalized-government-should-never-get-a-dime/",
+        "summary": "Friday on HBO's \"Real Time,\" former Vice President Mike Pence said anyone who assaulted police officers or vandalized government \"should never get a dime.\"\nThe post Pence: Anyone Who Assaulted Police, Vandalized Government ‘Should Never Get a Dime’ appeared first on Breitbart.",
         "bias": "nationalist-right"
       },
       {
         "source": "Breitbart",
-        "title": "Democrat Candidates Hate on Trump with Ease but Struggle to Talk Policy",
-        "link": "https://www.breitbart.com/politics/2026/06/05/democrat-candidates-hate-on-trump-with-ease-but-struggle-to-talk-policy/",
-        "summary": "Democrat candidates across the country have been speaking out against President Donald Trump with ease but appear to struggle to answer basic policy questions on the campaign trail.\nThe post Democrat Candidates Hate on Trump with Ease but Struggle to Talk Policy appeared first on…",
+        "title": "Eyewitness: Karmelo Anthony ‘Provoked’ Austin Metcalf Before Fatal Stabbing",
+        "link": "https://www.breitbart.com/sports/2026/06/06/eyewitness-karmelo-anthony-provoked-austin-metcalf-before-fatal-stabbing/",
+        "summary": "Karmelo Anthony's claim of self-defense took some hits on Saturday after several eyewitnesses testified that he \"provoked\" 17-year-old Austin Metcalf before fatally stabbing him in the chest.\nThe post Eyewitness: Karmelo Anthony ‘Provoked’ Austin Metcalf Before Fatal Stabbing app…",
         "bias": "nationalist-right"
       },
       {
         "source": "Zero Hedge",
-        "title": "Has Trump Opened Pandora's Box?",
-        "link": "https://www.zerohedge.com/geopolitical/has-trump-opened-pandoras-box",
-        "summary": "Has Trump Opened Pandora's Box?\n\n            Authored by John Rosenburger, Senior Fellow at Eisenhower Media Network\n\nThe limits of U.S. military power are now fully exposed.\n\n2.5 months in to the U.S.-Israeli war against a nation that posed no threat to the United States’ vital …",
+        "title": "An Emerging Market Crisis In Oil-Poor Asia?",
+        "link": "https://www.zerohedge.com/markets/emerging-market-crisis-oil-poor-asia",
+        "summary": "An Emerging Market Crisis In Oil-Poor Asia?\n\n            Authored by Satyajit Das via NewIndiaExpress,\n\nReliable availability of cheap energy is, as the Iran war highlights, essential to modern economies and societies, at least for the foreseeable future. Shocks divide the world …",
         "bias": "fin-dark"
       },
       {
         "source": "Zero Hedge",
-        "title": "Where It's Hardest To Afford A Home",
-        "link": "https://www.zerohedge.com/personal-finance/where-its-hardest-afford-home",
-        "summary": "Where It's Hardest To Afford A Home\n\n            Big cities like Hong Kong or Los Angeles are well-known for their expensive real estate markets. But there are also plenty of housing markets you wouldn’t necessarily expect among the least affordable – including several in Austral…",
+        "title": "Watch: More Evidence Iran Is Rapidly Restoring Its Missile Tunnels",
+        "link": "https://www.zerohedge.com/geopolitical/watch-more-evidence-iran-rapidly-restoring-its-missile-tunnels",
+        "summary": "Watch: More Evidence Iran Is Rapidly Restoring Its Missile Tunnels\n\n            President Trump has newly estimated that Iran has 21%-22% of its missiles remaining. Trump said in an interview with NBC: \"They have some missiles and drones, percentage-wise maybe 21%-22% of the miss…",
         "bias": "fin-dark"
       },
       {
         "source": "Zero Hedge",
-        "title": "NASA Ends Mars Mission 6 Months After Losing Communication With Spacecraft",
-        "link": "https://www.zerohedge.com/ai/nasa-ends-mars-mission-6-months-after-losing-communication-spacecraft",
-        "summary": "NASA Ends Mars Mission 6 Months After Losing Communication With Spacecraft\n\n            Authored by T.J. Muscaro via The Epoch Times,\n\nAfter more than a decade of service, unlocking treasure troves of insights into Mars's atmosphere, NASA announced on June 3 that its MAVEN missio…",
+        "title": "A New Shortcut To Quantum Entanglement",
+        "link": "https://www.zerohedge.com/technology/new-shortcut-quantum-entanglement",
+        "summary": "A New Shortcut To Quantum Entanglement\n\n            Authored by University of Chicago via ScienceDaily,\n\nMany of the most promising quantum technologies, including advanced sensors and future quantum computers, depend on a phenomenon known as entanglement, where particles become …",
         "bias": "fin-dark"
       },
       {
         "source": "The Daily Wire",
-        "title": "Becerra Overtakes Hilton, Advances To Runoff",
-        "link": "https://www.dailywire.com/news/becerra-overtakes-hilton-advances-to-runoff",
-        "summary": "Xavier Becerra, a Democrat who served as Health and Human Services Secretary during the Biden administration, has advanced to the runoff in the California gubernatorial race in November’s general election, several media outlets projected on Friday. His opponent is still unknown, …",
+        "title": "Meta Smart Glasses Platform Contains Face-Recognition Code, Report Says",
+        "link": "https://www.dailywire.com/news/meta-smart-glasses-platform-contains-face-recognition-code-report-says",
+        "summary": "A WIRED analysis found that Meta has incorporated facial recognition technology into apps that connect to the company’s smart glasses. The feature, called “NameTag,” was integrated into the app through several updates in 2026. It identifies people through the glasses’ camera and …",
         "bias": "conservative"
       },
       {
         "source": "The Daily Wire",
-        "title": "Robby Starbuck Targets Harley-Davidson’s New CEO Over DEI Record",
-        "link": "https://www.dailywire.com/news/robby-starbuck-targets-harley-davidsons-new-ceo-over-dei-record",
-        "summary": "Conservative activist Robby Starbuck, an American producer and director, is raising new concerns about Harley-Davidson’s commitment to abandoning diversity, equity, and inclusion initiatives, arguing that the iconic motorcycle maker’s new CEO has a long history of supporting such…",
+        "title": "Isabel Brown Urges Women To Embrace Motherhood At TPUSA Women’s Summit",
+        "link": "https://www.dailywire.com/news/isabel-brown-urges-women-to-embrace-motherhood-at-tpusa-womens-summit",
+        "summary": "Women’s greatest legacy is their children, Isabel Brown, host of “The Isabel Brown Show” on The Daily Wire, told attendees at Turning Point USA’s 2026 Women’s Leadership Summit on Saturday. The three-day women’s conference, held June 5–7 in San Antonio, Texas, featured speakers f…",
         "bias": "conservative"
       },
       {
         "source": "The Daily Wire",
-        "title": "Trump’s Massive Anti-Fraud Strike Force Lands In Ohio",
-        "link": "https://www.dailywire.com/news/trumps-massive-anti-fraud-strike-force-lands-in-ohio",
-        "summary": "A massive show of federal force descended on Columbus, Ohio, on Thursday following a Daily Wire investigation into Medicaid, with top Trump administration officials including Attorney General Todd Blanche, and the head of Medicaid Dr. Mehmet Oz on the ground to announce major ant…",
+        "title": "Buffalo Wild Wings Attempts To Reward Fan After NBA Bans Him For Life",
+        "link": "https://www.dailywire.com/news/buffalo-wild-wings-attempts-to-reward-fan-after-nba-bans-him-for-life",
+        "summary": "Buffalo Wild Wings set X ablaze this week after offering free food to a fan who was reportedly banned for life from NBA arenas after running onto the court during Game 1 of the NBA Finals. During the fourth quarter of Wednesday’s Finals opener, a fan sprinted onto the court and a…",
         "bias": "conservative"
       }
     ],
@@ -455,24 +455,38 @@
       },
       {
         "source": "Wired",
-        "title": "Best Running Shoes, Tested and Reviewed (2026): Saucony, Adidas, Hoka",
-        "link": "https://www.wired.com/gallery/best-running-shoes/",
-        "summary": "We logged thousands of test miles to bring you the best running shoes for every pace, ability, and running goal.",
+        "title": "The Best 3-in-1 Apple Charging Stations After Testing Top Models",
+        "link": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+        "summary": "I tried all the top models to find the best 3-in-1 Apple charging stations, pads, and more. Keep your iPhone, Apple Watch, and AirPods topped up with these WIRED-tested docking systems.",
         "bias": "tech-left"
       },
       {
         "source": "Wired",
-        "title": "GroWell Cap Review: I Have Hair for the First Time in 15 Years",
-        "link": "https://www.wired.com/story/growell-cap-rave/",
-        "summary": "I shaved my head 15 years ago and never looked back. This GroWell LED cap changed that.",
+        "title": "Anti-Vax Dating Apps Are Going IRL. People Are Mad as Hell About It",
+        "link": "https://www.wired.com/story/anti-vax-dating-apps-are-going-irl-people-are-mad-as-hell-about-it/",
+        "summary": "Unjected and PureBlood.Dating are hosting in-person meetups—and have transformed the dating landscape into a political battleground over bodily autonomy.",
         "bias": "tech-left"
       },
       {
         "source": "Wired",
-        "title": "The US Has a Plan to Combat Screwworm. It Involves a Lot More Flies",
-        "link": "https://www.wired.com/story/us-plans-to-stop-screwworm-texas-outbreak/",
-        "summary": "Releasing sterilized flies can crash a local population of flesh-eating screwworms. But the US currently has limited capacity to produce them.",
+        "title": "2 Best Bluetooth Trackers of 2026, Plus Honorable Mentions",
+        "link": "https://www.wired.com/story/the-best-bluetooth-trackers/",
+        "summary": "These are the best Bluetooth, Wi-Fi, GPS, and cellular gadgets to ensure you never lose anything ever again.",
         "bias": "tech-left"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "Scientists ejected from diabetes conference for distributing journal reprints",
+        "link": "https://arstechnica.com/science/2026/06/scientists-ejected-from-diabetes-conference-for-distributing-journal-reprints/",
+        "summary": "Those ousted included ADA journal editor-in-chief Steven Kahn and former ADA president Desmond Schatz",
+        "bias": "tech"
+      },
+      {
+        "source": "Ars Technica",
+        "title": "Some ancient microbes frozen with Ötzi the Iceman are still growing",
+        "link": "https://arstechnica.com/science/2026/06/otzis-mummified-body-is-home-to-ancient-strains-of-yeast-and-bacteria/",
+        "summary": "What’s the difference between a person, an artifact, and an ecosystem?",
+        "bias": "tech"
       },
       {
         "source": "Ars Technica",
@@ -482,24 +496,10 @@
         "bias": "tech"
       },
       {
-        "source": "Ars Technica",
-        "title": "How a USB-connected speaker can infect a PC without ever being touched",
-        "link": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices/",
-        "summary": "Seller of the Sound Blaster Katana V2X doesn't consider the behavior a vulnerability.",
-        "bias": "tech"
-      },
-      {
-        "source": "Ars Technica",
-        "title": "Small modular nuclear reactor reaches criticality in first test",
-        "link": "https://arstechnica.com/science/2026/06/first-us-test-of-modular-reactor-reaches-criticality/",
-        "summary": "The reactor, from a startup called Antares, isn't ready to generate power yet.",
-        "bias": "tech"
-      },
-      {
         "source": "404 Media",
-        "title": "ICE’s Plan to Let Cops Around the Country Scan Faces to Verify Immigration Status",
-        "link": "https://www.404media.co/ices-plan-to-let-cops-around-the-country-scan-faces-to-verify-immigration-status/",
-        "summary": "ICE plans to give potentially more than a thousand agencies access to a facial recognition app that verifies a person's immigration status.",
+        "title": "Scientists Discover Hidden Symmetry on Earth That Nobody Can Explain",
+        "link": "https://www.404media.co/scientists-discover-hidden-symmetry-on-earth-that-nobody-can-explain/",
+        "summary": "The north-south albedo symmetry may be fading as both hemispheres get darker.",
         "bias": "investigative-tech"
       }
     ],
@@ -527,23 +527,23 @@
       },
       {
         "source": "New Scientist",
+        "title": "Why you need to future-proof your brain in middle age and how to start",
+        "link": "https://www.newscientist.com/article/2526727-why-you-need-to-future-proof-your-brain-in-middle-age-and-how-to-start/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "Ages 40 to 65 see a period of turmoil in the brain that has previously been overlooked. But identifying problems during this time can protect your cognitive health for decades to come",
+        "bias": "science"
+      },
+      {
+        "source": "New Scientist",
+        "title": "Hearing loss is bad for the whole body – but new treatments are coming",
+        "link": "https://www.newscientist.com/article/2527617-hearing-loss-is-bad-for-the-whole-body-but-new-treatments-are-coming/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "From dementia to heart attacks, hearing loss has been linked to a wide range of effects across the body, and the condition is on the rise. Fortunately, we're learning how best to safeguard this crucial sense and how we might be able to reverse the damage",
+        "bias": "science"
+      },
+      {
+        "source": "New Scientist",
         "title": "A golden age of maths is dawning and mathematicians are freaking out",
         "link": "https://www.newscientist.com/article/2526650-a-golden-age-of-maths-is-dawning-and-mathematicians-are-freaking-out/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
         "summary": "Mathematicians are stunned at the progress AI is making in solving advanced problems, leaving some questioning whether there will still be room for humans",
-        "bias": "science"
-      },
-      {
-        "source": "New Scientist",
-        "title": "Are we getting to the point where it's safe to gene-edit babies?",
-        "link": "https://www.newscientist.com/article/2529355-are-we-getting-to-the-point-where-its-safe-to-gene-edit-babies/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-        "summary": "A team in the US has reported promising results after using an improved form of CRISPR to gene-edit human embryos, but a major issue remains unsolved",
-        "bias": "science"
-      },
-      {
-        "source": "New Scientist",
-        "title": "Cuts to US ocean programme will hinder monitoring of El Niño and AMOC",
-        "link": "https://www.newscientist.com/article/2529420-cuts-to-us-ocean-programme-will-hinder-monitoring-of-el-nino-and-amoc/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-        "summary": "Scientists warn that the Trump administration's push to dismantle a vital network of ocean-sensing instruments will stymie crucial weather and climate monitoring in the Pacific and Atlantic",
         "bias": "science"
       },
       {
