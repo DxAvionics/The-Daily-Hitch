@@ -1,7 +1,7 @@
 {
   "version": "The Daily Hitch 1.0",
-  "generated": "Friday, June 12, 2026",
-  "hitchens_question": "When the Pentagon announces a \"Cyber Mastery Incentive Pay\" program while simultaneously admitting it cannot even build a proper data center, and Congress debates whether to let vital surveillance authorities lapse because they're squabbling over who gets to run the spy shop, one begins to wonder: Are we witnessing the decline of American imperial competence, or have we simply reached the stage where our military-industrial complex has become too bloated and bureaucratic to distinguish between actual security and profitable theater? Because if you can track grain smuggling to Libya but can't keep your own digital house in order, perhaps the barbarians aren't at the gates—they're running the IT department.",
+  "generated": "Saturday, June 13, 2026",
+  "hitchens_question": "When the Pentagon announces a \"Cyber Mastery Incentive Pay\" program while simultaneously failing to establish a proper Cyber Force and letting Section 702 surveillance authorities lapse, one must ask: are we witnessing the militarization of incompetence, or merely the bureaucratization of our own digital subjugation? The same government that cannot secure its own data centers now promises to wage algorithmic warfare while selling the very drone technology to Taiwan that it fears China might one day turn against us. Tell me, which is more dangerous to a free society—the enemy who seeks to destroy your networks, or the defender who doesn't understand them?",
   "categories": {
     "WIRE": [],
     "WAR & GEOPOLITICS": [
@@ -28,6 +28,13 @@
       },
       {
         "source": "C4ISRNET",
+        "title": "Ukraine’s defense AI chief predicts ‘new paradigm’ of warfare",
+        "link": "https://www.c4isrnet.com/global/europe/2026/06/12/ukraines-defense-ai-chief-predicts-new-paradigm-of-warfare/",
+        "summary": "“The system that possesses more data and better understands that data, proposes solutions — that system will gain the advantage over the other.\"",
+        "bias": "defense"
+      },
+      {
+        "source": "C4ISRNET",
         "title": "Pentagon to launch ‘Cyber Mastery Incentive Pay’ program",
         "link": "https://www.c4isrnet.com/news/pentagon-congress/2026/06/10/pentagon-to-launch-cyber-mastery-incentive-pay-program/",
         "summary": "The initative, dubbed Cyber Mastery Incentive Pay, is slated to begin in early October.",
@@ -41,10 +48,10 @@
         "bias": "defense"
       },
       {
-        "source": "C4ISRNET",
-        "title": "‘Flashpoint Campaigns: Cold War’ is the ultimate OODA Loop wargame",
-        "link": "https://www.c4isrnet.com/news/your-military/2026/06/09/flashpoint-campaigns-cold-war-is-the-ultimate-ooda-loop-wargame/",
-        "summary": "Flashpoint Campaigns is an OODA Loop-anchored computer wargame that depicts a hypothetical Warsaw Pact invasion of West Germany in 1989.",
+        "source": "Defense One",
+        "title": "Push for new Cyber Force service branch narrowly fails in the Senate",
+        "link": "https://www.defenseone.com/policy/2026/06/cyber-force-service-branch-fails-senate/414149/",
+        "summary": "Sen. Kirsten Gillibrand’s amendment aimed to place a new service under the Army.",
         "bias": "defense"
       },
       {
@@ -59,13 +66,6 @@
         "title": "House vote puts Section 702 on brink of lapse amid fight over acting spy chief",
         "link": "https://www.defenseone.com/policy/2026/06/house-section-702-lapse-spy-chief/414139/",
         "summary": "Trump taps Jay Clayton as ODNI, but Democrats want a promise that Bill Pulte won't even be acting spy chief.",
-        "bias": "defense"
-      },
-      {
-        "source": "Defense One",
-        "title": "Senators want a new robot warfare-focused combatant command",
-        "link": "https://www.defenseone.com/policy/2026/06/senators-want-new-robot-warfare-focused-combatant-command/414133/",
-        "summary": "A 4-star general would lead the effort, should SASC’s version of the NDAA become law.",
         "bias": "defense"
       },
       {
@@ -100,44 +100,44 @@
       },
       {
         "source": "The War Zone",
-        "title": "F-22’s ‘Catfish’ 757 Testbed Spotted Carrying Raptor’s New Infrared Sensor Pod",
-        "link": "https://www.twz.com/air/f-22s-catfish-757-testbed-spotted-carrying-raptors-new-infrared-sensor-pod",
-        "summary": "The Catfish 757 has spent decades supporting the F-22 program, and that work now extends to testing external stores.\nThe post F-22’s ‘Catfish’ 757 Testbed Spotted Carrying Raptor’s New Infrared Sensor Pod appeared first on The War Zone.",
+        "title": "A-10 Warthogs Arrive In England Festooned With Nose Art And Mission Markings From Epic Fury",
+        "link": "https://www.twz.com/air/a-10-warthogs-arrive-in-england-festooned-with-nose-art-and-mission-markings-from-epic-fury",
+        "summary": "The markings on the A-10s seen at RAF Lakenheath today offer an indication of what they did during the fight against Iran.\nThe post A-10 Warthogs Arrive In England Festooned With Nose Art And Mission Markings From Epic Fury appeared first on The War Zone.",
         "bias": "defense"
       },
       {
         "source": "The War Zone",
-        "title": "What It Would Take To Seize Iran’s Kharg Island According To Top Former Military Leaders",
-        "link": "https://www.twz.com/news-features/what-it-would-take-to-seize-irans-kharg-island-according-to-top-former-military-leaders",
-        "summary": "Kharg Island, the epicenter of Iran's energy exports, is in the news again today after Trump declared he would seize it, before changing his tune. \nThe post What It Would Take To Seize Iran’s Kharg Island According To Top Former Military Leaders appeared first on The War Zone.",
+        "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+        "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-195",
+        "summary": "Everyday is like Sunday...\nThe post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on The War Zone.",
         "bias": "defense"
       },
       {
         "source": "The War Zone",
-        "title": "Boeing “Encouraged” By C-17 Production Restart Discussions",
-        "link": "https://www.twz.com/air/boeing-encouraged-by-c-17-production-restart-discussions",
-        "summary": "Congress recently asked the USAF for a briefing on the feasibility of buying new C-17s and allies have interest too.\nThe post Boeing “Encouraged” By C-17 Production Restart Discussions appeared first on The War Zone.",
+        "title": "Boeing Drops Out Of Navy’s T-45 Jet Trainer Replacement Competition",
+        "link": "https://www.twz.com/air/boeing-drops-out-of-navys-t-45-jet-trainer-replacement-competition",
+        "summary": "The field of competitors to design and build the Navy's next jet trainer has narrowed to just two teams, and both are putting forward twin-engine designs.\nThe post Boeing Drops Out Of Navy’s T-45 Jet Trainer Replacement Competition appeared first on The War Zone.",
         "bias": "defense"
       },
       {
         "source": "SpaceNews",
-        "title": "In aerospace, AI isn’t replacing workers. It’s filling a shortage",
-        "link": "https://spacenews.com/in-aerospace-ai-isnt-replacing-workers-its-filling-a-shortage/",
-        "summary": "Aerospace executives see AI not as a replacement for workers but as a necessary tool for helping an overstretched industrial base\nThe post In aerospace, AI isn’t replacing workers. It’s filling a shortage appeared first on SpaceNews.",
+        "title": "SpaceX shares rise nearly 20% in historic IPO",
+        "link": "https://spacenews.com/spacex-shares-rise-nearly-20-in-historic-ipo/",
+        "summary": "SpaceX shares rose on the first day of trading as the company went public in a milestone event for both the company and the broader space industry.\nThe post SpaceX shares rise nearly 20% in historic IPO appeared first on SpaceNews.",
         "bias": "industry"
       },
       {
         "source": "SpaceNews",
-        "title": "AAC Clyde Space wins ESA contract to complete maritime-monitoring constellation",
-        "link": "https://spacenews.com/aac-clyde-space-wins-esa-contract-to-complete-maritime-monitoring-constellation/",
-        "summary": "SAN FRANCISCO – The European Space Agency awarded AAC Clyde Space a 10.9 million euro ($12.6 million) contract to complete development and demonstrate VHF Data Exchange System (VDES) satellites for […]\nThe post AAC Clyde Space wins ESA contract to complete maritime-monitoring con…",
+        "title": "Avanti trims GEO exposure with Hylas-3 sale",
+        "link": "https://spacenews.com/avanti-trims-geo-exposure-with-hylas-3-sale/",
+        "summary": "TAMPA, Fla. — Avanti Communications is moving to close a chapter on the debt-fueled geostationary expansion that once defined the British satellite operator, with plans to sell the youngest payload […]\nThe post Avanti trims GEO exposure with Hylas-3 sale appeared first on SpaceNe…",
         "bias": "industry"
       },
       {
         "source": "SpaceNews",
-        "title": "Vandenberg offers new launch site for small and medium rockets",
-        "link": "https://spacenews.com/vandenberg-offers-new-launch-site-for-small-and-medium-rockets/",
-        "summary": "The U.S. Space Force is seeking potential users of a new launch site at Vandenberg Space Force Base reserved for smaller rockets.\nThe post Vandenberg offers new launch site for small and medium rockets appeared first on SpaceNews.",
+        "title": "Astronomers fear orbital data centers will interfere with observations",
+        "link": "https://spacenews.com/astronomers-fear-orbital-data-centers-will-interfere-with-observations/",
+        "summary": "As SpaceX gears up to start launching orbital data center spacecraft as soon as next year, astronomers warn those satellites could cause serious interference with their observations.\nThe post Astronomers fear orbital data centers will interfere with observations appeared first on…",
         "bias": "industry"
       }
     ],
@@ -165,6 +165,13 @@
       },
       {
         "source": "The Intercept",
+        "title": "ICE Should Show It Hasn’t Been “Infiltrated by Violent Extremists,” Senator Urges",
+        "link": "https://theintercept.com/2026/06/12/ice-infiltrated-violent-extremists-senator-whitehouse/",
+        "summary": "Spurred by The Intercept's reporting, Sheldon Whitehouse calls out DHS for recruiting materials celebrated by white nationalists.\nThe post ICE Should Show It Hasn’t Been “Infiltrated by Violent Extremists,” Senator Urges appeared first on The Intercept.",
+        "bias": "investigative-left"
+      },
+      {
+        "source": "The Intercept",
         "title": "The Right’s “Election Fraud” Cry for Midterms Previewed in Primaries",
         "link": "https://theintercept.com/2026/06/12/california-maine-primaries/",
         "summary": "Spencer Pratt’s pratfall in LA, Graham Platner’s victory, prediction markets, and other takeaways from the California and Maine primary elections.\nThe post The Right’s “Election Fraud” Cry for Midterms Previewed in Primaries appeared first on The Intercept.",
@@ -172,16 +179,9 @@
       },
       {
         "source": "The Intercept",
-        "title": "How Policing Teen Hangouts Became a Key Issue in D.C. Mayor's Race",
+        "title": "D.C. Mayor Candidates Are Fixating on Teen Hangouts — and Turning the Cops on Them",
         "link": "https://theintercept.com/2026/06/12/dc-mayor-teen-curfew-kenyan-mcduffie-janeese-lewis-george/",
-        "summary": "Kenyan McDuffie says DC needs to crack down on youth gatherings to stave off the Trump administration. Janeese Lewis George argues that's playing into Trump's hand.\nThe post How Policing Teen Hangouts Became a Key Issue in D.C. Mayor’s Race appeared first on The Intercept.",
-        "bias": "investigative-left"
-      },
-      {
-        "source": "The Intercept",
-        "title": "Hakeem Jeffries Finally Finds a Spine: Dem Leaders Rallied Against Extending Domestic Spy Law",
-        "link": "https://theintercept.com/2026/06/11/democrats-pulte-fisa-surveillance/",
-        "summary": "Advocates welcomed centrist Democrats switching sides but warned against extending the spy law with or without Bill Pulte as spy chief.\nThe post Hakeem Jeffries Finally Finds a Spine: Dem Leaders Rallied Against Extending Domestic Spy Law appeared first on The Intercept.",
+        "summary": "Kenyan McDuffie says D.C. must crack down to stave off the Trump administration. Janeese Lewis George argues that plays into Trump's hand.\nThe post D.C. Mayor Candidates Are Fixating on Teen Hangouts — and Turning the Cops on Them appeared first on The Intercept.",
         "bias": "investigative-left"
       },
       {
@@ -209,109 +209,109 @@
     "INDEPENDENTS & SUBSTACK": [
       {
         "source": "Matt Taibbi — Racket News",
+        "title": "\"Why is no one covering an apparent attempt to assassinate Putin?\"",
+        "link": "https://www.racket.news/p/why-is-no-one-covering-an-apparent",
+        "summary": "A recording from Matt Taibbi's live video with Matt Bivens.",
+        "bias": "independent"
+      },
+      {
+        "source": "Matt Taibbi — Racket News",
+        "title": "To an Ivy League Professor, Who Doesn't Understand \"Equality\"",
+        "link": "https://www.racket.news/p/to-an-ivy-league-professor-who-doesnt",
+        "summary": "A Columbia professor writes a dumb column, in anticipation of what will likely be humorously bad book",
+        "bias": "independent"
+      },
+      {
+        "source": "Matt Taibbi — Racket News",
         "title": "Listen to This Article: Britain's Great Self-Loathing Crusade",
         "link": "https://www.racket.news/p/listen-to-this-article-britains-great",
         "summary": "Narrated Version | American and European liberalism rightly campaigned against ethnocentrism once upon a time, but both versions ultimately went way too far",
         "bias": "independent"
       },
       {
-        "source": "Matt Taibbi — Racket News",
-        "title": "“Get Lit\" June 11, 2026: Machiavelli's \"Discourses on Livy,\" Book One.",
-        "link": "https://www.racket.news/p/get-lit-june-11-2026-machiavellis",
-        "summary": "Rome wasn't built in a day, but Machiavelli listed the reasons it held together for centuries. Brad and Matt discuss",
-        "bias": "independent"
-      },
-      {
-        "source": "Matt Taibbi — Racket News",
-        "title": "American Elections Are a Joke",
-        "link": "https://www.racket.news/p/american-elections-are-a-joke",
-        "summary": "57 years ago, Americans went to the moon in four days. Californians would still be working on the countdown",
+        "source": "Bari Weiss — The Free Press",
+        "title": "Steven Spielberg’s ‘Disclosure Day’ Is a Dud",
+        "link": "https://www.thefp.com/p/steven-spielberg-disclosure-day-review",
+        "summary": "In an era primed for a great UFO movie, the film arrives with impeccable timing and almost nothing interesting to say, writes Will Rahn.",
         "bias": "independent"
       },
       {
         "source": "Bari Weiss — The Free Press",
-        "title": "TGIF: We Economists Have Done the Maths",
-        "link": "https://www.thefp.com/p/tgif-we-economists-have-done-the",
-        "summary": "Today in TGIF: Karmelo Anthony trial reactions, college costs cross six figures, the vice president owns birds, Rosie O’Donnell looks amazing, We the Economists make an announcement, and more!",
+        "title": "Bench-Press and Be Baptized",
+        "link": "https://www.thefp.com/p/bench-press-and-be-baptized",
+        "summary": "At this Christian men’s retreat, Jesus was the ultimate masculine role model. But amid full-volume trap music, warrior cries, and boot-camp challenges, his presence was sometimes hard to discern, reports Josh Code.",
         "bias": "independent"
       },
       {
         "source": "Bari Weiss — The Free Press",
-        "title": "Jeff Ross on Tom Brady, Trump, and the Roast of Kevin Hart",
-        "link": "https://www.thefp.com/p/jeff-ross-on-tom-brady-trump-and",
-        "summary": "The “Roastmaster General” breaks down the art of the insult.",
-        "bias": "independent"
-      },
-      {
-        "source": "Bari Weiss — The Free Press",
-        "title": "The Start-Up Spirit Behind America’s Founding, with Arthur Herman",
-        "link": "https://www.thefp.com/p/the-start-up-spirit-behind-americas",
-        "summary": "How America’s founder mentality built both its economy and its arsenal",
+        "title": "Olivia Rodrigo Murdered Her Love Songs",
+        "link": "https://www.thefp.com/p/olivia-rodrigo-new-album-breakup",
+        "summary": "It was supposed to be about a happy relationship—but when her heart got broken, she rewrote her lyrics for a generation cynical about love, writes Kat Rosenfield.",
         "bias": "independent"
       }
     ],
     "LEFT": [
       {
         "source": "Jacobin",
-        "title": "Backrooms and Obsession Are Glimpses of a Better Hollywood",
-        "link": "https://jacobin.com/2026/06/film-backrooms-obsession-low-budget-horror",
-        "summary": "Two indie horror movies with YouTube origins, Obsession and Backrooms, crushed big-budget Star Wars and He-Man movies at the box office. But claims that these films represent a revival of cinematic creativity à la the New Hollywood era are overblown.",
+        "title": "Building 21st-Century Rank-and-File Unionism",
+        "link": "https://jacobin.com/2026/06/rank-and-file-labor-activism-dsa",
+        "summary": "A small but important segment of the New Left “turned to industry,” getting jobs in steel, auto, and elsewhere to build a militant current in the US labor movement. The Rank-and-File Project is aiming to build a similar current of democratic, militant unionism today.",
         "bias": "hard-left"
       },
       {
         "source": "Jacobin",
-        "title": "Stop Yapping and Pay New Parents",
-        "link": "https://jacobin.com/2026/06/new-parents-cash-assistance-welfare-state",
-        "summary": "Is “girlboss feminism” responsible for declining birth rates? Are endocrine disruptors lowering teenage boys’ sperm counts? Stop asking ridiculous questions designed to stir up the culture wars, and start figuring out how to put cash in new parents’ pockets.",
+        "title": "Putting the Marxism Back Into “Cultural Marxism”",
+        "link": "https://jacobin.com/2026/06/liu-cultural-marxism-liberalism-ideology",
+        "summary": "The Palm Springs School for Social Research wants to revitalize historical materialism, revive ideology critique, and ask big questions about social life. We talked to one of its founders, Catherine Liu, about gangster capitalism and the future of socialism.",
         "bias": "hard-left"
       },
       {
         "source": "Jacobin",
-        "title": "Uber and Lyft Are Set to Win Legal Immunity for Crashes",
-        "link": "https://jacobin.com/2026/06/congress-uber-lyft-immunity-crashes",
-        "summary": "Rideshare apps Uber and Lyft are battling thousands of injury and sexual assault lawsuits. A must-pass transportation bill in Congress includes an industry-friendly carveout that would give the companies legal immunity from car crashes and injuries.",
+        "title": "Senegal Is in the World Cup but Hardly Made Welcome",
+        "link": "https://jacobin.com/2026/06/senegal-world-cup-trump-visa-restrictions",
+        "summary": "One of Africa’s top teams, Senegal has good reason to look forward to the World Cup. But the US government has put up major barriers to its fans and journalists visiting the country, in a policy of deep discrimination against Senegalese citizens.",
         "bias": "hard-left"
       },
       {
         "source": "Democracy Now!",
-        "title": "Will Congress Renew Controversial Surveillance Law? Electronic Frontier Foundation's Cindy Cohn",
-        "link": "http://www.democracynow.org/2026/6/11/cindy_cohn_eff",
-        "summary": "A key provision of the Foreign Intelligence Surveillance Act is set to expire Friday unless it is reauthorized by Congress. Section 702 allows for the warrantless surveillance of foreign nationals believed to be outside of the U.S., yet, in practice, it also sweeps up and stores …",
+        "title": "\"Hell's Army\": New Film Tracks Russia's Wagner Group & Rise of Mercenary Armies",
+        "link": "http://www.democracynow.org/2026/6/12/hells_army",
+        "summary": "We speak with Oscar-nominated filmmaker Rick Rowley about his new documentary, Hell’s Army. The film tracks the Wagner Group, the notorious Russian mercenary army that has fought in Ukraine and other parts of the world. The group’s founder, Yevgeny Prigozhin, was a confidant to P…",
         "bias": "progressive"
       },
       {
         "source": "Democracy Now!",
-        "title": "\"Keep the Game Beautiful\": Why ICE Crackdown & FIFA Greed Could Spoil the World Cup",
-        "link": "http://www.democracynow.org/2026/6/11/world_cup_ice",
-        "summary": "“People are really, really afraid … that ICE will go and raid communities where people are watching and gathering together” to watch the FIFA World Cup, says Nelini Stamp. She is an organizer with the Our Copa campaign, a grassroots initiative that aims to protect immigrant fans,…",
+        "title": "Palestinian Activist Mohsen Mahdawi: Trump Admin \"Weaponizing Immigration Laws\" to Deport Me",
+        "link": "http://www.democracynow.org/2026/6/12/mohsen_madawi_deportation",
+        "summary": "Palestinian activist and green card holder Mohsen Mahdawi, who was targeted by the Trump administration last year as part of a crackdown on pro-Palestinian campus activism, faces a new deportation threat. A federal immigration judge has sided with the administration and renewed r…",
         "bias": "progressive"
       },
       {
         "source": "Democracy Now!",
-        "title": "World Cup Kicks Off in Mexico Amid Protests Against Austerity and Forced Disappearances",
-        "link": "http://www.democracynow.org/2026/6/11/world_cup_mexico",
-        "summary": "We continue our World Cup coverage in Mexico City, where local protesters are using the global event to bring attention to their causes. A sit-in by a teachers’ union is targeting World Cup festivities. And “the mothers of disappeared people have been protesting, trying to reach …",
+        "title": "\"Cautionary Tale\": NYC's The New School Guts Faculty & Staff as Colleges Intensify Austerity",
+        "link": "http://www.democracynow.org/2026/6/12/trump_attacks_higher_education",
+        "summary": "The Trump administration is continuing its assault on higher education, but in a departure from its earlier high-profile fights with individual institutions like Harvard, it is now rewriting the federal rules that govern all universities and colleges. Rules are being proposed by …",
         "bias": "progressive"
       },
       {
         "source": "Truthout",
-        "title": "A Montana Firm Run by a Trump Donor Receives Billions in Border Wall Contracts",
-        "link": "https://truthout.org/articles/a-montana-firm-run-by-a-trump-donor-receives-billions-in-border-wall-contracts/",
-        "summary": "Barnard Construction Company, Inc., has received $4.54 billion in awards from Customs and Border Protection alone.",
+        "title": "Israeli Firm Accused of Launching Smear Campaigns During US, European Elections",
+        "link": "https://truthout.org/articles/israeli-firm-accused-of-launching-smear-campaigns-during-us-european-elections/",
+        "summary": "The smear campaigns reportedly targeted left-wing and pro-Palestine candidates in Scotland, New York, and France.",
         "bias": "progressive"
       },
       {
         "source": "Truthout",
-        "title": "“We Will Be Taking Kharg Island” — Trump Threatens Invasion of Iran",
-        "link": "https://truthout.org/articles/we-will-be-taking-kharg-island-trump-threatens-invasion-of-iran/",
-        "summary": "Trump threatened to hit Iran “VERY HARD TONIGHT,” then announced hours later he had “cancelled the scheduled strikes.”",
+        "title": "New Billionaire Jared Kushner Is Mired in Conflicts of Interest as “Peace Envoy”",
+        "link": "https://truthout.org/articles/from-peace-envoy-to-billionaire-kushner-makes-a-killing-in-white-house-admin/",
+        "summary": "Jared Kushner, like the rest of the Trump family, uses the White House for personal enrichment.",
         "bias": "progressive"
       },
       {
         "source": "Truthout",
-        "title": "Anti-Austerity Protests Rock World Cup Kick-Off in Mexico",
-        "link": "https://truthout.org/video/anti-austerity-protests-rock-world-cup-kick-off-in-mexico/",
-        "summary": "The mothers of disappeared people have also been protesting, trying to reach the stadium, says José Luis Granados Ceja.",
+        "title": "DOJ Targets Michigan Palestine Solidarity Activists With Federal Charges",
+        "link": "https://truthout.org/articles/doj-targets-michigan-palestine-solidarity-activists-with-federal-charges/",
+        "summary": "The charges follow escalating repression by the University of Michigan against pro-Palestine students since 2024.",
         "bias": "progressive"
       },
       {
@@ -325,65 +325,65 @@
     "RIGHT": [
       {
         "source": "Breitbart",
-        "title": "Report: U.S. Military Was 3 Hours from Iran Strike Before Trump Announced Deal Breakthrough",
-        "link": "https://www.breitbart.com/politics/2026/06/11/report-u-s-military-three-hours-iran-strike-trump-announced-deal-breakthrough/",
-        "summary": "The U.S. military was fully postured and just three hours away from launching another round of strikes against Iran on Thursday when President Donald Trump abruptly halted the operation and announced that a breakthrough agreement with Tehran was nearing completion, according to a…",
+        "title": "Tulsi Gabbard Releases 'Never Before Seen' Intelligence on U.S.-Funded Biolabs in 30 Countries",
+        "link": "https://www.breitbart.com/politics/2026/06/12/tulsi-gabbard-releases-never-before-seen-intelligence-on-u-s-funded-biolabs-in-30-countries/",
+        "summary": "Director of National Intelligence Tulsi Gabbard announced Friday that her office uncovered evidence showing the U.S. government funded more than 120 biological laboratories across over 30 countries, including facilities in Ukraine that intelligence officials previously warned cou…",
         "bias": "nationalist-right"
       },
       {
         "source": "Breitbart",
-        "title": "‘We Ended the War’: Trump Touts Impending Iran Deal at Virtual Rally",
-        "link": "https://www.breitbart.com/politics/2026/06/11/trump-touts-impending-iran-deal-virtual-rally/",
-        "summary": "President Donald Trump declared Thursday evening, “We ended the war with Iran today,” and touted an emerging agreement that he said would permanently prevent Tehran from obtaining a nuclear weapon.\nThe post ‘We Ended the War’: Trump Touts Impending Iran Deal at Virtual Rally appe…",
+        "title": "Trump Announces U.S. Military Strike Killed Tren de Aragua Leader Nino Guerrero",
+        "link": "https://www.breitbart.com/politics/2026/06/12/trump-announces-u-s-military-strike-killed-tren-de-aragua-leader-nino-guerrero/",
+        "summary": "President Donald Trump announced Friday that the U.S. military killed Niño Guerrero, the leader of the Venezuelan gang Tren de Aragua, in what he described as a \"swift and lethal kinetic strike\" carried out by U.S. Southern Command at his direction.\nThe post Trump Announces U.S. …",
         "bias": "nationalist-right"
       },
       {
         "source": "Breitbart",
-        "title": "Ex-Girlfriend Says Graham Platner Cheated on Fiancee, Said Nazi Tattoo Reminded Him 'U.S. Was the Evil Bad Guy'",
-        "link": "https://www.breitbart.com/politics/2026/06/11/ex-girlfriend-graham-platner-cheated-fiancee-nazi-tattoo-u-s-evil-bad-guy/",
-        "summary": "An alleged former girlfriend of Maine Democrat Senate nominee Graham Platner claimed that he cheated on his fiancée with her and that he defended his Nazi tattoo as a reminder that the \"U.S. was the evil bad guy overseas.\"\nThe post Ex-Girlfriend Says Graham Platner Cheated on Fia…",
+        "title": "Iran Foreign Minister: Deal with U.S. ‘Never Been Closer’ — Pakistan PM Says Final Text Agreed",
+        "link": "https://www.breitbart.com/politics/2026/06/12/iran-fm-deal-never-been-closer-pakistan-pm-final-text-agreed/",
+        "summary": "Iranian Foreign Minister Abbas Araghchi declared Friday that a proposed agreement with the United States to extend the ceasefire and advance negotiations over Tehran’s nuclear program “has never been closer.” Meanwhile, Pakistan’s prime minister said mediators have reached a fina…",
         "bias": "nationalist-right"
       },
       {
         "source": "Zero Hedge",
-        "title": "France Is Latest EU Country To Ban & Sanction Israel's Finance Minister",
-        "link": "https://www.zerohedge.com/geopolitical/france-latest-eu-country-ban-sanction-israels-finance-minister",
-        "summary": "France Is Latest EU Country To Ban & Sanction Israel's Finance Minister\n\n            A growing list of Western countries have imposed individual sanctions and travel bans on two Israeli hardline ministers who advocate for Jewish supremacy over the Middle East, evidenced in their …",
+        "title": "A Villainous Blueprint For Managed Poverty",
+        "link": "https://www.zerohedge.com/political/villainous-blueprint-managed-poverty",
+        "summary": "A Villainous Blueprint For Managed Poverty\n\n            Authored by Veronique de Rugy via The Eoch Times,\n\nWriter and philosopher Ayn Rand was often accused of inventing cartoonish villains. \n\nRogues like Ellsworth Toohey in “The Fountainhead” would scheme to seize the global eco…",
         "bias": "fin-dark"
       },
       {
         "source": "Zero Hedge",
-        "title": "CJ Hopkins: How I Learned To Stop Worrying And Love The New Normal Reich",
-        "link": "https://www.zerohedge.com/political/cj-hopkins-how-i-learned-stop-worrying-and-love-new-normal-reich",
-        "summary": "CJ Hopkins: How I Learned To Stop Worrying And Love The New Normal Reich\n\n            Authored by CJ Hopkins via ConsentFactory.org,\n\nSo the German Supreme Court has ruled on my case. Their ruling is that they will not rule on my case. They sent my attorney a letter to that effec…",
+        "title": "These Are The Hardest Languages For English Speakers To Learn",
+        "link": "https://www.zerohedge.com/geopolitical/these-are-hardest-languages-english-speakers-learn",
+        "summary": "These Are The Hardest Languages For English Speakers To Learn\n\n            For English speakers, learning Spanish or Italian can take less than a year. Reaching the same level of proficiency in Japanese, Korean, Mandarin, or Arabic may require nearly four times as much study.\n\nTh…",
         "bias": "fin-dark"
       },
       {
         "source": "Zero Hedge",
-        "title": "New Pakistani Strikes On Afghanistan Kill 13 Civilians, Taliban Says",
-        "link": "https://www.zerohedge.com/geopolitical/new-pakistani-strikes-afghanistan-kills-13-civilians-taliban-says",
-        "summary": "New Pakistani Strikes On Afghanistan Kill 13 Civilians, Taliban Says\n\n            Several months ago, close in time to when the US-Iran war started, a separate conflict had erupted further east, along the Af-Pak border and even reaching as deep into Afghanistan as far as Kabul (w…",
+        "title": "Half Of Israelis Agree Deterrence 'Weakened' Following Wars In Iran, Lebanon: Poll",
+        "link": "https://www.zerohedge.com/geopolitical/half-israelis-agree-deterrence-weakened-following-wars-iran-lebanon-poll",
+        "summary": "Half Of Israelis Agree Deterrence 'Weakened' Following Wars In Iran, Lebanon: Poll\n\n            Via The Cradle\n\nIsraelis are raising doubts about their government and military's ability to provide security after more than three months of renewed war against Iran and Lebanon. \n\nAc…",
         "bias": "fin-dark"
       },
       {
         "source": "The Daily Wire",
-        "title": "The OnlyFans Success Story That’s Missing A Dark Reality",
-        "link": "https://www.dailywire.com/news/the-onlyfans-success-story-thats-missing-a-dark-reality",
-        "summary": "This article is part of Upstream, The Daily Wire’s new home for culture and lifestyle. Real human insight and human stories — from our featured writers to you. *** “Margo’s Got Money Troubles,” a novel-turned TV series about a 19-year-old single mom who turns to OnlyFans to get b…",
+        "title": "WATCH: Spencer Pratt Goes Scorched Earth On ‘Two Corrupt Communists,’ Declares ‘War’",
+        "link": "https://www.dailywire.com/news/watch-spencer-pratt-goes-scorched-earth-on-two-corrupt-communists-declares-war",
+        "summary": "Former reality TV star turned Los Angeles mayoral candidate Spencer Pratt dropped another viral video on Friday, declaring “war” on what he called “the machine” that left voters with “two corrupt communists” in the general election. “I got in this to expose this corrupt machine,”…",
         "bias": "conservative"
       },
       {
         "source": "The Daily Wire",
-        "title": "The Trump Administration Just Solved A Problem Most Americans Never Think About",
-        "link": "https://www.dailywire.com/news/the-trump-administration-just-solved-a-problem-most-americans-never-think-about",
-        "summary": "First lady Melania Trump and Treasury Secretary Scott Bessent announced Thursday that children in foster care will be eligible for Trump Accounts, ensuring they can participate in the investment program even when no parent or guardian is available to open an account for them. Tru…",
+        "title": "Paramount-Warner Bros. Merger Clears Major Hurdle",
+        "link": "https://www.dailywire.com/news/paramount-warner-bros-merger-clears-major-hurdle",
+        "summary": "The Department of Justice has approved Paramount Skydance’s proposed $111 billion acquisition of Warner Bros. Discovery, clearing one of the biggest regulatory obstacles to a deal that would reshape the entertainment industry. According to reports from Politico and CNBC, the DOJ’…",
         "bias": "conservative"
       },
       {
         "source": "The Daily Wire",
-        "title": "Republicans See New Path To Challenge ‘Woke’ Universities",
-        "link": "https://www.dailywire.com/news/republicans-see-new-path-to-challenge-woke-universities",
-        "summary": "Congressional Republicans are exploring whether a budget reconciliation bill could be used to drive out “wokeness” in higher education and overhaul the accreditation system that determines whether colleges and universities can access billions of dollars in federal student aid.  T…",
+        "title": "Viral Karmelo Anthony Supporter’s Week Gets Worse",
+        "link": "https://www.dailywire.com/news/viral-karmelo-anthony-supporters-week-gets-worse",
+        "summary": "Jerome Winston Parker, a black supporter of convicted killer Karmelo Anthony who recently went viral for taunting a white Austin Metcalf supporter outside the Collin County Courthouse, was arrested this week on an outstanding warrant for unlawful carrying of a weapon, according t…",
         "bias": "conservative"
       }
     ],
@@ -411,27 +411,41 @@
       },
       {
         "source": "Foreign Policy",
-        "title": "How Russia Could Escalate",
-        "link": "https://foreignpolicy.com/2026/06/12/russia-ukraine-escalation-trump-europe-nato/",
-        "summary": "With progress in Ukraine grinding to a halt, Moscow could seek disruption off the battlefield.",
+        "title": "Netanyahu’s Reelection Could Hinge on Outcome of Iran War",
+        "link": "https://foreignpolicy.com/2026/06/12/netanyahu-election-iran-war-outcome-us-trump/",
+        "summary": "He promised Israelis “total victory” but has fallen short on three fronts.",
         "bias": "analytical"
       },
       {
         "source": "Foreign Policy",
-        "title": "Peru’s Photo-Finish Election",
-        "link": "https://foreignpolicy.com/2026/06/11/peru-president-election-results-fujimori-sanchez/",
-        "summary": "The presidential race could hinge on just a few thousand votes.",
+        "title": "Trump’s Big Weekend Could Derail the G-7",
+        "link": "https://foreignpolicy.com/2026/06/12/trump-iran-war-peace-talks-deal-g7-leaders-summit/",
+        "summary": "With or without a deal, the Iran war looms large over the three-day leaders’ summit.",
         "bias": "analytical"
       },
       {
         "source": "Foreign Policy",
-        "title": "War and Circuses",
-        "link": "https://foreignpolicy.com/2026/06/11/trump-iran-war-world-cup-ufc-fight-white-house/",
-        "summary": "Trump juggles Iran, a World Cup, and a UFC cage fight.",
+        "title": "How South Africa’s Myopia Is Harming the Entire Continent",
+        "link": "https://foreignpolicy.com/2026/06/12/south-africa-migrants-xenophobia-protests-attacks/",
+        "summary": "Xenophobia in Africa’s southernmost nation will have vast implications.",
         "bias": "analytical"
       }
     ],
     "AI & TECH": [
+      {
+        "source": "MIT Technology Review",
+        "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
+        "link": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
+        "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on re…",
+        "bias": "tech-analytical"
+      },
+      {
+        "source": "MIT Technology Review",
+        "title": "You do your own time",
+        "link": "https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction/",
+        "summary": "There we were, a regular murderers’ row of librarians. Little Jo. Eustace. And me. Turning around in the nave of our library to greet the sound of footsteps, pistols leveled in case whoever was coming in didn’t respect sanctuary. Little Jo had a stack of books under one arm. Eust…",
+        "bias": "tech-analytical"
+      },
       {
         "source": "MIT Technology Review",
         "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
@@ -440,70 +454,70 @@
         "bias": "tech-analytical"
       },
       {
-        "source": "MIT Technology Review",
-        "title": "Inside Interoception: The hidden sense of how you feel inside",
-        "link": "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/",
-        "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Your brain lives in the dark space of your skull. Yet it knows when the wind lifts the ha…",
-        "bias": "tech-analytical"
-      },
-      {
-        "source": "MIT Technology Review",
-        "title": "The Download: soccer’s data renaissance and China’s big nuclear plans",
-        "link": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
-        "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside soccer’s data renaissance Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally kick the ball…",
-        "bias": "tech-analytical"
-      },
-      {
         "source": "Wired",
-        "title": "The US Is Requiring Foreign Influencers to Get Work Visas for the 2026 World Cup",
-        "link": "https://www.wired.com/story/2026-world-cup-us-influencers-visa/",
-        "summary": "FIFA announced agreements with platforms such as TikTok and YouTube that include the participation of dozens of international influencers to generate content in the three host countries.",
+        "title": "Here’s How AI Agents Can Protect EV Chargers",
+        "link": "https://www.wired.com/story/researchers-in-spain-show-how-ai-agents-can-protect-ev-chargers/",
+        "summary": "An AI agent system proposed by researchers in Spain promises to prevent energy theft and damage to EV chargers, as well as the critical energy infrastructure that powers them.",
         "bias": "tech-left"
       },
       {
         "source": "Wired",
-        "title": "You Probably Won’t Get Rich Off the SpaceX IPO",
-        "link": "https://www.wired.com/story/you-probably-wont-get-rich-off-the-spacex-ipo/",
-        "summary": "The company has set aside an unusually high number of shares for retail investors. Still, experts say, you’re just getting the crumbs.",
+        "title": "Anthropic Says It’s Taking Claude Fable 5 Offline to Comply With US Government Order",
+        "link": "https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/",
+        "summary": "“The government believes it has become aware of a method of bypassing, or ‘jailbreaking’ Fable 5,” the company said in a blog post.",
         "bias": "tech-left"
       },
       {
         "source": "Wired",
-        "title": "SpaceX IPO Puts Elon Musk’s ‘Extreme’ Ownership to the Test",
-        "link": "https://www.wired.com/story/spacex-is-now-a-public-company/",
-        "summary": "The rocket maker debuts on Nasdaq today under a wave of criticism about Musk’s near-absolute control. It’s how the company has worked from the start.",
+        "title": "Meta Employees Absolutely Hate Mark Zuckerberg’s Plan for a Companywide AI Hackathon",
+        "link": "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/",
+        "summary": "“I’m not sure that this company supports a hackathon culture anymore,” one employee posted in a forum open to the entire staff.",
         "bias": "tech-left"
       },
       {
         "source": "Ars Technica",
-        "title": "Ted Cruz and Ron Wyden try to fight censorship with bipartisan JAWBONE Act",
-        "link": "https://arstechnica.com/tech-policy/2026/06/ted-cruz-and-ron-wyden-try-to-fight-censorship-with-bipartisan-jawbone-act/",
-        "summary": "Cruz/Wyden bill would help Americans sue federal officials over censorship.",
+        "title": "Anthropic shuts down Fable, Mythos models following Trump admin directive",
+        "link": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
+        "summary": "Commerce dept. worries that a Fable 5 \"jailbreak\" could be a national security threat.",
         "bias": "tech"
       },
       {
         "source": "Ars Technica",
-        "title": "AcuRite admits new app falls short, delays old app’s May shutdown to fix problems",
-        "link": "https://arstechnica.com/gadgets/2026/06/iot-gadget-firm-acurite-delays-forced-app-migration-due-to-new-apps-shortfalls/",
-        "summary": "The old app \"still needs to be retired,\" AcuRite tells us.",
+        "title": "SpaceX is now a public company valued for its AI potential, so what comes next?",
+        "link": "https://arstechnica.com/space/2026/06/spacex-is-now-a-public-company-valued-for-its-ai-potential-so-what-comes-next/",
+        "summary": "As of today, SpaceX is owned by investors who will want to see it make money.",
         "bias": "tech"
       },
       {
         "source": "Ars Technica",
-        "title": "After nearly breaking, NASA's Deep Space Network \"worked well\" on Artemis II",
-        "link": "https://arstechnica.com/space/2026/06/after-nearly-breaking-nasas-deep-space-network-worked-well-on-artemis-ii/",
-        "summary": "\"Some missions are using more than what their paperwork would say.\"",
+        "title": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
+        "link": "https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/",
+        "summary": "Vulnerability in the Oracle-owned PeopleSoft software is about as critical as they come.",
         "bias": "tech"
       },
       {
         "source": "404 Media",
-        "title": "Software Update Automatically Turns off Amazon Delivery Drivers’ AC During Dangerous Summer Heat",
-        "link": "https://www.404media.co/software-update-automatically-turns-off-amazon-delivery-drivers-ac-during-dangerous-summer-heat/",
-        "summary": "A new software update is turning off the AC in Amazon delivery vans after 10 minutes or 30 seconds under certain conditions.",
+        "title": "‘You Will Not Speak on Flock Tonight’: County Commissioner Refuses to Let Residents Opposing Flock Speak at Meeting",
+        "link": "https://www.404media.co/you-will-not-speak-on-flock-tonight-county-commissioner-refuses-to-let-residents-opposing-flock-speak-at-meeting/",
+        "summary": "\"I’ve spoken. I’m not debating this.\"",
         "bias": "investigative-tech"
       }
     ],
     "SCIENCE": [
+      {
+        "source": "Nature News",
+        "title": "Why we seek to fly: Books in brief",
+        "link": "https://www.nature.com/articles/d41586-026-01911-z",
+        "summary": "Nature, Published online: 12 June 2026; doi:10.1038/d41586-026-01911-zAndrew Robinson reviews five of the best science picks.",
+        "bias": "peer-reviewed"
+      },
+      {
+        "source": "Nature News",
+        "title": "Briefing Chat: The epic journey of Stonehenge’s central stone",
+        "link": "https://www.nature.com/articles/d41586-026-01912-y",
+        "summary": "Nature, Published online: 12 June 2026; doi:10.1038/d41586-026-01912-yNature staff discuss some of the week’s top science news.",
+        "bias": "peer-reviewed"
+      },
       {
         "source": "Nature News",
         "title": "I advise the Vatican and the UN on AI — don’t dismiss the Pope’s message as theology",
@@ -512,31 +526,17 @@
         "bias": "peer-reviewed"
       },
       {
-        "source": "Nature News",
-        "title": "Author Correction: Plasticity and language in the anaesthetized human hippocampus",
-        "link": "https://www.nature.com/articles/s41586-026-10784-1",
-        "summary": "Nature, Published online: 11 June 2026; doi:10.1038/s41586-026-10784-1Author Correction: Plasticity and language in the anaesthetized human hippocampus",
-        "bias": "peer-reviewed"
-      },
-      {
-        "source": "Nature News",
-        "title": "Whale graveyard discovered 7km under the sea",
-        "link": "https://www.nature.com/articles/d41586-026-01886-x",
-        "summary": "Nature, Published online: 11 June 2026; doi:10.1038/d41586-026-01886-xThe treasure trove of fossils and bones has already revealed a new species of extinct whale.",
-        "bias": "peer-reviewed"
-      },
-      {
         "source": "New Scientist",
-        "title": "Global map reveals the vast scale of underground fungal networks",
-        "link": "https://www.newscientist.com/article/2530122-global-map-reveals-the-vast-scale-of-underground-fungal-networks/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-        "summary": "Our soils are teeming with networks of fungi, and we're starting to understand how important they are",
+        "title": "The relationship recession is even bigger for Gen Z than we thought",
+        "link": "https://www.newscientist.com/article/2530237-the-relationship-recession-is-even-bigger-for-gen-z-than-we-thought/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "We know that members of Gen Z are less likely to be in a steady relationship than millennials were at their age, but previous research missed out an important factor that actually widens the relationship recession",
         "bias": "science"
       },
       {
         "source": "New Scientist",
-        "title": "Have we finally worked out how Venus flytraps snap shut?",
-        "link": "https://www.newscientist.com/article/2530108-have-we-finally-worked-out-how-venus-flytraps-snap-shut/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-        "summary": "It was widely thought that the movement of water through Venus flytrap cells caused the trap to close, but detailed experiments have led scientists to propose an alternative mechanism",
+        "title": "Killer robots are here – we must finally decide whether to accept them",
+        "link": "https://www.newscientist.com/article/2530304-killer-robots-are-here-we-must-finally-decide-whether-to-accept-them/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+        "summary": "We can no longer ignore the growing threat of fully autonomous weapons. The world must either act to ban them or accept that they are the future of war",
         "bias": "science"
       },
       {
@@ -548,23 +548,23 @@
       },
       {
         "source": "Science Magazine",
+        "title": "New documentary follows researchers’ increasingly fraught career path",
+        "link": "https://www.science.org/content/article/new-documentary-follows-researchers-increasingly-fraught-career-path",
+        "summary": "The Endless Frontier traces the lives of three scientists as they train students and deal with funding pressures",
+        "bias": "peer-reviewed"
+      },
+      {
+        "source": "Science Magazine",
+        "title": "Metal-driven chemical reaction in deep sea may explain origin of life",
+        "link": "https://www.science.org/content/article/metal-driven-chemical-reaction-deep-sea-may-explain-origin-life",
+        "summary": "Group offers new scenario for how cells came to rely on phosphate molecules to build DNA and store energy",
+        "bias": "peer-reviewed"
+      },
+      {
+        "source": "Science Magazine",
         "title": "After years of opposition, Mexico’s president is reconsidering fracking",
         "link": "https://www.science.org/content/article/after-years-opposition-mexico-s-president-reconsidering-fracking",
         "summary": "The government has tasked a group of scientists with assessing new technologies for “sustainable” oil and gas drilling—but many experts say it’s a fantasy",
-        "bias": "peer-reviewed"
-      },
-      {
-        "source": "Science Magazine",
-        "title": "How did the cruise ship hantavirus outbreak start? Scientists are investigating new scenarios",
-        "link": "https://www.science.org/content/article/how-did-cruise-ship-hantavirus-outbreak-start-scientists-are-investigating-new",
-        "summary": "Understanding how the first patient became infected may shed new light on Andes virus’ transmission patterns and incubation period",
-        "bias": "peer-reviewed"
-      },
-      {
-        "source": "Science Magazine",
-        "title": "Deep-sea vehicles spot ‘alien’ sharks deep beneath the waves in the Pacific",
-        "link": "https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific",
-        "summary": "Goblin sharks have never before been filmed in their natural habitat",
         "bias": "peer-reviewed"
       }
     ]
